@@ -1,17 +1,22 @@
 #include "Timer.h"
 #include "Nodes.h"
 
+#define N_NODES 8
+#define SERVER 8
 
 module NodesC @safe() {
   uses {
   
     /****** INTERFACES *****/
 	interface Boot;
-
-    //interfaces for communication
-	//interface for timers
-	//interface for LED
-    //other interfaces, if needed
+	interface Timer<TMilli> as Timer;
+	//interfaces for communication
+	interface Receive;
+	interface AMSend;
+	//other interfaces, if needed
+	interface SplitControl as AMControl;
+	interface Packet;
+	interface Random;
   }
 }
 implementation {
@@ -39,91 +44,140 @@ implementation {
   
   
   bool generate_send (uint16_t address, message_t* packet, uint8_t type){
-  /*
-  * 
-  * Function to be used when performing the send after the receive message event.
-  * It store the packet and address into a global variable and start the timer execution to schedule the send.
-  * It allow the sending of only one message for each REQ and REP type
-  * @Input:
-  *		address: packet destination address
-  *		packet: full packet to be sent (Not only Payload)
-  *		type: payload message type
-  *
-  * MANDATORY: DO NOT MODIFY THIS FUNCTION
-  */
-  	if (call Timer0.isRunning()){
+
+  	if (call Timer.isRunning()){
   		return FALSE;
   	}else{
   	if (type == 1 && !route_req_sent ){
   		route_req_sent = TRUE;
-  		call Timer0.startOneShot( time_delays[TOS_NODE_ID-1] );
+  		call Timer.startOneShot( time_delays[TOS_NODE_ID-1] );
   		queued_packet = *packet;
-  		queue_addr = addres;
+  		queue_addr = address;
   	}else if (type == 2 && !route_rep_sent){
   	  	route_rep_sent = TRUE;
-  		call Timer0.startOneShot( time_delays[TOS_NODE_ID-1] );
+  		call Timer.startOneShot( time_delays[TOS_NODE_ID-1] );
   		queued_packet = *packet;
-  		queue_addr = addres;
+  		queue_addr = address;
   	}else if (type == 0){
-  		call Timer0.startOneShot( time_delays[TOS_NODE_ID-1] );
+  		call Timer.startOneShot( time_delays[TOS_NODE_ID-1] );
   		queued_packet = *packet;
-  		queue_addr = addres;	
+  		queue_addr = address;	
   	}
   	}
   	return TRUE;
   }
+
+
   
-  event void Timer0.fired() {
-  	/*
-  	* Timer triggered to perform the send.
-  	* MANDATORY: DO NOT MODIFY THIS FUNCTION
-  	*/
-  	actual_send (queue_addr, &queued_packet);
+  event void Timer.fired() {
+
+		dbg("timer", "timer fired at time %s \n", sim_time_string());
+
+		if (locked){
+			return;
+		}
+		else{
+			node_msg_t* msg = (node_msg_t*)call Packet.getPayload(&packet, sizeof(node_msg_t));
+			if (msg == NULL){
+				dbgerror("radio_send", "unable to allocate message memory\n");
+				return;
+			}
+			msg -> value = call Random.rand16();
+			msg -> type = 0;
+			msg -> sender = TOS_NODE_ID;
+			msg -> id = 1;
+	  	actual_send (AM_BROADCAST_ADDR, &packet);
+		}
+
   }
+
+
   
   bool actual_send (uint16_t address, message_t* packet){
-	/*
-	* Implement here the logic to perform the actual send of the packet using the tinyOS interfaces
-	*/
-	  
+
+	node_msg_t* msg = (node_msg_t*)call Packet.getPayload(packet, sizeof(node_msg_t)); // payload retrieval
+	
+		if (call AMSend.send(address, packet, sizeof(node_msg_t)) == SUCCESS){
+			switch(msg->type){
+				case DATA:
+					dbg("radio_send", "sent DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n\t\taddress: %d\n", sim_time_string(), msg->sender, msg->id, msg->value, address);
+					break;
+  		}
+  	}
   }
   
+
   
   event void Boot.booted() {
-    dbg("boot","Application booted.\n");
-    /* Fill it ... */
+
+    dbg("boot","Node %d Application booted.\n", TOS_NODE_ID);            
+    call AMControl.start();
   }
+
+
 
   event void AMControl.startDone(error_t err) {
-	/* Fill it ... */
+
+		if (err == SUCCESS) {
+			dbg("radio", "Radio on node %d!\n", TOS_NODE_ID);
+			if (TOS_NODE_ID <= 5)
+			{
+				call Timer.startPeriodic(5000);
+			}
+		}
+		else{
+			dbgerror("radio", "Radio failed to start, retrying.\n");
+		  call AMControl.start();
+		}
   }
 
+
+
   event void AMControl.stopDone(error_t err) {
-    /* Fill it ... */
   }
   
-  event void Timer1.fired() {
-	/*
-	* Implement here the logic to trigger the Node 1 to send the first REQ packet
-	*/
-  }
+
 
   event message_t* Receive.receive(message_t* bufPtr, 
 				   void* payload, uint8_t len) {
-	/*
-	* Parse the receive packet.
-	* Implement all the functionalities
-	* Perform the packet send using the generate_send function if needed
-	* Implement the LED logic and print LED status on Debug
-	*/
-	
-    
+
+	if (len != sizeof(node_msg_t)){return bufPtr;}
+	else{
+		node_msg_t* msg = (node_msg_t*)payload; //received payload
+		node_msg_t* msg_packet = (node_msg_t*)call Packet.getPayload(&packet, sizeof(node_msg_t)); // new message payload to be possibly sent
+		dbg("radio_rec", "Node %d is inside receive event\n", TOS_NODE_ID);		
+		if (TOS_NODE_ID == 6 || TOS_NODE_ID == 7)
+		{
+				// Logic based on the type of message and status of the routing_table variable
+				switch(msg->type){
+					case DATA:
+						dbg("radio_rec", "received DATA message at %s with:\n\t\tsender: %d\n\t\t\id: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
+						msg_packet->type = msg->type;
+						msg_packet->sender = msg->sender;
+						msg_packet->id = msg->id;
+						msg_packet->value = msg->value;						
+						actual_send(SERVER, &packet);
+						break;
+				}
+		}
+	  else if (TOS_NODE_ID == SERVER)
+	  {
+		  dbg("radio_rec", "server received");
+			dbg("radio_rec", "received DATA message at %s with:\n\t\tsender: %d\n\t\t\id: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
+		 //handle id and send ack
+  	}
+  }
   }
 
+
+
   event void AMSend.sendDone(message_t* bufPtr, error_t error) {
-	/* This event is triggered when a message is sent 
-	*  Check if the packet is sent 
-	*/ 
+
+		if (&packet == bufPtr || &queued_packet == bufPtr){
+			locked = FALSE;
+		}else{
+			dbg("radio_send", "message not sent\n");		
+		}
   }
 }
 

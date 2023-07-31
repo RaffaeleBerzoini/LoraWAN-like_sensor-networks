@@ -56,19 +56,13 @@ print "Activate debug message on channel radio_pack"
 t.addChannel("radio_pack",out);
 
 
+for i in range(8):
+	print "Creating node {}...".format(i+1);
+	node =t.getNode(i+1);
+	time = 0 * t.ticksPerSecond(); #instant at which each node should be turned on
+	node.bootAtTime(time);
+	print ">>>Will boot at time",  time/t.ticksPerSecond(), "[sec]";
 
-
-print "Creating node 1...";
-node1 =t.getNode(1);
-time1 = 0*t.ticksPerSecond(); #instant at which each node should be turned on
-node1.bootAtTime(time1);
-print ">>>Will boot at time",  time1/t.ticksPerSecond(), "[sec]";
-
-print "Creating node 2...";
-node2 = t.getNode(2);
-time2 = 0*t.ticksPerSecond();
-node2.bootAtTime(time2);
-print ">>>Will boot at time", time2/t.ticksPerSecond(), "[sec]";
 
 print "Creating radio channels..."
 f = open(topofile, "r");
@@ -103,7 +97,7 @@ for line in lines:
             t.getNode(i).addNoiseTraceReading(val)
 print "Done!";
 
-for i in range(1, 8):
+for i in range(1, 9):
     print ">>>Creating noise model for node:",i;
     t.getNode(i).createNoiseModel()
 

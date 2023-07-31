@@ -6,16 +6,23 @@
 configuration NodesAppC {}
 implementation {
 /****** COMPONENTS *****/
-  components MainC, NodesC as App;
   //add the other components here
+  components MainC, NodesC as App;
   
-  
+  components new AMSenderC(AM_RADIO_COUNT_MSG);
+  components new AMReceiverC(AM_RADIO_COUNT_MSG);
+  components new TimerMilliC() as Timer;
+  components ActiveMessageC;
+  components RandomC;
   
   /****** INTERFACES *****/
-  //Boot interface
   App.Boot -> MainC.Boot;
-  
-  /****** Wire the other interfaces down here *****/
+  App.Receive -> AMReceiverC;
+  App.AMSend -> AMSenderC;
+  App.AMControl -> ActiveMessageC;
+  App.Timer -> Timer;
+  App.Packet -> AMSenderC;
+  App.Random -> RandomC;
 
 }
 

@@ -3,6 +3,7 @@
 
 typedef nx_struct node_msg {
 	nx_int8_t type;
+	nx_int8_t sender;
 	nx_uint16_t id;
 	nx_uint8_t value;
 } node_msg_t;

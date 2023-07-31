@@ -103,7 +103,9 @@ implementation {
 					dbg("radio_send", "sent DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n\t\taddress: %d\n", sim_time_string(), msg->sender, msg->id, msg->value, address);
 					break;
   		}
-  	}
+		locked = TRUE; // variable to prevent other messages to be sent before the confirmation of the AMSend.sendDone event
+		}	
+		return TRUE;
   }
   
 

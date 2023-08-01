@@ -93,7 +93,7 @@ for line in lines:
             mid_compl = 0;
             sys.stdout.write ("#")
             sys.stdout.flush()
-        for i in range(1, 8):
+        for i in range(1, 9):
             t.getNode(i).addNoiseTraceReading(val)
 print "Done!";
 

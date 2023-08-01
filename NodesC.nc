@@ -57,17 +57,16 @@ implementation {
   bool actual_send (uint16_t address, message_t* packet){
 
 		node_msg_t* msg = (node_msg_t*)call Packet.getPayload(packet, sizeof(node_msg_t)); // payload retrieval
-		dbg("radio_send", "Node %d is inside actual send\n", TOS_NODE_ID);
 	
 		if (call AMSend.send(address, packet, sizeof(node_msg_t)) == SUCCESS){
 			switch(msg->type){
 				case DATA:
-					dbg("radio_send", "sent DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n\t\taddress: %d\n", sim_time_string(), msg->sender, msg->id, msg->value, address);
+					dbg("radio_send", "sent DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
 					break;
   		}
 		locked = TRUE; // variable to prevent other messages to be sent before the confirmation of the AMSend.sendDone event
 		}
-		dbg("radio_send", "Node %d is here in actual send\n", TOS_NODE_ID);	
+
 		return TRUE;
   }
   
@@ -85,7 +84,7 @@ implementation {
 
 		if (err == SUCCESS) {
 			dbg("radio", "Radio on node %d!\n", TOS_NODE_ID);
-			if (TOS_NODE_ID <= 1)
+			if (TOS_NODE_ID <= 5)
 			{
 				call Timer.startOneShot(5000);
 			}
@@ -106,13 +105,11 @@ implementation {
   event message_t* Receive.receive(message_t* bufPtr, 
 				   void* payload, uint8_t len) {
 				   
-		dbg("radio_rec", "Node %d is at beginning receive event\n", TOS_NODE_ID);
-
 		if (len != sizeof(node_msg_t)){return bufPtr;}
 		else{
 			node_msg_t* msg = (node_msg_t*)payload; //received payload
 			node_msg_t* msg_packet = (node_msg_t*)call Packet.getPayload(&packet, sizeof(node_msg_t)); // new message payload to be possibly sent
-			dbg("radio_rec", "Node %d is inside receive event\n", TOS_NODE_ID);		
+
 			if (TOS_NODE_ID == 6 || TOS_NODE_ID == 7)
 			{
 					// Logic based on the type of message and status of the routing_table variable
@@ -127,12 +124,11 @@ implementation {
 							break;
 					}
 			}
-			/*else if (TOS_NODE_ID == SERVER)
+			else if (TOS_NODE_ID == SERVER)
 			{
-				dbg("radio_rec", "server received");
 				dbg("radio_rec", "received DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
 			 //handle id and send ack
-			}*/
+			}
 		}
 		return bufPtr;
   }
@@ -140,7 +136,7 @@ implementation {
 
 
   event void AMSend.sendDone(message_t* bufPtr, error_t error) {
-		dbg("radio_send", "inside send done\n");	
+		
 		if (&packet == bufPtr){
 			locked = FALSE;
 			dbg("radio_send", "message sent\n");	

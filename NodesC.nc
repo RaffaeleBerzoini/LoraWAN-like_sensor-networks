@@ -1,8 +1,16 @@
 #include "Timer.h"
 #include "Nodes.h"
+#include <unistd.h>
+#include <arpa/inet.h>
+#include <sys/socket.h>
+
 
 #define N_NODES 8
 #define SERVER 8
+#define SERVER_IP "127.0.0.1"
+#define SERVER_PORT 1880
+#define MAX_PUB 1
+
 
 module NodesC @safe() {
   uses {
@@ -24,6 +32,10 @@ implementation {
   message_t packet;
   message_t queued_packet;
   uint16_t queue_addr;
+  int sockfd;
+  int connection;
+  int sent;
+  struct sockaddr_in servaddr;
   
   bool locked;
   
@@ -45,6 +57,7 @@ implementation {
 			}
 			msg -> value = call Random.rand16();
 			msg -> type = 0;
+			msg -> topic = 0;
 			msg -> sender = TOS_NODE_ID;
 			msg -> id = 1;
 	  	actual_send(AM_BROADCAST_ADDR, &packet);
@@ -118,6 +131,7 @@ implementation {
 							dbg("radio_rec", "received DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
 							msg_packet -> value = msg->value;
 							msg_packet -> type = msg->type;
+							msg_packet -> topic = msg->topic;
 							msg_packet -> sender = msg->sender;
 							msg_packet -> id = msg->id;
 					  	actual_send(SERVER, &packet);					
@@ -127,7 +141,43 @@ implementation {
 			else if (TOS_NODE_ID == SERVER)
 			{
 				dbg("radio_rec", "received DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
-			 //handle id and send ack
+				msg_packet -> value = msg->value;
+				msg_packet -> type = msg->type;
+				msg_packet -> topic = msg->topic;
+				msg_packet -> sender = msg->sender;
+				msg_packet -> id = msg->id;
+				//handle id and send ack
+				// send message to nodered
+				// Create socket
+				sockfd = socket(AF_INET, SOCK_STREAM, 0);
+				if(sockfd == -1)
+				{
+					dbg("error", "Socket creation failed!\n");
+					return;
+				}
+				// Set server address
+				servaddr.sin_family = AF_INET;
+				servaddr.sin_addr.s_addr = inet_addr(SERVER_IP);
+				servaddr.sin_port = htons(SERVER_PORT);
+				// Connect to the server
+				dbg("radio_send", "connecting socket...\n");
+				connection = connect(sockfd, (struct sockaddr*) &servaddr, sizeof(servaddr));
+				if(connection != 0)
+				{
+					dbg("error", "Connection failed! Error: %d\n", connection);
+					close(sockfd);
+					return;
+				}
+				// Send the message
+				dbg("radio_send", "sending message...\n");
+				sent = send(sockfd, msg_packet, sizeof(node_msg_t), 0);
+				if(sent == -1)
+				{
+					dbg("error", "Failed to send message! Error: %d\n", sent);
+					return;
+				}
+				close(sockfd);
+				sleep(16); // Emulate the periodic sending of messages
 			}
 		}
 		return bufPtr;
@@ -139,9 +189,9 @@ implementation {
 		
 		if (&packet == bufPtr){
 			locked = FALSE;
-			dbg("radio_send", "message sent\n");	
+			//dbg("radio_send", "message sent\n");	
 		}else{
-			dbg("radio_send", "message not sent\n");		
+			//dbg("radio_send", "message not sent\n");		
 		}
   }
 }

@@ -8,7 +8,7 @@
 #define N_NODES 8
 #define SERVER 8
 #define SERVER_IP "127.0.0.1"
-#define SERVER_PORT 1880
+#define SERVER_PORT 1234
 #define MAX_PUB 1
 
 
@@ -170,7 +170,8 @@ implementation {
 				}
 				// Send the message
 				dbg("radio_send", "sending message...\n");
-				sent = send(sockfd, msg_packet, sizeof(node_msg_t), 0);
+				sent = send(sockfd, msg, sizeof(node_msg_t), 0);
+				dbg("error", "Sent bytes: %d\n", sent);
 				if(sent == -1)
 				{
 					dbg("error", "Failed to send message! Error: %d\n", sent);

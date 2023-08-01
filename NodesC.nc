@@ -198,7 +198,7 @@ implementation {
 				if(msg -> type == ACK){return bufPtr;}
 				dbg("radio_rec", "received DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
 				// if i have already received the msg from sender msg->sender with id msg->id i ignore it and just send the ack back
-				if (msg->id == last_MID_received[msg->sender]) {
+				if (msg->id == last_MID_received[msg->sender - 1]) {
 					dbg("radio_rec", "Ignoring duplicated message, sending ACK\n");
 					
 					//TODO: check if it is actually useful
@@ -211,7 +211,7 @@ implementation {
 				}
 				
 				// update the last message received ID and send ACK back
-				last_MID_received[msg->sender] = msg->id;
+				last_MID_received[msg->sender - 1] = msg->id;
 				msg_packet -> value = msg->value;
 				msg_packet -> type = ACK;
 				msg_packet -> sender = msg->sender;

@@ -13,6 +13,7 @@ implementation {
   components new AMReceiverC(AM_RADIO_COUNT_MSG);
   components new TimerMilliC() as Timer0;
   components new TimerMilliC() as Timer1;
+  components new TimerMilliC() as Timer2;
   components ActiveMessageC;
   components RandomC;
   
@@ -23,6 +24,7 @@ implementation {
   App.AMControl -> ActiveMessageC;
   App.Timer0 -> Timer0;
   App.Timer1 -> Timer1;
+  App.Timer2 -> Timer2;
   App.Packet -> AMSenderC;
   App.Random -> RandomC;
 

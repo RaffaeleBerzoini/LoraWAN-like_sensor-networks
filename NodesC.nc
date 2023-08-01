@@ -32,6 +32,7 @@ implementation {
 
   message_t packet;
   uint16_t time_delays[2]={61,173};
+  uint16_t last_MID_received[5] = {0, 0, 0, 0, 0};
 
   int sockfd;
   int connection;
@@ -144,6 +145,12 @@ implementation {
 			else if (TOS_NODE_ID == SERVER)
 			{
 				dbg("radio_rec", "received DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
+				// if i have already received the msg from sender msg->sender with id msg->id i ignore it
+				if (msg->id == last_MID_received[msg->sender]) {
+					dbg("radio_rec", "Ignoring duplicated message");
+					return bufPtr;
+				}
+				last_MID_received[msg->sender] = msg->id;
 				msg_packet -> value = msg->value;
 				msg_packet -> type = msg->type;
 				msg_packet -> sender = msg->sender;

@@ -97,7 +97,7 @@ implementation {
 			dbg("radio", "Radio on node %d!\n", TOS_NODE_ID);
 			if (TOS_NODE_ID <= 5)
 			{
-				call Timer.startOneShot(5000);
+				call Timer.startOneShot(TOS_NODE_ID * 5000);
 			}
 		}
 		else{

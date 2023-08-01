@@ -200,6 +200,8 @@ implementation {
 				// if i have already received the msg from sender msg->sender with id msg->id i ignore it and just send the ack back
 				if (msg->id == last_MID_received[msg->sender]) {
 					dbg("radio_rec", "Ignoring duplicated message, sending ACK\n");
+					
+					//TODO: check if it is actually useful
 					msg_packet -> value = msg->value;
 					msg_packet -> type = ACK;
 					msg_packet -> sender = msg->sender;

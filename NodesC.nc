@@ -17,7 +17,8 @@ module NodesC @safe() {
   
     /****** INTERFACES *****/
 	interface Boot;
-	interface Timer<TMilli> as Timer;
+	interface Timer<TMilli> as Timer0;
+	interface Timer<TMilli> as Timer1;
 	//interfaces for communication
 	interface Receive;
 	interface AMSend;
@@ -30,6 +31,7 @@ module NodesC @safe() {
 implementation {
 
   message_t packet;
+  uint16_t time_delays[2]={61,173};
 
   int sockfd;
   int connection;
@@ -41,7 +43,7 @@ implementation {
   bool actual_send (uint16_t address, message_t* packet);
 
   
-  event void Timer.fired() {
+  event void Timer0.fired() {
 
 		dbg("timer", "timer fired at time %s \n", sim_time_string());
 
@@ -61,6 +63,10 @@ implementation {
 	  	actual_send(AM_BROADCAST_ADDR, &packet);
 		}
 		return;
+  }
+  
+  event void Timer1.fired() {
+  	actual_send(SERVER, &packet);
   }
 
 
@@ -97,7 +103,7 @@ implementation {
 			dbg("radio", "Radio on node %d!\n", TOS_NODE_ID);
 			if (TOS_NODE_ID <= 5)
 			{
-				call Timer.startOneShot(TOS_NODE_ID * 5000);
+				call Timer0.startOneShot(5000);
 			}
 		}
 		else{
@@ -131,7 +137,7 @@ implementation {
 							msg_packet -> type = msg->type;
 							msg_packet -> sender = msg->sender;
 							msg_packet -> id = msg->id;
-					  	actual_send(SERVER, &packet);					
+					  	call Timer1.startOneShot(time_delays[TOS_NODE_ID - 6]); // for messages received at the same time from both gateways
 							break;
 					}
 			}
@@ -174,7 +180,6 @@ implementation {
 					return;
 				}
 				close(sockfd);
-				sleep(16); // Emulate the periodic sending of messages
 			}
 		}
 		return bufPtr;

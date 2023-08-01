@@ -6,8 +6,7 @@ typedef nx_struct node_msg {
 	nx_int8_t type;
 	nx_int8_t sender;
 	nx_uint8_t id;
-	nx_uint8_t topic;
-	nx_uint16_t value;
+	nx_uint8_t value;
 } node_msg_t;
 
 uint16_t buffer[MESSAGE_BUFFER][5] = {{0, 0, 0, 0, 0}, 

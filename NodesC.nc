@@ -30,8 +30,7 @@ module NodesC @safe() {
 implementation {
 
   message_t packet;
-  message_t queued_packet;
-  uint16_t queue_addr;
+
   int sockfd;
   int connection;
   int sent;
@@ -55,9 +54,8 @@ implementation {
 				dbgerror("radio_send", "unable to allocate message memory\n");
 				return;
 			}
-			msg -> value = call Random.rand16();
+			msg -> value = call Random.rand16() % 50;
 			msg -> type = 0;
-			msg -> topic = 0;
 			msg -> sender = TOS_NODE_ID;
 			msg -> id = 1;
 	  	actual_send(AM_BROADCAST_ADDR, &packet);
@@ -131,7 +129,6 @@ implementation {
 							dbg("radio_rec", "received DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
 							msg_packet -> value = msg->value;
 							msg_packet -> type = msg->type;
-							msg_packet -> topic = msg->topic;
 							msg_packet -> sender = msg->sender;
 							msg_packet -> id = msg->id;
 					  	actual_send(SERVER, &packet);					
@@ -143,7 +140,6 @@ implementation {
 				dbg("radio_rec", "received DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
 				msg_packet -> value = msg->value;
 				msg_packet -> type = msg->type;
-				msg_packet -> topic = msg->topic;
 				msg_packet -> sender = msg->sender;
 				msg_packet -> id = msg->id;
 				//handle id and send ack

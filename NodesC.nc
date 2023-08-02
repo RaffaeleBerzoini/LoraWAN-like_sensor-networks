@@ -36,6 +36,7 @@ implementation {
   
   uint16_t time_delays[2]={61,173};
   uint16_t last_MID_received[5] = {0, 0, 0, 0, 0};
+  uint16_t start_timer[5] = {1000, 1200, 1400, 1600, 1800};
   int current_msg_id = 1;
 
   int sockfd;
@@ -142,7 +143,7 @@ implementation {
 			dbg("radio", "Radio on node %d!\n", TOS_NODE_ID);
 			if (TOS_NODE_ID <= 5)
 			{
-				call Timer0.startOneShot(5000);
+				call Timer0.startPeriodicAt(start_timer[TOS_NODE_ID], 2000);
 			}
 		}
 		else{
@@ -199,9 +200,8 @@ implementation {
 				dbg("radio_rec", "received DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
 				// if i have already received the msg from sender msg->sender with id msg->id i ignore it and just send the ack back
 				if (msg->id == last_MID_received[msg->sender - 1]) {
-					dbg("radio_rec", "Ignoring duplicated message, sending ACK\n");
+					dbg("radio_rec", "Ignoring duplicated message, sending ACK s:  %d, id:  %d, v: %d\n", msg->sender, msg->id, msg->value);
 					
-					//TODO: check if it is actually useful
 					msg_packet -> value = msg->value;
 					msg_packet -> type = ACK;
 					msg_packet -> sender = msg->sender;

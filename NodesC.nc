@@ -10,6 +10,7 @@
 #define SERVER_IP "127.0.0.1"
 #define SERVER_PORT 2409
 #define MAX_PUB 1
+#define DELIMITER_ASCII 10
 
 
 module NodesC @safe() {
@@ -68,6 +69,8 @@ implementation {
 				msg -> type = DATA;
 				msg -> sender = TOS_NODE_ID;
 				msg -> id = current_msg_id;
+				msg -> delimiter1 = DELIMITER_ASCII;
+				msg -> delimiter2 = DELIMITER_ASCII;
 				current_msg_id++;
 			
 				actual_send(AM_BROADCAST_ADDR, &packet);
@@ -78,6 +81,8 @@ implementation {
 				last_msg_sent.type = msg -> type;
 				last_msg_sent.sender = msg -> sender;
 				last_msg_sent.id = msg -> id;
+				last_msg_sent.delimiter1 = msg -> delimiter1;
+				last_msg_sent.delimiter2 = msg -> delimiter2;
 	  	}
 		}
 		return;
@@ -95,6 +100,8 @@ implementation {
 			msg -> type = last_msg_sent.type;
 			msg -> sender = last_msg_sent.sender;
 			msg -> id = last_msg_sent.id;
+			msg -> delimiter1 = last_msg_sent.delimiter1;
+			msg -> delimiter2 = last_msg_sent.delimiter2;
 			
 			actual_send(AM_BROADCAST_ADDR, &packet);
 			
@@ -184,6 +191,9 @@ implementation {
 							msg_packet -> type = msg->type;
 							msg_packet -> sender = msg->sender;
 							msg_packet -> id = msg->id;
+							msg_packet -> delimiter1 = msg->delimiter1;
+							msg_packet -> delimiter2 = msg->delimiter2;
+
 					  	call Timer1.startOneShot(time_delays[TOS_NODE_ID - 6]); // for messages received at the same time from both gateways
 							break;
 						case ACK:
@@ -192,6 +202,9 @@ implementation {
 							msg_packet -> type = msg->type;
 							msg_packet -> sender = msg->sender;
 							msg_packet -> id = msg->id;
+							msg_packet -> delimiter1 = msg->delimiter1;
+							msg_packet -> delimiter2 = msg->delimiter2;
+							
 							actual_send(AM_BROADCAST_ADDR, &packet);
 					}
 			}
@@ -207,6 +220,9 @@ implementation {
 					msg_packet -> type = ACK;
 					msg_packet -> sender = msg->sender;
 					msg_packet -> id = msg->id;
+					msg_packet -> delimiter1 = msg->delimiter1;
+					msg_packet -> delimiter2 = msg->delimiter2;
+
 					actual_send(AM_BROADCAST_ADDR, &packet);
 					return bufPtr;
 				}
@@ -217,6 +233,9 @@ implementation {
 				msg_packet -> type = ACK;
 				msg_packet -> sender = msg->sender;
 				msg_packet -> id = msg->id;
+				msg_packet -> delimiter1 = msg->delimiter1;
+				msg_packet -> delimiter2 = msg->delimiter2;
+
 				actual_send(AM_BROADCAST_ADDR, &packet);
 				
 				// send message to nodered

@@ -4,9 +4,11 @@
 
 typedef nx_struct node_msg {
 	nx_int8_t type;
-	nx_int8_t sender;
 	nx_uint8_t id;
 	nx_uint8_t value;
+	nx_int8_t sender;
+	nx_uint8_t delimiter1;
+	nx_int8_t delimiter2;
 } node_msg_t;
 
 enum {

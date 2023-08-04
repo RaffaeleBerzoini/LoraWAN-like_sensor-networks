@@ -87,38 +87,42 @@ DEBUG (5): sent DATA message at 0:0:2.929687510 with:
 		sender: 5
 		id: 1
 		value: 6
-DEBUG (7): received DATA message at 0:0:2.936141940 with:
+DEBUG (7): received DATA message at 0:0:2.938079795 with:
 		sender: 5
 		id: 1
 		value: 6
-DEBUG (7): sent DATA message at 0:0:3.104492197 with:
+DEBUG (7): sent DATA message at 0:0:3.106445322 with:
 		sender: 5
 		id: 1
 		value: 6
-DEBUG (8): received DATA message at 0:0:3.112091030 with:
+DEBUG (8): received DATA message at 0:0:3.107772829 with:
 		sender: 5
 		id: 1
 		value: 6
-DEBUG (8): sent ACK message at 0:0:3.112091030 with:
+DEBUG (8): sent ACK message at 0:0:3.107772829 with:
 		sender: 5
 		id: 1
 		value: 6
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:3.120696936 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:3.112731906 with:
 		sender: 5
 		id: 1
 		value: 6
-DEBUG (7): sent ACK message at 0:0:3.120696936 with:
+DEBUG (7): sent ACK message at 0:0:3.112731906 with:
 		sender: 5
 		id: 1
 		value: 6
-DEBUG (6): received ACK message at 0:0:3.120696936 with:
+DEBUG (6): received ACK message at 0:0:3.112731906 with:
 		sender: 5
 		id: 1
 		value: 6
-DEBUG (6): sent ACK message at 0:0:3.120696936 with:
+DEBUG (6): sent ACK message at 0:0:3.112731906 with:
+		sender: 5
+		id: 1
+		value: 6
+DEBUG (5): received ACK message at 0:0:3.117034860 with:
 		sender: 5
 		id: 1
 		value: 6
@@ -127,46 +131,42 @@ DEBUG (1): sent DATA message at 0:0:3.125000010 with:
 		sender: 1
 		id: 1
 		value: 14
-DEBUG (5): received ACK message at 0:0:3.126937745 with:
-		sender: 5
-		id: 1
-		value: 6
-DEBUG (6): received DATA message at 0:0:3.135208080 with:
+DEBUG (6): received DATA message at 0:0:3.128875719 with:
 		sender: 1
 		id: 1
 		value: 14
-DEBUG (6): sent DATA message at 0:0:3.194335947 with:
+DEBUG (6): sent DATA message at 0:0:3.187500010 with:
 		sender: 1
 		id: 1
 		value: 14
-DEBUG (8): received DATA message at 0:0:3.201873745 with:
+DEBUG (8): received DATA message at 0:0:3.195983847 with:
 		sender: 1
 		id: 1
 		value: 14
-DEBUG (8): sent ACK message at 0:0:3.201873745 with:
+DEBUG (8): sent ACK message at 0:0:3.195983847 with:
 		sender: 1
 		id: 1
 		value: 14
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:3.212234402 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:3.203231729 with:
 		sender: 1
 		id: 1
 		value: 14
-DEBUG (7): sent ACK message at 0:0:3.212234402 with:
+DEBUG (7): sent ACK message at 0:0:3.203231729 with:
 		sender: 1
 		id: 1
 		value: 14
-DEBUG (6): received ACK message at 0:0:3.212234402 with:
+DEBUG (6): received ACK message at 0:0:3.203231729 with:
 		sender: 1
 		id: 1
 		value: 14
-DEBUG (6): sent ACK message at 0:0:3.212234402 with:
+DEBUG (6): sent ACK message at 0:0:3.203231729 with:
 		sender: 1
 		id: 1
 		value: 14
-DEBUG (1): received ACK message at 0:0:3.222640836 with:
+DEBUG (1): received ACK message at 0:0:3.206161400 with:
 		sender: 1
 		id: 1
 		value: 14
@@ -175,54 +175,54 @@ DEBUG (2): sent DATA message at 0:0:3.320312510 with:
 		sender: 2
 		id: 1
 		value: 21
-DEBUG (7): received DATA message at 0:0:3.327117890 with:
+DEBUG (7): received DATA message at 0:0:3.322387693 with:
 		sender: 2
 		id: 1
 		value: 21
-DEBUG (6): received DATA message at 0:0:3.327117890 with:
+DEBUG (6): received DATA message at 0:0:3.322387693 with:
 		sender: 2
 		id: 1
 		value: 21
-DEBUG (6): sent DATA message at 0:0:3.385742197 with:
+DEBUG (6): sent DATA message at 0:0:3.381835947 with:
 		sender: 2
 		id: 1
 		value: 21
-DEBUG (8): received DATA message at 0:0:3.394775347 with:
+DEBUG (8): received DATA message at 0:0:3.384536737 with:
 		sender: 2
 		id: 1
 		value: 21
-DEBUG (8): sent ACK message at 0:0:3.394775347 with:
+DEBUG (8): sent ACK message at 0:0:3.384536737 with:
 		sender: 2
 		id: 1
 		value: 21
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:3.403457548 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:3.391555739 with:
 		sender: 2
 		id: 1
 		value: 21
-DEBUG (7): sent ACK message at 0:0:3.403457548 with:
+DEBUG (7): sent ACK message at 0:0:3.391555739 with:
 		sender: 2
 		id: 1
 		value: 21
-DEBUG (6): received ACK message at 0:0:3.403457548 with:
+DEBUG (6): received ACK message at 0:0:3.391555739 with:
 		sender: 2
 		id: 1
 		value: 21
-DEBUG (6): sent ACK message at 0:0:3.403457548 with:
+DEBUG (6): sent ACK message at 0:0:3.391555739 with:
 		sender: 2
 		id: 1
 		value: 21
-DEBUG (2): received ACK message at 0:0:3.410766465 with:
+DEBUG (2): received ACK message at 0:0:3.399749661 with:
 		sender: 2
 		id: 1
 		value: 21
-DEBUG (2): received ACK message at 0:0:3.412185524 with:
+DEBUG (2): received ACK message at 0:0:3.400802511 with:
 		sender: 2
 		id: 1
 		value: 21
-DEBUG (7): sent ACK message at 0:0:3.495117197 with:
+DEBUG (7): sent ACK message at 0:0:3.491210947 with:
 		sender: 2
 		id: 1
 		value: 21
@@ -231,175 +231,138 @@ DEBUG (3): sent DATA message at 0:0:3.515625010 with:
 		sender: 3
 		id: 1
 		value: 42
-DEBUG (7): received DATA message at 0:0:3.525527906 with:
+DEBUG (7): received DATA message at 0:0:3.520248396 with:
 		sender: 3
 		id: 1
 		value: 42
-DEBUG (7): sent DATA message at 0:0:3.694335947 with:
+DEBUG (7): sent DATA message at 0:0:3.688476572 with:
 		sender: 3
 		id: 1
 		value: 42
-DEBUG (8): received DATA message at 0:0:3.702712973 with:
+DEBUG (8): received DATA message at 0:0:3.693313580 with:
 		sender: 3
 		id: 1
 		value: 42
-DEBUG (8): sent ACK message at 0:0:3.702712973 with:
+DEBUG (8): sent ACK message at 0:0:3.693313580 with:
 		sender: 3
 		id: 1
 		value: 42
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:3.698120070 with:
+		sender: 3
+		id: 1
+		value: 42
+DEBUG (7): sent ACK message at 0:0:3.698120070 with:
+		sender: 3
+		id: 1
+		value: 42
+DEBUG (6): received ACK message at 0:0:3.698120070 with:
+		sender: 3
+		id: 1
+		value: 42
+DEBUG (6): sent ACK message at 0:0:3.698120070 with:
+		sender: 3
+		id: 1
+		value: 42
+DEBUG (3): received ACK message at 0:0:3.705474764 with:
+		sender: 3
+		id: 1
+		value: 42
 DEBUG (4): timer fired at time 0:0:3.710937510 
 DEBUG (4): sent DATA message at 0:0:3.710937510 with:
 		sender: 4
 		id: 1
 		value: 49
-DEBUG (7): received ACK message at 0:0:3.712203885 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (7): sent ACK message at 0:0:3.712203885 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (6): received ACK message at 0:0:3.712203885 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (6): sent ACK message at 0:0:3.712203885 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (6): received DATA message at 0:0:3.720733595 with:
+DEBUG (7): received DATA message at 0:0:3.718902551 with:
 		sender: 4
 		id: 1
 		value: 49
-DEBUG (7): received DATA message at 0:0:3.720733595 with:
+DEBUG (6): received DATA message at 0:0:3.718902551 with:
 		sender: 4
 		id: 1
 		value: 49
-DEBUG (8): received DATA message at 0:0:3.722640836 with:
+DEBUG (6): sent DATA message at 0:0:3.778320322 with:
 		sender: 4
 		id: 1
 		value: 49
-DEBUG (8): sent ACK message at 0:0:3.722640836 with:
+DEBUG (8): received DATA message at 0:0:3.782714828 with:
+		sender: 4
+		id: 1
+		value: 49
+DEBUG (8): sent ACK message at 0:0:3.782714828 with:
 		sender: 4
 		id: 1
 		value: 49
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:3.728698539 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:3.791091854 with:
 		sender: 4
 		id: 1
 		value: 49
-DEBUG (7): sent ACK message at 0:0:3.728698539 with:
+DEBUG (7): sent ACK message at 0:0:3.791091854 with:
 		sender: 4
 		id: 1
 		value: 49
-DEBUG (6): received ACK message at 0:0:3.728698539 with:
+DEBUG (6): received ACK message at 0:0:3.791091854 with:
 		sender: 4
 		id: 1
 		value: 49
-DEBUG (6): sent ACK message at 0:0:3.728698539 with:
+DEBUG (6): sent ACK message at 0:0:3.791091854 with:
 		sender: 4
 		id: 1
 		value: 49
-DEBUG (4): received ACK message at 0:0:3.730483807 with:
+DEBUG (4): received ACK message at 0:0:3.792312550 with:
 		sender: 4
 		id: 1
 		value: 49
-DEBUG (4): received ACK message at 0:0:3.734512104 with:
+DEBUG (4): received ACK message at 0:0:3.800338626 with:
 		sender: 4
 		id: 1
 		value: 49
-DEBUG (6): sent ACK message at 0:0:3.780273447 with:
+DEBUG (7): sent ACK message at 0:0:3.887695322 with:
 		sender: 4
 		id: 1
 		value: 49
-DEBUG (7): sent ACK message at 0:0:3.889648447 with:
-		sender: 4
-		id: 1
-		value: 49
-DEBUG (3): sent DATA message at 0:0:4.492187510 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (7): received DATA message at 0:0:4.498077368 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (7): sent DATA message at 0:0:4.666992197 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (8): received DATA message at 0:0:4.671768170 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (8): Ignoring duplicated message, sending ACK s:  3, id:  1, v: 42
-DEBUG (8): sent ACK message at 0:0:4.671768170 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (7): received ACK message at 0:0:4.673141453 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (7): sent ACK message at 0:0:4.673141453 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (6): received ACK message at 0:0:4.673141453 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (6): sent ACK message at 0:0:4.673141453 with:
-		sender: 3
-		id: 1
-		value: 42
-DEBUG (3): received ACK message at 0:0:4.682098310 with:
-		sender: 3
-		id: 1
-		value: 42
 DEBUG (5): timer fired at time 0:0:4.882812510 
 DEBUG (5): sent DATA message at 0:0:4.882812510 with:
 		sender: 5
 		id: 2
 		value: 48
-DEBUG (7): received DATA message at 0:0:4.888473487 with:
+DEBUG (7): received DATA message at 0:0:4.886047354 with:
 		sender: 5
 		id: 2
 		value: 48
-DEBUG (7): sent DATA message at 0:0:5.056640635 with:
+DEBUG (7): sent DATA message at 0:0:5.054687510 with:
 		sender: 5
 		id: 2
 		value: 48
-DEBUG (8): received DATA message at 0:0:5.065216024 with:
+DEBUG (8): received DATA message at 0:0:5.064575147 with:
 		sender: 5
 		id: 2
 		value: 48
-DEBUG (8): sent ACK message at 0:0:5.065216024 with:
+DEBUG (8): sent ACK message at 0:0:5.064575147 with:
 		sender: 5
 		id: 2
 		value: 48
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:5.071929852 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:5.067977837 with:
 		sender: 5
 		id: 2
 		value: 48
-DEBUG (7): sent ACK message at 0:0:5.071929852 with:
+DEBUG (7): sent ACK message at 0:0:5.067977837 with:
 		sender: 5
 		id: 2
 		value: 48
-DEBUG (6): received ACK message at 0:0:5.071929852 with:
+DEBUG (6): received ACK message at 0:0:5.067977837 with:
 		sender: 5
 		id: 2
 		value: 48
-DEBUG (6): sent ACK message at 0:0:5.071929852 with:
+DEBUG (6): sent ACK message at 0:0:5.067977837 with:
 		sender: 5
 		id: 2
 		value: 48
@@ -408,46 +371,42 @@ DEBUG (1): sent DATA message at 0:0:5.078125010 with:
 		sender: 1
 		id: 2
 		value: 28
-DEBUG (5): received ACK message at 0:0:5.082183698 with:
-		sender: 5
-		id: 2
-		value: 48
-DEBUG (6): received DATA message at 0:0:5.084396335 with:
+DEBUG (6): received DATA message at 0:0:5.087585404 with:
 		sender: 1
 		id: 2
 		value: 28
-DEBUG (6): sent DATA message at 0:0:5.143554697 with:
+DEBUG (6): sent DATA message at 0:0:5.146484385 with:
 		sender: 1
 		id: 2
 		value: 28
-DEBUG (8): received DATA message at 0:0:5.146759024 with:
+DEBUG (8): received DATA message at 0:0:5.152862521 with:
 		sender: 1
 		id: 2
 		value: 28
-DEBUG (8): sent ACK message at 0:0:5.146759024 with:
+DEBUG (8): sent ACK message at 0:0:5.152862521 with:
 		sender: 1
 		id: 2
 		value: 28
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:5.153961130 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:5.159118588 with:
 		sender: 1
 		id: 2
 		value: 28
-DEBUG (7): sent ACK message at 0:0:5.153961130 with:
+DEBUG (7): sent ACK message at 0:0:5.159118588 with:
 		sender: 1
 		id: 2
 		value: 28
-DEBUG (6): received ACK message at 0:0:5.153961130 with:
+DEBUG (6): received ACK message at 0:0:5.159118588 with:
 		sender: 1
 		id: 2
 		value: 28
-DEBUG (6): sent ACK message at 0:0:5.153961130 with:
+DEBUG (6): sent ACK message at 0:0:5.159118588 with:
 		sender: 1
 		id: 2
 		value: 28
-DEBUG (1): received ACK message at 0:0:5.161147978 with:
+DEBUG (1): received ACK message at 0:0:5.167373545 with:
 		sender: 1
 		id: 2
 		value: 28
@@ -456,54 +415,54 @@ DEBUG (2): sent DATA message at 0:0:5.273437510 with:
 		sender: 2
 		id: 2
 		value: 17
-DEBUG (7): received DATA message at 0:0:5.277832015 with:
+DEBUG (7): received DATA message at 0:0:5.283737132 with:
 		sender: 2
 		id: 2
 		value: 17
-DEBUG (6): received DATA message at 0:0:5.277832015 with:
+DEBUG (6): received DATA message at 0:0:5.283737132 with:
 		sender: 2
 		id: 2
 		value: 17
-DEBUG (6): sent DATA message at 0:0:5.336914072 with:
+DEBUG (6): sent DATA message at 0:0:5.342773447 with:
 		sender: 2
 		id: 2
 		value: 17
-DEBUG (8): received DATA message at 0:0:5.343002293 with:
+DEBUG (8): received DATA message at 0:0:5.352294876 with:
 		sender: 2
 		id: 2
 		value: 17
-DEBUG (8): sent ACK message at 0:0:5.343002293 with:
+DEBUG (8): sent ACK message at 0:0:5.352294876 with:
 		sender: 2
 		id: 2
 		value: 17
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:5.345184287 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:5.354583681 with:
 		sender: 2
 		id: 2
 		value: 17
-DEBUG (7): sent ACK message at 0:0:5.345184287 with:
+DEBUG (7): sent ACK message at 0:0:5.354583681 with:
 		sender: 2
 		id: 2
 		value: 17
-DEBUG (6): received ACK message at 0:0:5.345184287 with:
+DEBUG (6): received ACK message at 0:0:5.354583681 with:
 		sender: 2
 		id: 2
 		value: 17
-DEBUG (6): sent ACK message at 0:0:5.345184287 with:
+DEBUG (6): sent ACK message at 0:0:5.354583681 with:
 		sender: 2
 		id: 2
 		value: 17
-DEBUG (2): received ACK message at 0:0:5.347579903 with:
+DEBUG (2): received ACK message at 0:0:5.358840858 with:
 		sender: 2
 		id: 2
 		value: 17
-DEBUG (2): received ACK message at 0:0:5.349059997 with:
+DEBUG (2): received ACK message at 0:0:5.360107330 with:
 		sender: 2
 		id: 2
 		value: 17
-DEBUG (7): sent ACK message at 0:0:5.446289072 with:
+DEBUG (7): sent ACK message at 0:0:5.452148447 with:
 		sender: 2
 		id: 2
 		value: 17
@@ -512,38 +471,42 @@ DEBUG (3): sent DATA message at 0:0:5.468750010 with:
 		sender: 3
 		id: 2
 		value: 6
-DEBUG (7): received DATA message at 0:0:5.478256180 with:
+DEBUG (7): received DATA message at 0:0:5.475738494 with:
 		sender: 3
 		id: 2
 		value: 6
-DEBUG (7): sent DATA message at 0:0:5.646484385 with:
+DEBUG (7): sent DATA message at 0:0:5.644531260 with:
 		sender: 3
 		id: 2
 		value: 6
-DEBUG (8): received DATA message at 0:0:5.653259247 with:
+DEBUG (8): received DATA message at 0:0:5.645675662 with:
 		sender: 3
 		id: 2
 		value: 6
-DEBUG (8): sent ACK message at 0:0:5.653259247 with:
+DEBUG (8): sent ACK message at 0:0:5.645675662 with:
 		sender: 3
 		id: 2
 		value: 6
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:5.662490761 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:5.655166573 with:
 		sender: 3
 		id: 2
 		value: 6
-DEBUG (7): sent ACK message at 0:0:5.662490761 with:
+DEBUG (7): sent ACK message at 0:0:5.655166573 with:
 		sender: 3
 		id: 2
 		value: 6
-DEBUG (6): received ACK message at 0:0:5.662490761 with:
+DEBUG (6): received ACK message at 0:0:5.655166573 with:
 		sender: 3
 		id: 2
 		value: 6
-DEBUG (6): sent ACK message at 0:0:5.662490761 with:
+DEBUG (6): sent ACK message at 0:0:5.655166573 with:
+		sender: 3
+		id: 2
+		value: 6
+DEBUG (3): received ACK message at 0:0:5.656631409 with:
 		sender: 3
 		id: 2
 		value: 6
@@ -552,15 +515,11 @@ DEBUG (4): sent DATA message at 0:0:5.664062510 with:
 		sender: 4
 		id: 2
 		value: 9
-DEBUG (3): received ACK message at 0:0:5.664871118 with:
-		sender: 3
-		id: 2
-		value: 6
-DEBUG (7): received DATA message at 0:0:5.667205802 with:
+DEBUG (7): received DATA message at 0:0:5.667816150 with:
 		sender: 4
 		id: 2
 		value: 9
-DEBUG (6): received DATA message at 0:0:5.667205802 with:
+DEBUG (6): received DATA message at 0:0:5.667816150 with:
 		sender: 4
 		id: 2
 		value: 9
@@ -568,42 +527,136 @@ DEBUG (6): sent DATA message at 0:0:5.726562510 with:
 		sender: 4
 		id: 2
 		value: 9
-DEBUG (8): received DATA message at 0:0:5.731155378 with:
+DEBUG (8): received DATA message at 0:0:5.734527551 with:
 		sender: 4
 		id: 2
 		value: 9
-DEBUG (8): sent ACK message at 0:0:5.731155378 with:
+DEBUG (8): sent ACK message at 0:0:5.734527551 with:
 		sender: 4
 		id: 2
 		value: 9
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:5.739654474 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:5.741302414 with:
 		sender: 4
 		id: 2
 		value: 9
-DEBUG (7): sent ACK message at 0:0:5.739654474 with:
+DEBUG (7): sent ACK message at 0:0:5.741302414 with:
 		sender: 4
 		id: 2
 		value: 9
-DEBUG (6): received ACK message at 0:0:5.739654474 with:
+DEBUG (6): received ACK message at 0:0:5.741302414 with:
 		sender: 4
 		id: 2
 		value: 9
-DEBUG (6): sent ACK message at 0:0:5.739654474 with:
-		sender: 4
-		id: 2
-		value: 9
-DEBUG (4): received ACK message at 0:0:5.744155791 with:
-		sender: 4
-		id: 2
-		value: 9
-DEBUG (4): received ACK message at 0:0:5.748290898 with:
+DEBUG (6): sent ACK message at 0:0:5.741302414 with:
 		sender: 4
 		id: 2
 		value: 9
 DEBUG (7): sent ACK message at 0:0:5.835937510 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (5): RE-sent DATA message at 0:0:5.859375010 with:
+		sender: 5
+		id: 2
+		value: 48
+DEBUG (5): sent DATA message at 0:0:5.859375010 with:
+		sender: 5
+		id: 2
+		value: 48
+DEBUG (7): received DATA message at 0:0:5.866195648 with:
+		sender: 5
+		id: 2
+		value: 48
+DEBUG (7): sent DATA message at 0:0:6.034179697 with:
+		sender: 5
+		id: 2
+		value: 48
+DEBUG (8): received DATA message at 0:0:6.037780750 with:
+		sender: 5
+		id: 2
+		value: 48
+DEBUG (8): Ignoring duplicated message, sending ACK s:  5, id:  2, v: 48
+DEBUG (8): sent ACK message at 0:0:6.037780750 with:
+		sender: 5
+		id: 2
+		value: 48
+DEBUG (7): received ACK message at 0:0:6.044479320 with:
+		sender: 5
+		id: 2
+		value: 48
+DEBUG (7): sent ACK message at 0:0:6.044479320 with:
+		sender: 5
+		id: 2
+		value: 48
+DEBUG (6): received ACK message at 0:0:6.044479320 with:
+		sender: 5
+		id: 2
+		value: 48
+DEBUG (6): sent ACK message at 0:0:6.044479320 with:
+		sender: 5
+		id: 2
+		value: 48
+DEBUG (5): received ACK message at 0:0:6.045730533 with:
+		sender: 5
+		id: 2
+		value: 48
+DEBUG (4): RE-sent DATA message at 0:0:6.640625010 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (4): sent DATA message at 0:0:6.640625010 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (7): received DATA message at 0:0:6.648544275 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (6): received DATA message at 0:0:6.648544275 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (6): sent DATA message at 0:0:6.708007822 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (8): received DATA message at 0:0:6.711532582 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (8): Ignoring duplicated message, sending ACK s:  4, id:  2, v: 9
+DEBUG (8): sent ACK message at 0:0:6.711532582 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (7): received ACK message at 0:0:6.715942346 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (7): sent ACK message at 0:0:6.715942346 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (6): received ACK message at 0:0:6.715942346 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (6): sent ACK message at 0:0:6.715942346 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (4): received ACK message at 0:0:6.717056231 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (4): received ACK message at 0:0:6.719848573 with:
+		sender: 4
+		id: 2
+		value: 9
+DEBUG (7): sent ACK message at 0:0:6.817382822 with:
 		sender: 4
 		id: 2
 		value: 9
@@ -612,42 +665,42 @@ DEBUG (5): sent DATA message at 0:0:6.835937510 with:
 		sender: 5
 		id: 3
 		value: 4
-DEBUG (7): received DATA message at 0:0:6.839920030 with:
+DEBUG (7): received DATA message at 0:0:6.844039879 with:
 		sender: 5
 		id: 3
 		value: 4
-DEBUG (7): sent DATA message at 0:0:7.008789072 with:
+DEBUG (7): sent DATA message at 0:0:7.012695322 with:
 		sender: 5
 		id: 3
 		value: 4
-DEBUG (8): received DATA message at 0:0:7.013198836 with:
+DEBUG (8): received DATA message at 0:0:7.015289301 with:
 		sender: 5
 		id: 3
 		value: 4
-DEBUG (8): sent ACK message at 0:0:7.013198836 with:
+DEBUG (8): sent ACK message at 0:0:7.015289301 with:
 		sender: 5
 		id: 3
 		value: 4
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:7.015274020 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:7.025268491 with:
 		sender: 5
 		id: 3
 		value: 4
-DEBUG (7): sent ACK message at 0:0:7.015274020 with:
+DEBUG (7): sent ACK message at 0:0:7.025268491 with:
 		sender: 5
 		id: 3
 		value: 4
-DEBUG (6): received ACK message at 0:0:7.015274020 with:
+DEBUG (6): received ACK message at 0:0:7.025268491 with:
 		sender: 5
 		id: 3
 		value: 4
-DEBUG (6): sent ACK message at 0:0:7.015274020 with:
+DEBUG (6): sent ACK message at 0:0:7.025268491 with:
 		sender: 5
 		id: 3
 		value: 4
-DEBUG (5): received ACK message at 0:0:7.021362241 with:
+DEBUG (5): received ACK message at 0:0:7.027923505 with:
 		sender: 5
 		id: 3
 		value: 4
@@ -656,98 +709,72 @@ DEBUG (1): sent DATA message at 0:0:7.031250010 with:
 		sender: 1
 		id: 3
 		value: 13
-DEBUG (6): received DATA message at 0:0:7.034728993 with:
-		sender: 1
-		id: 3
-		value: 13
-DEBUG (6): sent DATA message at 0:0:7.093750010 with:
-		sender: 1
-		id: 3
-		value: 13
-DEBUG (8): received DATA message at 0:0:7.094863895 with:
-		sender: 1
-		id: 3
-		value: 13
-DEBUG (8): sent ACK message at 0:0:7.094863895 with:
-		sender: 1
-		id: 3
-		value: 13
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:7.099395729 with:
-		sender: 1
-		id: 3
-		value: 13
-DEBUG (7): sent ACK message at 0:0:7.099395729 with:
-		sender: 1
-		id: 3
-		value: 13
-DEBUG (6): received ACK message at 0:0:7.099395729 with:
-		sender: 1
-		id: 3
-		value: 13
-DEBUG (6): sent ACK message at 0:0:7.099395729 with:
-		sender: 1
-		id: 3
-		value: 13
-DEBUG (1): received ACK message at 0:0:7.100585907 with:
-		sender: 1
-		id: 3
-		value: 13
 DEBUG (2): timer fired at time 0:0:7.226562510 
 DEBUG (2): sent DATA message at 0:0:7.226562510 with:
 		sender: 2
 		id: 3
 		value: 27
-DEBUG (7): received DATA message at 0:0:7.227844240 with:
+DEBUG (7): received DATA message at 0:0:7.235382038 with:
 		sender: 2
 		id: 3
 		value: 27
-DEBUG (6): received DATA message at 0:0:7.227844240 with:
+DEBUG (6): received DATA message at 0:0:7.235382038 with:
 		sender: 2
 		id: 3
 		value: 27
-DEBUG (6): sent DATA message at 0:0:7.287109385 with:
+DEBUG (6): sent DATA message at 0:0:7.294921885 with:
 		sender: 2
 		id: 3
 		value: 27
-DEBUG (8): received DATA message at 0:0:7.291137681 with:
+DEBUG (8): received DATA message at 0:0:7.298126212 with:
 		sender: 2
 		id: 3
 		value: 27
-DEBUG (8): sent ACK message at 0:0:7.291137681 with:
+DEBUG (8): sent ACK message at 0:0:7.298126212 with:
 		sender: 2
 		id: 3
 		value: 27
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:7.298889101 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (6): received ACK message at 0:0:7.305709785 with:
 		sender: 2
 		id: 3
 		value: 27
-DEBUG (7): sent ACK message at 0:0:7.298889101 with:
+DEBUG (6): sent ACK message at 0:0:7.305709785 with:
 		sender: 2
 		id: 3
 		value: 27
-DEBUG (6): received ACK message at 0:0:7.298889101 with:
+DEBUG (2): received ACK message at 0:0:7.316039925 with:
 		sender: 2
 		id: 3
 		value: 27
-DEBUG (6): sent ACK message at 0:0:7.298889101 with:
+DEBUG (7): sent DATA message at 0:0:7.404296885 with:
 		sender: 2
 		id: 3
 		value: 27
-DEBUG (2): received ACK message at 0:0:7.301422045 with:
+DEBUG (8): received DATA message at 0:0:7.409912086 with:
 		sender: 2
 		id: 3
 		value: 27
-DEBUG (2): received ACK message at 0:0:7.309341310 with:
+DEBUG (8): Ignoring duplicated message, sending ACK s:  2, id:  3, v: 27
+DEBUG (8): sent ACK message at 0:0:7.409912086 with:
 		sender: 2
 		id: 3
 		value: 27
-DEBUG (7): sent ACK message at 0:0:7.396484385 with:
+DEBUG (7): received ACK message at 0:0:7.417846610 with:
+		sender: 2
+		id: 3
+		value: 27
+DEBUG (7): sent ACK message at 0:0:7.417846610 with:
+		sender: 2
+		id: 3
+		value: 27
+DEBUG (6): received ACK message at 0:0:7.417846610 with:
+		sender: 2
+		id: 3
+		value: 27
+DEBUG (6): sent ACK message at 0:0:7.417846610 with:
 		sender: 2
 		id: 3
 		value: 27
@@ -756,42 +783,50 @@ DEBUG (3): sent DATA message at 0:0:7.421875010 with:
 		sender: 3
 		id: 3
 		value: 27
-DEBUG (7): received DATA message at 0:0:7.426895122 with:
+DEBUG (2): received ACK message at 0:0:7.424651990 with:
+		sender: 2
+		id: 3
+		value: 27
+DEBUG (7): received DATA message at 0:0:7.426437361 with:
 		sender: 3
 		id: 3
 		value: 27
-DEBUG (7): sent DATA message at 0:0:7.595703135 with:
+DEBUG (2): received ACK message at 0:0:7.426879761 with:
+		sender: 2
+		id: 3
+		value: 27
+DEBUG (7): sent DATA message at 0:0:7.594726572 with:
 		sender: 3
 		id: 3
 		value: 27
-DEBUG (8): received DATA message at 0:0:7.598220820 with:
+DEBUG (8): received DATA message at 0:0:7.607040343 with:
 		sender: 3
 		id: 3
 		value: 27
-DEBUG (8): sent ACK message at 0:0:7.598220820 with:
+DEBUG (8): sent ACK message at 0:0:7.607040343 with:
 		sender: 3
 		id: 3
 		value: 27
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:7.605163529 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:7.609329148 with:
 		sender: 3
 		id: 3
 		value: 27
-DEBUG (7): sent ACK message at 0:0:7.605163529 with:
+DEBUG (7): sent ACK message at 0:0:7.609329148 with:
 		sender: 3
 		id: 3
 		value: 27
-DEBUG (6): received ACK message at 0:0:7.605163529 with:
+DEBUG (6): received ACK message at 0:0:7.609329148 with:
 		sender: 3
 		id: 3
 		value: 27
-DEBUG (6): sent ACK message at 0:0:7.605163529 with:
+DEBUG (6): sent ACK message at 0:0:7.609329148 with:
 		sender: 3
 		id: 3
 		value: 27
-DEBUG (3): received ACK message at 0:0:7.611343302 with:
+DEBUG (3): received ACK message at 0:0:7.613845723 with:
 		sender: 3
 		id: 3
 		value: 27
@@ -800,98 +835,141 @@ DEBUG (4): sent DATA message at 0:0:7.617187510 with:
 		sender: 4
 		id: 3
 		value: 40
-DEBUG (7): received DATA message at 0:0:7.623001074 with:
+DEBUG (7): received DATA message at 0:0:7.621002185 with:
 		sender: 4
 		id: 3
 		value: 40
-DEBUG (6): received DATA message at 0:0:7.623001074 with:
+DEBUG (6): received DATA message at 0:0:7.621002185 with:
 		sender: 4
 		id: 3
 		value: 40
-DEBUG (6): sent DATA message at 0:0:7.681640635 with:
+DEBUG (6): sent DATA message at 0:0:7.679687510 with:
 		sender: 4
 		id: 3
 		value: 40
-DEBUG (8): received DATA message at 0:0:7.691436720 with:
+DEBUG (8): received DATA message at 0:0:7.685638403 with:
 		sender: 4
 		id: 3
 		value: 40
-DEBUG (8): sent ACK message at 0:0:7.691436720 with:
+DEBUG (8): sent ACK message at 0:0:7.685638403 with:
 		sender: 4
 		id: 3
 		value: 40
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:7.696121141 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:7.688964799 with:
 		sender: 4
 		id: 3
 		value: 40
-DEBUG (7): sent ACK message at 0:0:7.696121141 with:
+DEBUG (7): sent ACK message at 0:0:7.688964799 with:
 		sender: 4
 		id: 3
 		value: 40
-DEBUG (6): received ACK message at 0:0:7.696121141 with:
+DEBUG (6): received ACK message at 0:0:7.688964799 with:
 		sender: 4
 		id: 3
 		value: 40
-DEBUG (6): sent ACK message at 0:0:7.696121141 with:
+DEBUG (6): sent ACK message at 0:0:7.688964799 with:
 		sender: 4
 		id: 3
 		value: 40
-DEBUG (4): received ACK message at 0:0:7.698913483 with:
+DEBUG (4): received ACK message at 0:0:7.694305344 with:
 		sender: 4
 		id: 3
 		value: 40
-DEBUG (4): received ACK message at 0:0:7.699584866 with:
+DEBUG (4): received ACK message at 0:0:7.695785438 with:
 		sender: 4
 		id: 3
 		value: 40
-DEBUG (7): sent ACK message at 0:0:7.791015635 with:
+DEBUG (7): sent ACK message at 0:0:7.789062510 with:
 		sender: 4
 		id: 3
 		value: 40
+DEBUG (1): RE-sent DATA message at 0:0:8.007812510 with:
+		sender: 1
+		id: 3
+		value: 13
+DEBUG (1): sent DATA message at 0:0:8.007812510 with:
+		sender: 1
+		id: 3
+		value: 13
+DEBUG (6): received DATA message at 0:0:8.016525227 with:
+		sender: 1
+		id: 3
+		value: 13
+DEBUG (6): sent DATA message at 0:0:8.075195322 with:
+		sender: 1
+		id: 3
+		value: 13
+DEBUG (8): received DATA message at 0:0:8.077392575 with:
+		sender: 1
+		id: 3
+		value: 13
+DEBUG (8): sent ACK message at 0:0:8.077392575 with:
+		sender: 1
+		id: 3
+		value: 13
+DEBUG (8): connecting socket...
+DEBUG (8): sending message...
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:8.079711897 with:
+		sender: 1
+		id: 3
+		value: 13
+DEBUG (7): sent ACK message at 0:0:8.079711897 with:
+		sender: 1
+		id: 3
+		value: 13
+DEBUG (6): received ACK message at 0:0:8.079711897 with:
+		sender: 1
+		id: 3
+		value: 13
+DEBUG (6): sent ACK message at 0:0:8.079711897 with:
+		sender: 1
+		id: 3
+		value: 13
+DEBUG (1): received ACK message at 0:0:8.086517277 with:
+		sender: 1
+		id: 3
+		value: 13
 DEBUG (5): timer fired at time 0:0:8.789062510 
 DEBUG (5): sent DATA message at 0:0:8.789062510 with:
 		sender: 5
 		id: 4
 		value: 36
-DEBUG (7): received DATA message at 0:0:8.790924071 with:
+DEBUG (7): received DATA message at 0:0:8.798614456 with:
 		sender: 5
 		id: 4
 		value: 36
-DEBUG (7): sent DATA message at 0:0:8.958984385 with:
+DEBUG (7): sent DATA message at 0:0:8.966796885 with:
 		sender: 5
 		id: 4
 		value: 36
-DEBUG (8): received DATA message at 0:0:8.963561995 with:
+DEBUG (8): received DATA message at 0:0:8.975860552 with:
 		sender: 5
 		id: 4
 		value: 36
-DEBUG (8): sent ACK message at 0:0:8.963561995 with:
+DEBUG (8): sent ACK message at 0:0:8.975860552 with:
 		sender: 5
 		id: 4
 		value: 36
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:8.970565738 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:8.979385312 with:
 		sender: 5
 		id: 4
 		value: 36
-DEBUG (7): sent ACK message at 0:0:8.970565738 with:
+DEBUG (7): sent ACK message at 0:0:8.979385312 with:
 		sender: 5
 		id: 4
 		value: 36
-DEBUG (6): received ACK message at 0:0:8.970565738 with:
+DEBUG (6): received ACK message at 0:0:8.979385312 with:
 		sender: 5
 		id: 4
 		value: 36
-DEBUG (6): sent ACK message at 0:0:8.970565738 with:
-		sender: 5
-		id: 4
-		value: 36
-DEBUG (5): received ACK message at 0:0:8.971755916 with:
+DEBUG (6): sent ACK message at 0:0:8.979385312 with:
 		sender: 5
 		id: 4
 		value: 36
@@ -900,42 +978,46 @@ DEBUG (1): sent DATA message at 0:0:8.984375010 with:
 		sender: 1
 		id: 4
 		value: 28
-DEBUG (6): received DATA message at 0:0:8.988281237 with:
+DEBUG (5): received ACK message at 0:0:8.987853891 with:
+		sender: 5
+		id: 4
+		value: 36
+DEBUG (6): received DATA message at 0:0:8.994171095 with:
 		sender: 1
 		id: 4
 		value: 28
-DEBUG (6): sent DATA message at 0:0:9.046875010 with:
+DEBUG (6): sent DATA message at 0:0:9.053710947 with:
 		sender: 1
 		id: 4
 		value: 28
-DEBUG (8): received DATA message at 0:0:9.054061857 with:
+DEBUG (8): received DATA message at 0:0:9.058700542 with:
 		sender: 1
 		id: 4
 		value: 28
-DEBUG (8): sent ACK message at 0:0:9.054061857 with:
+DEBUG (8): sent ACK message at 0:0:9.058700542 with:
 		sender: 1
 		id: 4
 		value: 28
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:9.062881386 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:9.062789874 with:
 		sender: 1
 		id: 4
 		value: 28
-DEBUG (7): sent ACK message at 0:0:9.062881386 with:
+DEBUG (7): sent ACK message at 0:0:9.062789874 with:
 		sender: 1
 		id: 4
 		value: 28
-DEBUG (6): received ACK message at 0:0:9.062881386 with:
+DEBUG (6): received ACK message at 0:0:9.062789874 with:
 		sender: 1
 		id: 4
 		value: 28
-DEBUG (6): sent ACK message at 0:0:9.062881386 with:
+DEBUG (6): sent ACK message at 0:0:9.062789874 with:
 		sender: 1
 		id: 4
 		value: 28
-DEBUG (1): received ACK message at 0:0:9.072936869 with:
+DEBUG (1): received ACK message at 0:0:9.069915686 with:
 		sender: 1
 		id: 4
 		value: 28
@@ -944,54 +1026,54 @@ DEBUG (2): sent DATA message at 0:0:9.179687510 with:
 		sender: 2
 		id: 4
 		value: 43
-DEBUG (7): received DATA message at 0:0:9.188888506 with:
+DEBUG (7): received DATA message at 0:0:9.187103238 with:
 		sender: 2
 		id: 4
 		value: 43
-DEBUG (6): received DATA message at 0:0:9.188888506 with:
+DEBUG (6): received DATA message at 0:0:9.187103238 with:
 		sender: 2
 		id: 4
 		value: 43
-DEBUG (6): sent DATA message at 0:0:9.248046885 with:
+DEBUG (6): sent DATA message at 0:0:9.246093760 with:
 		sender: 2
 		id: 4
 		value: 43
-DEBUG (8): received DATA message at 0:0:9.253784156 with:
+DEBUG (8): received DATA message at 0:0:9.253036468 with:
 		sender: 2
 		id: 4
 		value: 43
-DEBUG (8): sent ACK message at 0:0:9.253784156 with:
+DEBUG (8): sent ACK message at 0:0:9.253036468 with:
 		sender: 2
 		id: 4
 		value: 43
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:9.254898041 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:9.259246759 with:
 		sender: 2
 		id: 4
 		value: 43
-DEBUG (7): sent ACK message at 0:0:9.254898041 with:
+DEBUG (7): sent ACK message at 0:0:9.259246759 with:
 		sender: 2
 		id: 4
 		value: 43
-DEBUG (6): received ACK message at 0:0:9.254898041 with:
+DEBUG (6): received ACK message at 0:0:9.259246759 with:
 		sender: 2
 		id: 4
 		value: 43
-DEBUG (6): sent ACK message at 0:0:9.254898041 with:
+DEBUG (6): sent ACK message at 0:0:9.259246759 with:
 		sender: 2
 		id: 4
 		value: 43
-DEBUG (2): received ACK message at 0:0:9.256668050 with:
+DEBUG (2): received ACK message at 0:0:9.261581340 with:
 		sender: 2
 		id: 4
 		value: 43
-DEBUG (2): received ACK message at 0:0:9.261520317 with:
+DEBUG (2): received ACK message at 0:0:9.265640154 with:
 		sender: 2
 		id: 4
 		value: 43
-DEBUG (7): sent ACK message at 0:0:9.357421885 with:
+DEBUG (7): sent ACK message at 0:0:9.355468760 with:
 		sender: 2
 		id: 4
 		value: 43
@@ -1000,42 +1082,38 @@ DEBUG (3): sent DATA message at 0:0:9.375000010 with:
 		sender: 3
 		id: 4
 		value: 7
-DEBUG (7): received DATA message at 0:0:9.378631580 with:
+DEBUG (7): received DATA message at 0:0:9.377304073 with:
 		sender: 3
 		id: 4
 		value: 7
-DEBUG (7): sent DATA message at 0:0:9.546875010 with:
+DEBUG (7): sent DATA message at 0:0:9.545898447 with:
 		sender: 3
 		id: 4
 		value: 7
-DEBUG (8): received DATA message at 0:0:9.554931603 with:
+DEBUG (8): received DATA message at 0:0:9.552108738 with:
 		sender: 3
 		id: 4
 		value: 7
-DEBUG (8): sent ACK message at 0:0:9.554931603 with:
+DEBUG (8): sent ACK message at 0:0:9.552108738 with:
 		sender: 3
 		id: 4
 		value: 7
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:9.556594801 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:9.556854194 with:
 		sender: 3
 		id: 4
 		value: 7
-DEBUG (7): sent ACK message at 0:0:9.556594801 with:
+DEBUG (7): sent ACK message at 0:0:9.556854194 with:
 		sender: 3
 		id: 4
 		value: 7
-DEBUG (6): received ACK message at 0:0:9.556594801 with:
+DEBUG (6): received ACK message at 0:0:9.556854194 with:
 		sender: 3
 		id: 4
 		value: 7
-DEBUG (6): sent ACK message at 0:0:9.556594801 with:
-		sender: 3
-		id: 4
-		value: 7
-DEBUG (3): received ACK message at 0:0:9.559112487 with:
+DEBUG (6): sent ACK message at 0:0:9.556854194 with:
 		sender: 3
 		id: 4
 		value: 7
@@ -1044,98 +1122,139 @@ DEBUG (4): sent DATA message at 0:0:9.570312510 with:
 		sender: 4
 		id: 4
 		value: 22
-DEBUG (7): received DATA message at 0:0:9.573348991 with:
+DEBUG (7): received DATA message at 0:0:9.577163666 with:
 		sender: 4
 		id: 4
 		value: 22
-DEBUG (6): received DATA message at 0:0:9.573348991 with:
+DEBUG (6): received DATA message at 0:0:9.577163666 with:
 		sender: 4
 		id: 4
 		value: 22
-DEBUG (6): sent DATA message at 0:0:9.632812510 with:
+DEBUG (6): sent DATA message at 0:0:9.636718760 with:
 		sender: 4
 		id: 4
 		value: 22
-DEBUG (8): received DATA message at 0:0:9.634933469 with:
+DEBUG (8): received DATA message at 0:0:9.644882164 with:
 		sender: 4
 		id: 4
 		value: 22
-DEBUG (8): sent ACK message at 0:0:9.634933469 with:
+DEBUG (8): sent ACK message at 0:0:9.644882164 with:
 		sender: 4
 		id: 4
 		value: 22
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:9.636260976 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:9.647048899 with:
 		sender: 4
 		id: 4
 		value: 22
-DEBUG (7): sent ACK message at 0:0:9.636260976 with:
+DEBUG (7): sent ACK message at 0:0:9.647048899 with:
 		sender: 4
 		id: 4
 		value: 22
-DEBUG (6): received ACK message at 0:0:9.636260976 with:
+DEBUG (6): received ACK message at 0:0:9.647048899 with:
 		sender: 4
 		id: 4
 		value: 22
-DEBUG (6): sent ACK message at 0:0:9.636260976 with:
+DEBUG (6): sent ACK message at 0:0:9.647048899 with:
 		sender: 4
 		id: 4
 		value: 22
-DEBUG (4): received ACK message at 0:0:9.639480561 with:
+DEBUG (4): received ACK message at 0:0:9.650787281 with:
 		sender: 4
 		id: 4
 		value: 22
-DEBUG (4): received ACK message at 0:0:9.646667409 with:
+DEBUG (4): received ACK message at 0:0:9.652664101 with:
 		sender: 4
 		id: 4
 		value: 22
-DEBUG (7): sent ACK message at 0:0:9.742187510 with:
+DEBUG (7): sent ACK message at 0:0:9.746093760 with:
 		sender: 4
 		id: 4
 		value: 22
+DEBUG (3): RE-sent DATA message at 0:0:10.351562510 with:
+		sender: 3
+		id: 4
+		value: 7
+DEBUG (3): sent DATA message at 0:0:10.351562510 with:
+		sender: 3
+		id: 4
+		value: 7
+DEBUG (7): received DATA message at 0:0:10.356262189 with:
+		sender: 3
+		id: 4
+		value: 7
+DEBUG (7): sent DATA message at 0:0:10.524414072 with:
+		sender: 3
+		id: 4
+		value: 7
+DEBUG (8): received DATA message at 0:0:10.530059791 with:
+		sender: 3
+		id: 4
+		value: 7
+DEBUG (8): Ignoring duplicated message, sending ACK s:  3, id:  4, v: 7
+DEBUG (8): sent ACK message at 0:0:10.530059791 with:
+		sender: 3
+		id: 4
+		value: 7
+DEBUG (7): received ACK message at 0:0:10.531829800 with:
+		sender: 3
+		id: 4
+		value: 7
+DEBUG (7): sent ACK message at 0:0:10.531829800 with:
+		sender: 3
+		id: 4
+		value: 7
+DEBUG (6): received ACK message at 0:0:10.531829800 with:
+		sender: 3
+		id: 4
+		value: 7
+DEBUG (6): sent ACK message at 0:0:10.531829800 with:
+		sender: 3
+		id: 4
+		value: 7
+DEBUG (3): received ACK message at 0:0:10.541839507 with:
+		sender: 3
+		id: 4
+		value: 7
 DEBUG (5): timer fired at time 0:0:10.742187510 
 DEBUG (5): sent DATA message at 0:0:10.742187510 with:
 		sender: 5
 		id: 5
 		value: 27
-DEBUG (7): received DATA message at 0:0:10.750350914 with:
+DEBUG (7): received DATA message at 0:0:10.747436502 with:
 		sender: 5
 		id: 5
 		value: 27
-DEBUG (7): sent DATA message at 0:0:10.918945322 with:
+DEBUG (7): sent DATA message at 0:0:10.916015635 with:
 		sender: 5
 		id: 5
 		value: 27
-DEBUG (8): received DATA message at 0:0:10.924377419 with:
+DEBUG (8): received DATA message at 0:0:10.925033526 with:
 		sender: 5
 		id: 5
 		value: 27
-DEBUG (8): sent ACK message at 0:0:10.924377419 with:
+DEBUG (8): sent ACK message at 0:0:10.925033526 with:
 		sender: 5
 		id: 5
 		value: 27
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:10.928909253 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:10.933166413 with:
 		sender: 5
 		id: 5
 		value: 27
-DEBUG (7): sent ACK message at 0:0:10.928909253 with:
+DEBUG (7): sent ACK message at 0:0:10.933166413 with:
 		sender: 5
 		id: 5
 		value: 27
-DEBUG (6): received ACK message at 0:0:10.928909253 with:
+DEBUG (6): received ACK message at 0:0:10.933166413 with:
 		sender: 5
 		id: 5
 		value: 27
-DEBUG (6): sent ACK message at 0:0:10.928909253 with:
-		sender: 5
-		id: 5
-		value: 27
-DEBUG (5): received ACK message at 0:0:10.930694521 with:
+DEBUG (6): sent ACK message at 0:0:10.933166413 with:
 		sender: 5
 		id: 5
 		value: 27
@@ -1144,98 +1263,63 @@ DEBUG (1): sent DATA message at 0:0:10.937500010 with:
 		sender: 1
 		id: 5
 		value: 21
-DEBUG (6): received DATA message at 0:0:10.941009511 with:
-		sender: 1
+DEBUG (5): received ACK message at 0:0:10.941329818 with:
+		sender: 5
 		id: 5
-		value: 21
-DEBUG (6): sent DATA message at 0:0:11.000000010 with:
-		sender: 1
-		id: 5
-		value: 21
-DEBUG (8): received DATA message at 0:0:11.009246782 with:
-		sender: 1
-		id: 5
-		value: 21
-DEBUG (8): sent ACK message at 0:0:11.009246782 with:
-		sender: 1
-		id: 5
-		value: 21
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:11.018371484 with:
-		sender: 1
-		id: 5
-		value: 21
-DEBUG (7): sent ACK message at 0:0:11.018371484 with:
-		sender: 1
-		id: 5
-		value: 21
-DEBUG (6): received ACK message at 0:0:11.018371484 with:
-		sender: 1
-		id: 5
-		value: 21
-DEBUG (6): sent ACK message at 0:0:11.018371484 with:
-		sender: 1
-		id: 5
-		value: 21
-DEBUG (1): received ACK message at 0:0:11.027236789 with:
-		sender: 1
-		id: 5
-		value: 21
+		value: 27
 DEBUG (2): timer fired at time 0:0:11.132812510 
 DEBUG (2): sent DATA message at 0:0:11.132812510 with:
 		sender: 2
 		id: 5
 		value: 13
-DEBUG (7): received DATA message at 0:0:11.134063723 with:
+DEBUG (7): received DATA message at 0:0:11.136138906 with:
 		sender: 2
 		id: 5
 		value: 13
-DEBUG (6): received DATA message at 0:0:11.134063723 with:
+DEBUG (6): received DATA message at 0:0:11.136138906 with:
 		sender: 2
 		id: 5
 		value: 13
-DEBUG (6): sent DATA message at 0:0:11.193359385 with:
+DEBUG (6): sent DATA message at 0:0:11.195312510 with:
 		sender: 2
 		id: 5
 		value: 13
-DEBUG (8): received DATA message at 0:0:11.195068359 with:
+DEBUG (8): received DATA message at 0:0:11.199295030 with:
 		sender: 2
 		id: 5
 		value: 13
-DEBUG (8): sent ACK message at 0:0:11.195068359 with:
+DEBUG (8): sent ACK message at 0:0:11.199295030 with:
 		sender: 2
 		id: 5
 		value: 13
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:11.204040475 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:11.204086262 with:
 		sender: 2
 		id: 5
 		value: 13
-DEBUG (7): sent ACK message at 0:0:11.204040475 with:
+DEBUG (7): sent ACK message at 0:0:11.204086262 with:
 		sender: 2
 		id: 5
 		value: 13
-DEBUG (6): received ACK message at 0:0:11.204040475 with:
+DEBUG (6): received ACK message at 0:0:11.204086262 with:
 		sender: 2
 		id: 5
 		value: 13
-DEBUG (6): sent ACK message at 0:0:11.204040475 with:
+DEBUG (6): sent ACK message at 0:0:11.204086262 with:
 		sender: 2
 		id: 5
 		value: 13
-DEBUG (2): received ACK message at 0:0:11.207794115 with:
+DEBUG (2): received ACK message at 0:0:11.212432771 with:
 		sender: 2
 		id: 5
 		value: 13
-DEBUG (2): received ACK message at 0:0:11.213561903 with:
+DEBUG (2): received ACK message at 0:0:11.214355367 with:
 		sender: 2
 		id: 5
 		value: 13
-DEBUG (7): sent ACK message at 0:0:11.302734385 with:
+DEBUG (7): sent ACK message at 0:0:11.304687510 with:
 		sender: 2
 		id: 5
 		value: 13
@@ -1244,42 +1328,42 @@ DEBUG (3): sent DATA message at 0:0:11.328125010 with:
 		sender: 3
 		id: 5
 		value: 42
-DEBUG (7): received DATA message at 0:0:11.331146232 with:
+DEBUG (7): received DATA message at 0:0:11.336517295 with:
 		sender: 3
 		id: 5
 		value: 42
-DEBUG (7): sent DATA message at 0:0:11.500000010 with:
+DEBUG (7): sent DATA message at 0:0:11.504882822 with:
 		sender: 3
 		id: 5
 		value: 42
-DEBUG (8): received DATA message at 0:0:11.503967272 with:
+DEBUG (8): received DATA message at 0:0:11.506881712 with:
 		sender: 3
 		id: 5
 		value: 42
-DEBUG (8): sent ACK message at 0:0:11.503967272 with:
+DEBUG (8): sent ACK message at 0:0:11.506881712 with:
 		sender: 3
 		id: 5
 		value: 42
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:11.505767798 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:11.513610798 with:
 		sender: 3
 		id: 5
 		value: 42
-DEBUG (7): sent ACK message at 0:0:11.505767798 with:
+DEBUG (7): sent ACK message at 0:0:11.513610798 with:
 		sender: 3
 		id: 5
 		value: 42
-DEBUG (6): received ACK message at 0:0:11.505767798 with:
+DEBUG (6): received ACK message at 0:0:11.513610798 with:
 		sender: 3
 		id: 5
 		value: 42
-DEBUG (6): sent ACK message at 0:0:11.505767798 with:
+DEBUG (6): sent ACK message at 0:0:11.513610798 with:
 		sender: 3
 		id: 5
 		value: 42
-DEBUG (3): received ACK message at 0:0:11.515319744 with:
+DEBUG (3): received ACK message at 0:0:11.523025416 with:
 		sender: 3
 		id: 5
 		value: 42
@@ -1288,190 +1372,210 @@ DEBUG (4): sent DATA message at 0:0:11.523437510 with:
 		sender: 4
 		id: 5
 		value: 34
-DEBUG (7): received DATA message at 0:0:11.528671244 with:
+DEBUG (7): received DATA message at 0:0:11.525711056 with:
 		sender: 4
 		id: 5
 		value: 34
-DEBUG (6): received DATA message at 0:0:11.528671244 with:
+DEBUG (6): received DATA message at 0:0:11.525711056 with:
 		sender: 4
 		id: 5
 		value: 34
-DEBUG (6): sent DATA message at 0:0:11.587890635 with:
+DEBUG (6): sent DATA message at 0:0:11.584960947 with:
 		sender: 4
 		id: 5
 		value: 34
-DEBUG (8): received DATA message at 0:0:11.589904783 with:
+DEBUG (8): received DATA message at 0:0:11.593582113 with:
 		sender: 4
 		id: 5
 		value: 34
-DEBUG (8): sent ACK message at 0:0:11.589904783 with:
+DEBUG (8): sent ACK message at 0:0:11.593582113 with:
 		sender: 4
 		id: 5
 		value: 34
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:11.596054039 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:11.596481266 with:
 		sender: 4
 		id: 5
 		value: 34
-DEBUG (7): sent ACK message at 0:0:11.596054039 with:
+DEBUG (7): sent ACK message at 0:0:11.596481266 with:
 		sender: 4
 		id: 5
 		value: 34
-DEBUG (6): received ACK message at 0:0:11.596054039 with:
+DEBUG (6): received ACK message at 0:0:11.596481266 with:
 		sender: 4
 		id: 5
 		value: 34
-DEBUG (6): sent ACK message at 0:0:11.596054039 with:
+DEBUG (6): sent ACK message at 0:0:11.596481266 with:
 		sender: 4
 		id: 5
 		value: 34
-DEBUG (4): received ACK message at 0:0:11.603973304 with:
+DEBUG (4): received ACK message at 0:0:11.597991877 with:
 		sender: 4
 		id: 5
 		value: 34
-DEBUG (4): received ACK message at 0:0:11.605117707 with:
+DEBUG (4): received ACK message at 0:0:11.602325348 with:
 		sender: 4
 		id: 5
 		value: 34
-DEBUG (7): sent ACK message at 0:0:11.697265635 with:
+DEBUG (7): sent ACK message at 0:0:11.694335947 with:
 		sender: 4
 		id: 5
 		value: 34
+DEBUG (1): RE-sent DATA message at 0:0:11.914062510 with:
+		sender: 1
+		id: 5
+		value: 21
+DEBUG (1): sent DATA message at 0:0:11.914062510 with:
+		sender: 1
+		id: 5
+		value: 21
 DEBUG (5): timer fired at time 0:0:12.695312510 
 DEBUG (5): sent DATA message at 0:0:12.695312510 with:
 		sender: 5
 		id: 6
 		value: 19
-DEBUG (7): received DATA message at 0:0:12.701446507 with:
+DEBUG (7): received DATA message at 0:0:12.699005115 with:
 		sender: 5
 		id: 6
 		value: 19
-DEBUG (7): sent DATA message at 0:0:12.870117197 with:
+DEBUG (7): sent DATA message at 0:0:12.867187510 with:
 		sender: 5
 		id: 6
 		value: 19
-DEBUG (8): received DATA message at 0:0:12.873214713 with:
+DEBUG (8): received DATA message at 0:0:12.870971667 with:
 		sender: 5
 		id: 6
 		value: 19
-DEBUG (8): sent ACK message at 0:0:12.873214713 with:
+DEBUG (8): sent ACK message at 0:0:12.870971667 with:
 		sender: 5
 		id: 6
 		value: 19
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:12.880798287 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:12.878753604 with:
 		sender: 5
 		id: 6
 		value: 19
-DEBUG (7): sent ACK message at 0:0:12.880798287 with:
+DEBUG (7): sent ACK message at 0:0:12.878753604 with:
 		sender: 5
 		id: 6
 		value: 19
-DEBUG (6): received ACK message at 0:0:12.880798287 with:
+DEBUG (6): received ACK message at 0:0:12.878753604 with:
 		sender: 5
 		id: 6
 		value: 19
-DEBUG (6): sent ACK message at 0:0:12.880798287 with:
+DEBUG (6): sent ACK message at 0:0:12.878753604 with:
 		sender: 5
 		id: 6
 		value: 19
-DEBUG (5): received ACK message at 0:0:12.888366602 with:
+DEBUG (5): received ACK message at 0:0:12.882522503 with:
 		sender: 5
 		id: 6
 		value: 19
 DEBUG (1): timer fired at time 0:0:12.890625010 
-DEBUG (1): sent DATA message at 0:0:12.890625010 with:
+DEBUG (1): RE-sent DATA message at 0:0:12.890625020 with:
 		sender: 1
-		id: 6
-		value: 30
-DEBUG (6): received DATA message at 0:0:12.891784671 with:
+		id: 5
+		value: 21
+DEBUG (1): sent DATA message at 0:0:12.890625020 with:
 		sender: 1
-		id: 6
-		value: 30
-DEBUG (6): sent DATA message at 0:0:12.951171885 with:
+		id: 5
+		value: 21
+DEBUG (6): received DATA message at 0:0:12.893829347 with:
 		sender: 1
-		id: 6
-		value: 30
-DEBUG (8): received DATA message at 0:0:12.959670980 with:
+		id: 5
+		value: 21
+DEBUG (6): sent DATA message at 0:0:12.953125010 with:
 		sender: 1
-		id: 6
-		value: 30
-DEBUG (8): sent ACK message at 0:0:12.959670980 with:
+		id: 5
+		value: 21
+DEBUG (8): received DATA message at 0:0:12.959655733 with:
 		sender: 1
-		id: 6
-		value: 30
+		id: 5
+		value: 21
+DEBUG (8): sent ACK message at 0:0:12.959655733 with:
+		sender: 1
+		id: 5
+		value: 21
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (6): received ACK message at 0:0:12.963958675 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:12.964630069 with:
 		sender: 1
-		id: 6
-		value: 30
-DEBUG (6): sent ACK message at 0:0:12.963958675 with:
+		id: 5
+		value: 21
+DEBUG (7): sent ACK message at 0:0:12.964630069 with:
 		sender: 1
-		id: 6
-		value: 30
-DEBUG (1): received ACK message at 0:0:12.968948270 with:
+		id: 5
+		value: 21
+DEBUG (6): received ACK message at 0:0:12.964630069 with:
 		sender: 1
-		id: 6
-		value: 30
+		id: 5
+		value: 21
+DEBUG (6): sent ACK message at 0:0:12.964630069 with:
+		sender: 1
+		id: 5
+		value: 21
+DEBUG (1): received ACK message at 0:0:12.973464857 with:
+		sender: 1
+		id: 5
+		value: 21
 DEBUG (2): timer fired at time 0:0:13.085937510 
 DEBUG (2): sent DATA message at 0:0:13.085937510 with:
 		sender: 2
 		id: 6
 		value: 2
-DEBUG (7): received DATA message at 0:0:13.089920030 with:
+DEBUG (7): received DATA message at 0:0:13.094268760 with:
 		sender: 2
 		id: 6
 		value: 2
-DEBUG (6): received DATA message at 0:0:13.089920030 with:
+DEBUG (6): received DATA message at 0:0:13.094268760 with:
 		sender: 2
 		id: 6
 		value: 2
-DEBUG (6): sent DATA message at 0:0:13.149414072 with:
+DEBUG (6): sent DATA message at 0:0:13.153320322 with:
 		sender: 2
 		id: 6
 		value: 2
-DEBUG (8): received DATA message at 0:0:13.154907204 with:
+DEBUG (8): received DATA message at 0:0:13.159378026 with:
 		sender: 2
 		id: 6
 		value: 2
-DEBUG (8): sent ACK message at 0:0:13.154907204 with:
+DEBUG (8): sent ACK message at 0:0:13.159378026 with:
 		sender: 2
 		id: 6
 		value: 2
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:13.160827580 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:13.160873379 with:
 		sender: 2
 		id: 6
 		value: 2
-DEBUG (7): sent ACK message at 0:0:13.160827580 with:
+DEBUG (7): sent ACK message at 0:0:13.160873379 with:
 		sender: 2
 		id: 6
 		value: 2
-DEBUG (6): received ACK message at 0:0:13.160827580 with:
+DEBUG (6): received ACK message at 0:0:13.160873379 with:
 		sender: 2
 		id: 6
 		value: 2
-DEBUG (6): sent ACK message at 0:0:13.160827580 with:
+DEBUG (6): sent ACK message at 0:0:13.160873379 with:
 		sender: 2
 		id: 6
 		value: 2
-DEBUG (2): received ACK message at 0:0:13.168273825 with:
+DEBUG (2): received ACK message at 0:0:13.162399249 with:
 		sender: 2
 		id: 6
 		value: 2
-DEBUG (2): received ACK message at 0:0:13.170867804 with:
+DEBUG (2): received ACK message at 0:0:13.166519098 with:
 		sender: 2
 		id: 6
 		value: 2
-DEBUG (7): sent ACK message at 0:0:13.258789072 with:
+DEBUG (7): sent ACK message at 0:0:13.262695322 with:
 		sender: 2
 		id: 6
 		value: 2
@@ -1480,42 +1584,42 @@ DEBUG (3): sent DATA message at 0:0:13.281250010 with:
 		sender: 3
 		id: 6
 		value: 24
-DEBUG (7): received DATA message at 0:0:13.285995465 with:
+DEBUG (7): received DATA message at 0:0:13.288207977 with:
 		sender: 3
 		id: 6
 		value: 24
-DEBUG (7): sent DATA message at 0:0:13.454101572 with:
+DEBUG (7): sent DATA message at 0:0:13.457031260 with:
 		sender: 3
 		id: 6
 		value: 24
-DEBUG (8): received DATA message at 0:0:13.460235569 with:
+DEBUG (8): received DATA message at 0:0:13.463943451 with:
 		sender: 3
 		id: 6
 		value: 24
-DEBUG (8): sent ACK message at 0:0:13.460235569 with:
+DEBUG (8): sent ACK message at 0:0:13.463943451 with:
 		sender: 3
 		id: 6
 		value: 24
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:13.462264977 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:13.469146667 with:
 		sender: 3
 		id: 6
 		value: 24
-DEBUG (7): sent ACK message at 0:0:13.462264977 with:
+DEBUG (7): sent ACK message at 0:0:13.469146667 with:
 		sender: 3
 		id: 6
 		value: 24
-DEBUG (6): received ACK message at 0:0:13.462264977 with:
+DEBUG (6): received ACK message at 0:0:13.469146667 with:
 		sender: 3
 		id: 6
 		value: 24
-DEBUG (6): sent ACK message at 0:0:13.462264977 with:
+DEBUG (6): sent ACK message at 0:0:13.469146667 with:
 		sender: 3
 		id: 6
 		value: 24
-DEBUG (3): received ACK message at 0:0:13.464538523 with:
+DEBUG (3): received ACK message at 0:0:13.474578765 with:
 		sender: 3
 		id: 6
 		value: 24
@@ -1524,54 +1628,103 @@ DEBUG (4): sent DATA message at 0:0:13.476562510 with:
 		sender: 4
 		id: 6
 		value: 47
-DEBUG (7): received DATA message at 0:0:13.486617993 with:
+DEBUG (7): received DATA message at 0:0:13.483566253 with:
 		sender: 4
 		id: 6
 		value: 47
-DEBUG (6): received DATA message at 0:0:13.486617993 with:
+DEBUG (6): received DATA message at 0:0:13.483566253 with:
 		sender: 4
 		id: 6
 		value: 47
-DEBUG (6): sent DATA message at 0:0:13.545898447 with:
+DEBUG (6): sent DATA message at 0:0:13.542968760 with:
 		sender: 4
 		id: 6
 		value: 47
-DEBUG (8): received DATA message at 0:0:13.554901080 with:
+DEBUG (8): received DATA message at 0:0:13.549407931 with:
 		sender: 4
 		id: 6
 		value: 47
-DEBUG (8): sent ACK message at 0:0:13.554901080 with:
+DEBUG (8): sent ACK message at 0:0:13.549407931 with:
 		sender: 4
 		id: 6
 		value: 47
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:13.556747383 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:13.556320122 with:
 		sender: 4
 		id: 6
 		value: 47
-DEBUG (7): sent ACK message at 0:0:13.556747383 with:
+DEBUG (7): sent ACK message at 0:0:13.556320122 with:
 		sender: 4
 		id: 6
 		value: 47
-DEBUG (6): received ACK message at 0:0:13.556747383 with:
+DEBUG (6): received ACK message at 0:0:13.556320122 with:
 		sender: 4
 		id: 6
 		value: 47
-DEBUG (6): sent ACK message at 0:0:13.556747383 with:
+DEBUG (6): sent ACK message at 0:0:13.556320122 with:
 		sender: 4
 		id: 6
 		value: 47
-DEBUG (4): received ACK message at 0:0:13.560607834 with:
+DEBUG (7): sent ACK message at 0:0:13.652343760 with:
 		sender: 4
 		id: 6
 		value: 47
-DEBUG (4): received ACK message at 0:0:13.563735867 with:
+DEBUG (4): RE-sent DATA message at 0:0:14.453125010 with:
 		sender: 4
 		id: 6
 		value: 47
-DEBUG (7): sent ACK message at 0:0:13.655273447 with:
+DEBUG (4): sent DATA message at 0:0:14.453125010 with:
+		sender: 4
+		id: 6
+		value: 47
+DEBUG (7): received DATA message at 0:0:14.459808320 with:
+		sender: 4
+		id: 6
+		value: 47
+DEBUG (6): received DATA message at 0:0:14.459808320 with:
+		sender: 4
+		id: 6
+		value: 47
+DEBUG (6): sent DATA message at 0:0:14.518554697 with:
+		sender: 4
+		id: 6
+		value: 47
+DEBUG (8): received DATA message at 0:0:14.527328450 with:
+		sender: 4
+		id: 6
+		value: 47
+DEBUG (8): Ignoring duplicated message, sending ACK s:  4, id:  6, v: 47
+DEBUG (8): sent ACK message at 0:0:14.527328450 with:
+		sender: 4
+		id: 6
+		value: 47
+DEBUG (7): received ACK message at 0:0:14.531356746 with:
+		sender: 4
+		id: 6
+		value: 47
+DEBUG (7): sent ACK message at 0:0:14.531356746 with:
+		sender: 4
+		id: 6
+		value: 47
+DEBUG (6): received ACK message at 0:0:14.531356746 with:
+		sender: 4
+		id: 6
+		value: 47
+DEBUG (6): sent ACK message at 0:0:14.531356746 with:
+		sender: 4
+		id: 6
+		value: 47
+DEBUG (4): received ACK message at 0:0:14.537124535 with:
+		sender: 4
+		id: 6
+		value: 47
+DEBUG (4): received ACK message at 0:0:14.540099981 with:
+		sender: 4
+		id: 6
+		value: 47
+DEBUG (7): sent ACK message at 0:0:14.627929697 with:
 		sender: 4
 		id: 6
 		value: 47
@@ -1580,111 +1733,111 @@ DEBUG (5): sent DATA message at 0:0:14.648437510 with:
 		sender: 5
 		id: 7
 		value: 0
-DEBUG (7): received DATA message at 0:0:14.654449437 with:
+DEBUG (7): received DATA message at 0:0:14.651519767 with:
 		sender: 5
 		id: 7
 		value: 0
-DEBUG (7): sent DATA message at 0:0:14.823242197 with:
+DEBUG (7): sent DATA message at 0:0:14.820312510 with:
 		sender: 5
 		id: 7
 		value: 0
 DEBUG (1): timer fired at time 0:0:14.843750010 
 DEBUG (1): sent DATA message at 0:0:14.843750010 with:
 		sender: 1
-		id: 7
-		value: 0
-DEBUG (6): received DATA message at 0:0:14.850555390 with:
+		id: 6
+		value: 30
+DEBUG (6): received DATA message at 0:0:14.851654016 with:
 		sender: 1
-		id: 7
-		value: 0
-DEBUG (6): sent DATA message at 0:0:14.909179697 with:
+		id: 6
+		value: 30
+DEBUG (6): sent DATA message at 0:0:14.911132822 with:
 		sender: 1
-		id: 7
-		value: 0
-DEBUG (8): received DATA message at 0:0:14.913391098 with:
+		id: 6
+		value: 30
+DEBUG (8): received DATA message at 0:0:14.916885352 with:
 		sender: 1
-		id: 7
-		value: 0
-DEBUG (8): sent ACK message at 0:0:14.913391098 with:
+		id: 6
+		value: 30
+DEBUG (8): sent ACK message at 0:0:14.916885352 with:
 		sender: 1
-		id: 7
-		value: 0
+		id: 6
+		value: 30
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:14.922958303 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:14.923828060 with:
 		sender: 1
-		id: 7
-		value: 0
-DEBUG (7): sent ACK message at 0:0:14.922958303 with:
+		id: 6
+		value: 30
+DEBUG (7): sent ACK message at 0:0:14.923828060 with:
 		sender: 1
-		id: 7
-		value: 0
-DEBUG (6): received ACK message at 0:0:14.922958303 with:
+		id: 6
+		value: 30
+DEBUG (6): received ACK message at 0:0:14.923828060 with:
 		sender: 1
-		id: 7
-		value: 0
-DEBUG (6): sent ACK message at 0:0:14.922958303 with:
+		id: 6
+		value: 30
+DEBUG (6): sent ACK message at 0:0:14.923828060 with:
 		sender: 1
-		id: 7
-		value: 0
-DEBUG (1): received ACK message at 0:0:14.926803496 with:
+		id: 6
+		value: 30
+DEBUG (1): received ACK message at 0:0:14.933502076 with:
 		sender: 1
-		id: 7
-		value: 0
+		id: 6
+		value: 30
 DEBUG (2): timer fired at time 0:0:15.039062510 
 DEBUG (2): sent DATA message at 0:0:15.039062510 with:
 		sender: 2
 		id: 7
 		value: 18
-DEBUG (7): received DATA message at 0:0:15.048553421 with:
+DEBUG (7): received DATA message at 0:0:15.042663563 with:
 		sender: 2
 		id: 7
 		value: 18
-DEBUG (6): received DATA message at 0:0:15.048553421 with:
+DEBUG (6): received DATA message at 0:0:15.042663563 with:
 		sender: 2
 		id: 7
 		value: 18
-DEBUG (6): sent DATA message at 0:0:15.107421885 with:
+DEBUG (6): sent DATA message at 0:0:15.101562510 with:
 		sender: 2
 		id: 7
 		value: 18
-DEBUG (8): received DATA message at 0:0:15.114501921 with:
+DEBUG (8): received DATA message at 0:0:15.109695397 with:
 		sender: 2
 		id: 7
 		value: 18
-DEBUG (8): sent ACK message at 0:0:15.114501921 with:
+DEBUG (8): sent ACK message at 0:0:15.109695397 with:
 		sender: 2
 		id: 7
 		value: 18
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:15.124496370 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:15.115707324 with:
 		sender: 2
 		id: 7
 		value: 18
-DEBUG (7): sent ACK message at 0:0:15.124496370 with:
+DEBUG (7): sent ACK message at 0:0:15.115707324 with:
 		sender: 2
 		id: 7
 		value: 18
-DEBUG (6): received ACK message at 0:0:15.124496370 with:
+DEBUG (6): received ACK message at 0:0:15.115707324 with:
 		sender: 2
 		id: 7
 		value: 18
-DEBUG (6): sent ACK message at 0:0:15.124496370 with:
+DEBUG (6): sent ACK message at 0:0:15.115707324 with:
 		sender: 2
 		id: 7
 		value: 18
-DEBUG (2): received ACK message at 0:0:15.127807508 with:
+DEBUG (2): received ACK message at 0:0:15.121642959 with:
 		sender: 2
 		id: 7
 		value: 18
-DEBUG (2): received ACK message at 0:0:15.134261938 with:
+DEBUG (2): received ACK message at 0:0:15.123474003 with:
 		sender: 2
 		id: 7
 		value: 18
-DEBUG (7): sent ACK message at 0:0:15.216796885 with:
+DEBUG (7): sent ACK message at 0:0:15.210937510 with:
 		sender: 2
 		id: 7
 		value: 18
@@ -1693,38 +1846,42 @@ DEBUG (3): sent DATA message at 0:0:15.234375010 with:
 		sender: 3
 		id: 7
 		value: 0
-DEBUG (7): received DATA message at 0:0:15.242095912 with:
+DEBUG (7): received DATA message at 0:0:15.237335197 with:
 		sender: 3
 		id: 7
 		value: 0
-DEBUG (7): sent DATA message at 0:0:15.410156260 with:
+DEBUG (7): sent DATA message at 0:0:15.406250010 with:
 		sender: 3
 		id: 7
 		value: 0
-DEBUG (8): received DATA message at 0:0:15.417999231 with:
+DEBUG (8): received DATA message at 0:0:15.414291344 with:
 		sender: 3
 		id: 7
 		value: 0
-DEBUG (8): sent ACK message at 0:0:15.417999231 with:
+DEBUG (8): sent ACK message at 0:0:15.414291344 with:
 		sender: 3
 		id: 7
 		value: 0
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:15.422317443 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:15.419570855 with:
 		sender: 3
 		id: 7
 		value: 0
-DEBUG (7): sent ACK message at 0:0:15.422317443 with:
+DEBUG (7): sent ACK message at 0:0:15.419570855 with:
 		sender: 3
 		id: 7
 		value: 0
-DEBUG (6): received ACK message at 0:0:15.422317443 with:
+DEBUG (6): received ACK message at 0:0:15.419570855 with:
 		sender: 3
 		id: 7
 		value: 0
-DEBUG (6): sent ACK message at 0:0:15.422317443 with:
+DEBUG (6): sent ACK message at 0:0:15.419570855 with:
+		sender: 3
+		id: 7
+		value: 0
+DEBUG (3): received ACK message at 0:0:15.421523968 with:
 		sender: 3
 		id: 7
 		value: 0
@@ -1733,290 +1890,245 @@ DEBUG (4): sent DATA message at 0:0:15.429687510 with:
 		sender: 4
 		id: 7
 		value: 18
-DEBUG (3): received ACK message at 0:0:15.430114639 with:
-		sender: 3
-		id: 7
-		value: 0
-DEBUG (7): received DATA message at 0:0:15.432205195 with:
+DEBUG (7): received DATA message at 0:0:15.437225307 with:
 		sender: 4
 		id: 7
 		value: 18
-DEBUG (6): received DATA message at 0:0:15.432205195 with:
+DEBUG (6): received DATA message at 0:0:15.437225307 with:
 		sender: 4
 		id: 7
 		value: 18
-DEBUG (6): sent DATA message at 0:0:15.491210947 with:
+DEBUG (6): sent DATA message at 0:0:15.496093760 with:
 		sender: 4
 		id: 7
 		value: 18
-DEBUG (8): received DATA message at 0:0:15.501556346 with:
+DEBUG (8): received DATA message at 0:0:15.498092649 with:
 		sender: 4
 		id: 7
 		value: 18
-DEBUG (8): sent ACK message at 0:0:15.501556346 with:
+DEBUG (8): sent ACK message at 0:0:15.498092649 with:
 		sender: 4
 		id: 7
 		value: 18
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:15.509246730 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:15.502807588 with:
 		sender: 4
 		id: 7
 		value: 18
-DEBUG (7): sent ACK message at 0:0:15.509246730 with:
+DEBUG (7): sent ACK message at 0:0:15.502807588 with:
 		sender: 4
 		id: 7
 		value: 18
-DEBUG (6): received ACK message at 0:0:15.509246730 with:
+DEBUG (6): received ACK message at 0:0:15.502807588 with:
 		sender: 4
 		id: 7
 		value: 18
-DEBUG (6): sent ACK message at 0:0:15.509246730 with:
+DEBUG (6): sent ACK message at 0:0:15.502807588 with:
 		sender: 4
 		id: 7
 		value: 18
-DEBUG (7): sent ACK message at 0:0:15.600585947 with:
+DEBUG (4): received ACK message at 0:0:15.508499083 with:
 		sender: 4
 		id: 7
 		value: 18
+DEBUG (4): received ACK message at 0:0:15.509567192 with:
+		sender: 4
+		id: 7
+		value: 18
+DEBUG (7): sent ACK message at 0:0:15.605468760 with:
+		sender: 4
+		id: 7
+		value: 18
+DEBUG (5): RE-sent DATA message at 0:0:15.625000010 with:
+		sender: 5
+		id: 7
+		value: 0
 DEBUG (5): sent DATA message at 0:0:15.625000010 with:
 		sender: 5
 		id: 7
 		value: 0
-DEBUG (7): received DATA message at 0:0:15.633850056 with:
+DEBUG (7): received DATA message at 0:0:15.628158560 with:
 		sender: 5
 		id: 7
 		value: 0
-DEBUG (7): sent DATA message at 0:0:15.802734385 with:
+DEBUG (7): sent DATA message at 0:0:15.796875010 with:
 		sender: 5
 		id: 7
 		value: 0
-DEBUG (8): received DATA message at 0:0:15.811294515 with:
+DEBUG (8): received DATA message at 0:0:15.799285884 with:
 		sender: 5
 		id: 7
 		value: 0
-DEBUG (8): sent ACK message at 0:0:15.811294515 with:
+DEBUG (8): sent ACK message at 0:0:15.799285884 with:
 		sender: 5
 		id: 7
 		value: 0
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:15.819915681 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:15.807723945 with:
 		sender: 5
 		id: 7
 		value: 0
-DEBUG (7): sent ACK message at 0:0:15.819915681 with:
+DEBUG (7): sent ACK message at 0:0:15.807723945 with:
 		sender: 5
 		id: 7
 		value: 0
-DEBUG (6): received ACK message at 0:0:15.819915681 with:
+DEBUG (6): received ACK message at 0:0:15.807723945 with:
 		sender: 5
 		id: 7
 		value: 0
-DEBUG (6): sent ACK message at 0:0:15.819915681 with:
+DEBUG (6): sent ACK message at 0:0:15.807723945 with:
 		sender: 5
 		id: 7
 		value: 0
-DEBUG (5): received ACK message at 0:0:15.825256226 with:
+DEBUG (5): received ACK message at 0:0:15.814071564 with:
 		sender: 5
 		id: 7
 		value: 0
-DEBUG (4): sent DATA message at 0:0:16.406250010 with:
-		sender: 4
-		id: 7
-		value: 18
-DEBUG (7): received DATA message at 0:0:16.412277196 with:
-		sender: 4
-		id: 7
-		value: 18
-DEBUG (6): received DATA message at 0:0:16.412277196 with:
-		sender: 4
-		id: 7
-		value: 18
-DEBUG (6): sent DATA message at 0:0:16.471679697 with:
-		sender: 4
-		id: 7
-		value: 18
-DEBUG (8): received DATA message at 0:0:16.474914541 with:
-		sender: 4
-		id: 7
-		value: 18
-DEBUG (8): Ignoring duplicated message, sending ACK s:  4, id:  7, v: 18
-DEBUG (8): sent ACK message at 0:0:16.474914541 with:
-		sender: 4
-		id: 7
-		value: 18
-DEBUG (7): received ACK message at 0:0:16.483230533 with:
-		sender: 4
-		id: 7
-		value: 18
-DEBUG (7): sent ACK message at 0:0:16.483230533 with:
-		sender: 4
-		id: 7
-		value: 18
-DEBUG (6): received ACK message at 0:0:16.483230533 with:
-		sender: 4
-		id: 7
-		value: 18
-DEBUG (6): sent ACK message at 0:0:16.483230533 with:
-		sender: 4
-		id: 7
-		value: 18
-DEBUG (4): received ACK message at 0:0:16.486740034 with:
-		sender: 4
-		id: 7
-		value: 18
-DEBUG (4): received ACK message at 0:0:16.492904549 with:
-		sender: 4
-		id: 7
-		value: 18
-DEBUG (7): sent ACK message at 0:0:16.581054697 with:
-		sender: 4
-		id: 7
-		value: 18
 DEBUG (5): timer fired at time 0:0:16.601562510 
 DEBUG (5): sent DATA message at 0:0:16.601562510 with:
 		sender: 5
 		id: 8
 		value: 2
-DEBUG (7): received DATA message at 0:0:16.605133045 with:
+DEBUG (7): received DATA message at 0:0:16.609237636 with:
 		sender: 5
 		id: 8
 		value: 2
-DEBUG (7): sent DATA message at 0:0:16.773437510 with:
+DEBUG (7): sent DATA message at 0:0:16.777343760 with:
 		sender: 5
 		id: 8
 		value: 2
-DEBUG (8): received DATA message at 0:0:16.775085449 with:
+DEBUG (8): received DATA message at 0:0:16.784347503 with:
 		sender: 5
 		id: 8
 		value: 2
-DEBUG (8): sent ACK message at 0:0:16.775085449 with:
+DEBUG (8): sent ACK message at 0:0:16.784347503 with:
 		sender: 5
 		id: 8
 		value: 2
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:16.784439032 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:16.787399243 with:
 		sender: 5
 		id: 8
 		value: 2
-DEBUG (7): sent ACK message at 0:0:16.784439032 with:
+DEBUG (7): sent ACK message at 0:0:16.787399243 with:
 		sender: 5
 		id: 8
 		value: 2
-DEBUG (6): received ACK message at 0:0:16.784439032 with:
+DEBUG (6): received ACK message at 0:0:16.787399243 with:
 		sender: 5
 		id: 8
 		value: 2
-DEBUG (6): sent ACK message at 0:0:16.784439032 with:
+DEBUG (6): sent ACK message at 0:0:16.787399243 with:
 		sender: 5
 		id: 8
 		value: 2
-DEBUG (5): received ACK message at 0:0:16.790511995 with:
+DEBUG (5): received ACK message at 0:0:16.796615498 with:
 		sender: 5
 		id: 8
 		value: 2
 DEBUG (1): timer fired at time 0:0:16.796875010 
 DEBUG (1): sent DATA message at 0:0:16.796875010 with:
 		sender: 1
-		id: 8
-		value: 17
-DEBUG (6): received DATA message at 0:0:16.801818828 with:
+		id: 7
+		value: 0
+DEBUG (6): received DATA message at 0:0:16.798645019 with:
 		sender: 1
-		id: 8
-		value: 17
-DEBUG (6): sent DATA message at 0:0:16.861328135 with:
+		id: 7
+		value: 0
+DEBUG (6): sent DATA message at 0:0:16.857421885 with:
 		sender: 1
-		id: 8
-		value: 17
-DEBUG (8): received DATA message at 0:0:16.865325914 with:
+		id: 7
+		value: 0
+DEBUG (8): received DATA message at 0:0:16.864685026 with:
 		sender: 1
-		id: 8
-		value: 17
-DEBUG (8): sent ACK message at 0:0:16.865325914 with:
+		id: 7
+		value: 0
+DEBUG (8): sent ACK message at 0:0:16.864685026 with:
 		sender: 1
-		id: 8
-		value: 17
+		id: 7
+		value: 0
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:16.873657164 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:16.866821244 with:
 		sender: 1
-		id: 8
-		value: 17
-DEBUG (7): sent ACK message at 0:0:16.873657164 with:
+		id: 7
+		value: 0
+DEBUG (7): sent ACK message at 0:0:16.866821244 with:
 		sender: 1
-		id: 8
-		value: 17
-DEBUG (6): received ACK message at 0:0:16.873657164 with:
+		id: 7
+		value: 0
+DEBUG (6): received ACK message at 0:0:16.866821244 with:
 		sender: 1
-		id: 8
-		value: 17
-DEBUG (6): sent ACK message at 0:0:16.873657164 with:
+		id: 7
+		value: 0
+DEBUG (6): sent ACK message at 0:0:16.866821244 with:
 		sender: 1
-		id: 8
-		value: 17
-DEBUG (1): received ACK message at 0:0:16.881667982 with:
+		id: 7
+		value: 0
+DEBUG (1): received ACK message at 0:0:16.868530218 with:
 		sender: 1
-		id: 8
-		value: 17
+		id: 7
+		value: 0
 DEBUG (2): timer fired at time 0:0:16.992187510 
 DEBUG (2): sent DATA message at 0:0:16.992187510 with:
 		sender: 2
 		id: 8
 		value: 26
-DEBUG (7): received DATA message at 0:0:16.998184179 with:
+DEBUG (7): received DATA message at 0:0:17.000976521 with:
 		sender: 2
 		id: 8
 		value: 26
-DEBUG (6): received DATA message at 0:0:16.998184179 with:
+DEBUG (6): received DATA message at 0:0:17.000976521 with:
 		sender: 2
 		id: 8
 		value: 26
-DEBUG (6): sent DATA message at 0:0:17.057617197 with:
+DEBUG (6): sent DATA message at 0:0:17.059570322 with:
 		sender: 2
 		id: 8
 		value: 26
-DEBUG (8): received DATA message at 0:0:17.058792117 with:
+DEBUG (8): received DATA message at 0:0:17.064468365 with:
 		sender: 2
 		id: 8
 		value: 26
-DEBUG (8): sent ACK message at 0:0:17.058792117 with:
+DEBUG (8): sent ACK message at 0:0:17.064468365 with:
 		sender: 2
 		id: 8
 		value: 26
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:17.062332135 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:17.073593067 with:
 		sender: 2
 		id: 8
 		value: 26
-DEBUG (7): sent ACK message at 0:0:17.062332135 with:
+DEBUG (7): sent ACK message at 0:0:17.073593067 with:
 		sender: 2
 		id: 8
 		value: 26
-DEBUG (6): received ACK message at 0:0:17.062332135 with:
+DEBUG (6): received ACK message at 0:0:17.073593067 with:
 		sender: 2
 		id: 8
 		value: 26
-DEBUG (6): sent ACK message at 0:0:17.062332135 with:
+DEBUG (6): sent ACK message at 0:0:17.073593067 with:
 		sender: 2
 		id: 8
 		value: 26
-DEBUG (2): received ACK message at 0:0:17.065231288 with:
+DEBUG (2): received ACK message at 0:0:17.077453518 with:
 		sender: 2
 		id: 8
 		value: 26
-DEBUG (2): received ACK message at 0:0:17.067092850 with:
+DEBUG (2): received ACK message at 0:0:17.078964130 with:
 		sender: 2
 		id: 8
 		value: 26
-DEBUG (7): sent ACK message at 0:0:17.166992197 with:
+DEBUG (7): sent ACK message at 0:0:17.168945322 with:
 		sender: 2
 		id: 8
 		value: 26
@@ -2025,42 +2137,42 @@ DEBUG (3): sent DATA message at 0:0:17.187500010 with:
 		sender: 3
 		id: 8
 		value: 34
-DEBUG (7): received DATA message at 0:0:17.189590451 with:
+DEBUG (7): received DATA message at 0:0:17.192642191 with:
 		sender: 3
 		id: 8
 		value: 34
-DEBUG (7): sent DATA message at 0:0:17.358398447 with:
+DEBUG (7): sent DATA message at 0:0:17.361328135 with:
 		sender: 3
 		id: 8
 		value: 34
-DEBUG (8): received DATA message at 0:0:17.364669773 with:
+DEBUG (8): received DATA message at 0:0:17.365783675 with:
 		sender: 3
 		id: 8
 		value: 34
-DEBUG (8): sent ACK message at 0:0:17.364669773 with:
+DEBUG (8): sent ACK message at 0:0:17.365783675 with:
 		sender: 3
 		id: 8
 		value: 34
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:17.373474043 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:17.372848453 with:
 		sender: 3
 		id: 8
 		value: 34
-DEBUG (7): sent ACK message at 0:0:17.373474043 with:
+DEBUG (7): sent ACK message at 0:0:17.372848453 with:
 		sender: 3
 		id: 8
 		value: 34
-DEBUG (6): received ACK message at 0:0:17.373474043 with:
+DEBUG (6): received ACK message at 0:0:17.372848453 with:
 		sender: 3
 		id: 8
 		value: 34
-DEBUG (6): sent ACK message at 0:0:17.373474043 with:
+DEBUG (6): sent ACK message at 0:0:17.372848453 with:
 		sender: 3
 		id: 8
 		value: 34
-DEBUG (3): received ACK message at 0:0:17.381210204 with:
+DEBUG (3): received ACK message at 0:0:17.376312178 with:
 		sender: 3
 		id: 8
 		value: 34
@@ -2069,54 +2181,54 @@ DEBUG (4): sent DATA message at 0:0:17.382812510 with:
 		sender: 4
 		id: 8
 		value: 43
-DEBUG (7): received DATA message at 0:0:17.387878398 with:
+DEBUG (7): received DATA message at 0:0:17.390624964 with:
 		sender: 4
 		id: 8
 		value: 43
-DEBUG (6): received DATA message at 0:0:17.387878398 with:
+DEBUG (6): received DATA message at 0:0:17.390624964 with:
 		sender: 4
 		id: 8
 		value: 43
-DEBUG (6): sent DATA message at 0:0:17.447265635 with:
+DEBUG (6): sent DATA message at 0:0:17.449218760 with:
 		sender: 4
 		id: 8
 		value: 43
-DEBUG (8): received DATA message at 0:0:17.454376189 with:
+DEBUG (8): received DATA message at 0:0:17.457916219 with:
 		sender: 4
 		id: 8
 		value: 43
-DEBUG (8): sent ACK message at 0:0:17.454376189 with:
+DEBUG (8): sent ACK message at 0:0:17.457916219 with:
 		sender: 4
 		id: 8
 		value: 43
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:17.463592444 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:17.466155917 with:
 		sender: 4
 		id: 8
 		value: 43
-DEBUG (7): sent ACK message at 0:0:17.463592444 with:
+DEBUG (7): sent ACK message at 0:0:17.466155917 with:
 		sender: 4
 		id: 8
 		value: 43
-DEBUG (6): received ACK message at 0:0:17.463592444 with:
+DEBUG (6): received ACK message at 0:0:17.466155917 with:
 		sender: 4
 		id: 8
 		value: 43
-DEBUG (6): sent ACK message at 0:0:17.463592444 with:
+DEBUG (6): sent ACK message at 0:0:17.466155917 with:
 		sender: 4
 		id: 8
 		value: 43
-DEBUG (4): received ACK message at 0:0:17.471023430 with:
+DEBUG (4): received ACK message at 0:0:17.467544458 with:
 		sender: 4
 		id: 8
 		value: 43
-DEBUG (4): received ACK message at 0:0:17.471786365 with:
+DEBUG (4): received ACK message at 0:0:17.469299209 with:
 		sender: 4
 		id: 8
 		value: 43
-DEBUG (7): sent ACK message at 0:0:17.556640635 with:
+DEBUG (7): sent ACK message at 0:0:17.558593760 with:
 		sender: 4
 		id: 8
 		value: 43
@@ -2125,142 +2237,142 @@ DEBUG (5): sent DATA message at 0:0:18.554687510 with:
 		sender: 5
 		id: 9
 		value: 12
-DEBUG (7): received DATA message at 0:0:18.559265120 with:
+DEBUG (7): received DATA message at 0:0:18.563278158 with:
 		sender: 5
 		id: 9
 		value: 12
-DEBUG (7): sent DATA message at 0:0:18.727539072 with:
+DEBUG (7): sent DATA message at 0:0:18.731445322 with:
 		sender: 5
 		id: 9
 		value: 12
-DEBUG (8): received DATA message at 0:0:18.728790285 with:
+DEBUG (8): received DATA message at 0:0:18.733810421 with:
 		sender: 5
 		id: 9
 		value: 12
-DEBUG (8): sent ACK message at 0:0:18.728790285 with:
+DEBUG (8): sent ACK message at 0:0:18.733810421 with:
 		sender: 5
 		id: 9
 		value: 12
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:18.736831620 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:18.744277889 with:
 		sender: 5
 		id: 9
 		value: 12
-DEBUG (7): sent ACK message at 0:0:18.736831620 with:
+DEBUG (7): sent ACK message at 0:0:18.744277889 with:
 		sender: 5
 		id: 9
 		value: 12
-DEBUG (6): received ACK message at 0:0:18.736831620 with:
+DEBUG (6): received ACK message at 0:0:18.744277889 with:
 		sender: 5
 		id: 9
 		value: 12
-DEBUG (6): sent ACK message at 0:0:18.736831620 with:
-		sender: 5
-		id: 9
-		value: 12
-DEBUG (5): received ACK message at 0:0:18.742980876 with:
+DEBUG (6): sent ACK message at 0:0:18.744277889 with:
 		sender: 5
 		id: 9
 		value: 12
 DEBUG (1): timer fired at time 0:0:18.750000010 
 DEBUG (1): sent DATA message at 0:0:18.750000010 with:
 		sender: 1
+		id: 8
+		value: 17
+DEBUG (5): received ACK message at 0:0:18.752456552 with:
+		sender: 5
 		id: 9
-		value: 49
-DEBUG (6): received DATA message at 0:0:18.760253856 with:
+		value: 12
+DEBUG (6): received DATA message at 0:0:18.754821759 with:
 		sender: 1
-		id: 9
-		value: 49
-DEBUG (6): sent DATA message at 0:0:18.819335947 with:
+		id: 8
+		value: 17
+DEBUG (6): sent DATA message at 0:0:18.813476572 with:
 		sender: 1
-		id: 9
-		value: 49
-DEBUG (8): received DATA message at 0:0:18.821929926 with:
+		id: 8
+		value: 17
+DEBUG (8): received DATA message at 0:0:18.820388763 with:
 		sender: 1
-		id: 9
-		value: 49
-DEBUG (8): sent ACK message at 0:0:18.821929926 with:
+		id: 8
+		value: 17
+DEBUG (8): sent ACK message at 0:0:18.820388763 with:
 		sender: 1
-		id: 9
-		value: 49
+		id: 8
+		value: 17
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:18.832382136 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:18.822860673 with:
 		sender: 1
-		id: 9
-		value: 49
-DEBUG (7): sent ACK message at 0:0:18.832382136 with:
+		id: 8
+		value: 17
+DEBUG (7): sent ACK message at 0:0:18.822860673 with:
 		sender: 1
-		id: 9
-		value: 49
-DEBUG (6): received ACK message at 0:0:18.832382136 with:
+		id: 8
+		value: 17
+DEBUG (6): received ACK message at 0:0:18.822860673 with:
 		sender: 1
-		id: 9
-		value: 49
-DEBUG (6): sent ACK message at 0:0:18.832382136 with:
+		id: 8
+		value: 17
+DEBUG (6): sent ACK message at 0:0:18.822860673 with:
 		sender: 1
-		id: 9
-		value: 49
-DEBUG (1): received ACK message at 0:0:18.835800084 with:
+		id: 8
+		value: 17
+DEBUG (1): received ACK message at 0:0:18.832290549 with:
 		sender: 1
-		id: 9
-		value: 49
+		id: 8
+		value: 17
 DEBUG (2): timer fired at time 0:0:18.945312510 
 DEBUG (2): sent DATA message at 0:0:18.945312510 with:
 		sender: 2
 		id: 9
 		value: 49
-DEBUG (7): received DATA message at 0:0:18.947616573 with:
+DEBUG (7): received DATA message at 0:0:18.954299884 with:
 		sender: 2
 		id: 9
 		value: 49
-DEBUG (6): received DATA message at 0:0:18.947616573 with:
+DEBUG (6): received DATA message at 0:0:18.954299884 with:
 		sender: 2
 		id: 9
 		value: 49
-DEBUG (6): sent DATA message at 0:0:19.006835947 with:
+DEBUG (6): sent DATA message at 0:0:19.013671885 with:
 		sender: 2
 		id: 9
 		value: 49
-DEBUG (8): received DATA message at 0:0:19.015563923 with:
+DEBUG (8): received DATA message at 0:0:19.016036983 with:
 		sender: 2
 		id: 9
 		value: 49
-DEBUG (8): sent ACK message at 0:0:19.015563923 with:
+DEBUG (8): sent ACK message at 0:0:19.016036983 with:
 		sender: 2
 		id: 9
 		value: 49
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:19.022323528 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:19.017623888 with:
 		sender: 2
 		id: 9
 		value: 49
-DEBUG (7): sent ACK message at 0:0:19.022323528 with:
+DEBUG (7): sent ACK message at 0:0:19.017623888 with:
 		sender: 2
 		id: 9
 		value: 49
-DEBUG (6): received ACK message at 0:0:19.022323528 with:
+DEBUG (6): received ACK message at 0:0:19.017623888 with:
 		sender: 2
 		id: 9
 		value: 49
-DEBUG (6): sent ACK message at 0:0:19.022323528 with:
+DEBUG (6): sent ACK message at 0:0:19.017623888 with:
 		sender: 2
 		id: 9
 		value: 49
-DEBUG (2): received ACK message at 0:0:19.028838992 with:
+DEBUG (2): received ACK message at 0:0:19.019790623 with:
 		sender: 2
 		id: 9
 		value: 49
-DEBUG (2): received ACK message at 0:0:19.030868400 with:
+DEBUG (2): received ACK message at 0:0:19.023757885 with:
 		sender: 2
 		id: 9
 		value: 49
-DEBUG (7): sent ACK message at 0:0:19.116210947 with:
+DEBUG (7): sent ACK message at 0:0:19.123046885 with:
 		sender: 2
 		id: 9
 		value: 49
@@ -2269,38 +2381,42 @@ DEBUG (3): sent DATA message at 0:0:19.140625010 with:
 		sender: 3
 		id: 9
 		value: 48
-DEBUG (7): received DATA message at 0:0:19.144256580 with:
+DEBUG (7): received DATA message at 0:0:19.149337727 with:
 		sender: 3
 		id: 9
 		value: 48
-DEBUG (7): sent DATA message at 0:0:19.312500010 with:
+DEBUG (7): sent DATA message at 0:0:19.317382822 with:
 		sender: 3
 		id: 9
 		value: 48
-DEBUG (8): received DATA message at 0:0:19.319045992 with:
+DEBUG (8): received DATA message at 0:0:19.319641110 with:
 		sender: 3
 		id: 9
 		value: 48
-DEBUG (8): sent ACK message at 0:0:19.319045992 with:
+DEBUG (8): sent ACK message at 0:0:19.319641110 with:
 		sender: 3
 		id: 9
 		value: 48
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:19.328842077 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:19.327773997 with:
 		sender: 3
 		id: 9
 		value: 48
-DEBUG (7): sent ACK message at 0:0:19.328842077 with:
+DEBUG (7): sent ACK message at 0:0:19.327773997 with:
 		sender: 3
 		id: 9
 		value: 48
-DEBUG (6): received ACK message at 0:0:19.328842077 with:
+DEBUG (6): received ACK message at 0:0:19.327773997 with:
 		sender: 3
 		id: 9
 		value: 48
-DEBUG (6): sent ACK message at 0:0:19.328842077 with:
+DEBUG (6): sent ACK message at 0:0:19.327773997 with:
+		sender: 3
+		id: 9
+		value: 48
+DEBUG (3): received ACK message at 0:0:19.329650817 with:
 		sender: 3
 		id: 9
 		value: 48
@@ -2309,58 +2425,54 @@ DEBUG (4): sent DATA message at 0:0:19.335937510 with:
 		sender: 4
 		id: 9
 		value: 48
-DEBUG (3): received ACK message at 0:0:19.335998408 with:
-		sender: 3
-		id: 9
-		value: 48
-DEBUG (7): received DATA message at 0:0:19.340850811 with:
+DEBUG (7): received DATA message at 0:0:19.344543416 with:
 		sender: 4
 		id: 9
 		value: 48
-DEBUG (6): received DATA message at 0:0:19.340850811 with:
+DEBUG (6): received DATA message at 0:0:19.344543416 with:
 		sender: 4
 		id: 9
 		value: 48
-DEBUG (6): sent DATA message at 0:0:19.400390635 with:
+DEBUG (6): sent DATA message at 0:0:19.403320322 with:
 		sender: 4
 		id: 9
 		value: 48
-DEBUG (8): received DATA message at 0:0:19.408874472 with:
+DEBUG (8): received DATA message at 0:0:19.404693605 with:
 		sender: 4
 		id: 9
 		value: 48
-DEBUG (8): sent ACK message at 0:0:19.408874472 with:
+DEBUG (8): sent ACK message at 0:0:19.404693605 with:
 		sender: 4
 		id: 9
 		value: 48
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:19.412033023 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:19.406249992 with:
 		sender: 4
 		id: 9
 		value: 48
-DEBUG (7): sent ACK message at 0:0:19.412033023 with:
+DEBUG (7): sent ACK message at 0:0:19.406249992 with:
 		sender: 4
 		id: 9
 		value: 48
-DEBUG (6): received ACK message at 0:0:19.412033023 with:
+DEBUG (6): received ACK message at 0:0:19.406249992 with:
 		sender: 4
 		id: 9
 		value: 48
-DEBUG (6): sent ACK message at 0:0:19.412033023 with:
+DEBUG (6): sent ACK message at 0:0:19.406249992 with:
 		sender: 4
 		id: 9
 		value: 48
-DEBUG (4): received ACK message at 0:0:19.413787773 with:
+DEBUG (4): received ACK message at 0:0:19.408020002 with:
 		sender: 4
 		id: 9
 		value: 48
-DEBUG (4): received ACK message at 0:0:19.418044950 with:
+DEBUG (4): received ACK message at 0:0:19.411315881 with:
 		sender: 4
 		id: 9
 		value: 48
-DEBUG (7): sent ACK message at 0:0:19.509765635 with:
+DEBUG (7): sent ACK message at 0:0:19.512695322 with:
 		sender: 4
 		id: 9
 		value: 48
@@ -2369,142 +2481,142 @@ DEBUG (5): sent DATA message at 0:0:20.507812510 with:
 		sender: 5
 		id: 10
 		value: 11
-DEBUG (7): received DATA message at 0:0:20.511978135 with:
+DEBUG (7): received DATA message at 0:0:20.509414673 with:
 		sender: 5
 		id: 10
 		value: 11
-DEBUG (7): sent DATA message at 0:0:20.680664072 with:
+DEBUG (7): sent DATA message at 0:0:20.677734385 with:
 		sender: 5
 		id: 10
 		value: 11
-DEBUG (8): received DATA message at 0:0:20.684173573 with:
+DEBUG (8): received DATA message at 0:0:20.687133744 with:
 		sender: 5
 		id: 10
 		value: 11
-DEBUG (8): sent ACK message at 0:0:20.684173573 with:
+DEBUG (8): sent ACK message at 0:0:20.687133744 with:
 		sender: 5
 		id: 10
 		value: 11
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:20.689605670 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:20.691879199 with:
 		sender: 5
 		id: 10
 		value: 11
-DEBUG (7): sent ACK message at 0:0:20.689605670 with:
+DEBUG (7): sent ACK message at 0:0:20.691879199 with:
 		sender: 5
 		id: 10
 		value: 11
-DEBUG (6): received ACK message at 0:0:20.689605670 with:
+DEBUG (6): received ACK message at 0:0:20.691879199 with:
 		sender: 5
 		id: 10
 		value: 11
-DEBUG (6): sent ACK message at 0:0:20.689605670 with:
+DEBUG (6): sent ACK message at 0:0:20.691879199 with:
 		sender: 5
 		id: 10
 		value: 11
-DEBUG (5): received ACK message at 0:0:20.692916808 with:
+DEBUG (5): received ACK message at 0:0:20.698196301 with:
 		sender: 5
 		id: 10
 		value: 11
 DEBUG (1): timer fired at time 0:0:20.703125010 
 DEBUG (1): sent DATA message at 0:0:20.703125010 with:
 		sender: 1
-		id: 10
-		value: 3
-DEBUG (6): received DATA message at 0:0:20.710098235 with:
+		id: 9
+		value: 49
+DEBUG (6): received DATA message at 0:0:20.709945648 with:
 		sender: 1
-		id: 10
-		value: 3
-DEBUG (6): sent DATA message at 0:0:20.769531260 with:
+		id: 9
+		value: 49
+DEBUG (6): sent DATA message at 0:0:20.768554697 with:
 		sender: 1
-		id: 10
-		value: 3
-DEBUG (8): received DATA message at 0:0:20.778778032 with:
+		id: 9
+		value: 49
+DEBUG (8): received DATA message at 0:0:20.776809654 with:
 		sender: 1
-		id: 10
-		value: 3
-DEBUG (8): sent ACK message at 0:0:20.778778032 with:
+		id: 9
+		value: 49
+DEBUG (8): sent ACK message at 0:0:20.776809654 with:
 		sender: 1
-		id: 10
-		value: 3
+		id: 9
+		value: 49
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:20.783721851 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:20.777938798 with:
 		sender: 1
-		id: 10
-		value: 3
-DEBUG (7): sent ACK message at 0:0:20.783721851 with:
+		id: 9
+		value: 49
+DEBUG (7): sent ACK message at 0:0:20.777938798 with:
 		sender: 1
-		id: 10
-		value: 3
-DEBUG (6): received ACK message at 0:0:20.783721851 with:
+		id: 9
+		value: 49
+DEBUG (6): received ACK message at 0:0:20.777938798 with:
 		sender: 1
-		id: 10
-		value: 3
-DEBUG (6): sent ACK message at 0:0:20.783721851 with:
+		id: 9
+		value: 49
+DEBUG (6): sent ACK message at 0:0:20.777938798 with:
 		sender: 1
-		id: 10
-		value: 3
-DEBUG (1): received ACK message at 0:0:20.790267833 with:
+		id: 9
+		value: 49
+DEBUG (1): received ACK message at 0:0:20.786880396 with:
 		sender: 1
-		id: 10
-		value: 3
+		id: 9
+		value: 49
 DEBUG (2): timer fired at time 0:0:20.898437510 
 DEBUG (2): sent DATA message at 0:0:20.898437510 with:
 		sender: 2
 		id: 10
 		value: 5
-DEBUG (7): received DATA message at 0:0:20.908218336 with:
+DEBUG (7): received DATA message at 0:0:20.901214593 with:
 		sender: 2
 		id: 10
 		value: 5
-DEBUG (6): received DATA message at 0:0:20.908218336 with:
+DEBUG (6): received DATA message at 0:0:20.901214593 with:
 		sender: 2
 		id: 10
 		value: 5
-DEBUG (6): sent DATA message at 0:0:20.967773447 with:
+DEBUG (6): sent DATA message at 0:0:20.959960947 with:
 		sender: 2
 		id: 10
 		value: 5
-DEBUG (8): received DATA message at 0:0:20.970306391 with:
+DEBUG (8): received DATA message at 0:0:20.965469338 with:
 		sender: 2
 		id: 10
 		value: 5
-DEBUG (8): sent ACK message at 0:0:20.970306391 with:
+DEBUG (8): sent ACK message at 0:0:20.965469338 with:
 		sender: 2
 		id: 10
 		value: 5
 DEBUG (8): connecting socket...
 DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:20.978485054 with:
+DEBUG (8): Sent bytes: 6
+DEBUG (7): received ACK message at 0:0:20.971054022 with:
 		sender: 2
 		id: 10
 		value: 5
-DEBUG (7): sent ACK message at 0:0:20.978485054 with:
+DEBUG (7): sent ACK message at 0:0:20.971054022 with:
 		sender: 2
 		id: 10
 		value: 5
-DEBUG (6): received ACK message at 0:0:20.978485054 with:
+DEBUG (6): received ACK message at 0:0:20.971054022 with:
 		sender: 2
 		id: 10
 		value: 5
-DEBUG (6): sent ACK message at 0:0:20.978485054 with:
+DEBUG (6): sent ACK message at 0:0:20.971054022 with:
 		sender: 2
 		id: 10
 		value: 5
-DEBUG (2): received ACK message at 0:0:20.982299729 with:
+DEBUG (2): received ACK message at 0:0:20.972656185 with:
 		sender: 2
 		id: 10
 		value: 5
-DEBUG (2): received ACK message at 0:0:20.984252843 with:
+DEBUG (2): received ACK message at 0:0:20.978469750 with:
 		sender: 2
 		id: 10
 		value: 5
-DEBUG (7): sent ACK message at 0:0:21.077148447 with:
+DEBUG (7): sent ACK message at 0:0:21.069335947 with:
 		sender: 2
 		id: 10
 		value: 5
@@ -2513,3265 +2625,6 @@ DEBUG (3): sent DATA message at 0:0:21.093750010 with:
 		sender: 3
 		id: 10
 		value: 7
-DEBUG (7): received DATA message at 0:0:21.103408767 with:
-		sender: 3
-		id: 10
-		value: 7
-DEBUG (7): sent DATA message at 0:0:21.271484385 with:
-		sender: 3
-		id: 10
-		value: 7
-DEBUG (8): received DATA message at 0:0:21.278640715 with:
-		sender: 3
-		id: 10
-		value: 7
-DEBUG (8): sent ACK message at 0:0:21.278640715 with:
-		sender: 3
-		id: 10
-		value: 7
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:21.281860301 with:
-		sender: 3
-		id: 10
-		value: 7
-DEBUG (7): sent ACK message at 0:0:21.281860301 with:
-		sender: 3
-		id: 10
-		value: 7
-DEBUG (6): received ACK message at 0:0:21.281860301 with:
-		sender: 3
-		id: 10
-		value: 7
-DEBUG (6): sent ACK message at 0:0:21.281860301 with:
-		sender: 3
-		id: 10
-		value: 7
-DEBUG (3): received ACK message at 0:0:21.288909820 with:
-		sender: 3
-		id: 10
-		value: 7
-DEBUG (4): timer fired at time 0:0:21.289062510 
-DEBUG (4): sent DATA message at 0:0:21.289062510 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (7): received DATA message at 0:0:21.297012292 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (6): received DATA message at 0:0:21.297012292 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (6): sent DATA message at 0:0:21.356445322 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (8): received DATA message at 0:0:21.362609837 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (8): sent ACK message at 0:0:21.362609837 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:21.373001012 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (7): sent ACK message at 0:0:21.373001012 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (6): received ACK message at 0:0:21.373001012 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (6): sent ACK message at 0:0:21.373001012 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (4): received ACK message at 0:0:21.379363889 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (4): received ACK message at 0:0:21.381027088 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (7): sent ACK message at 0:0:21.465820322 with:
-		sender: 4
-		id: 10
-		value: 9
-DEBUG (5): timer fired at time 0:0:22.460937510 
-DEBUG (5): sent DATA message at 0:0:22.460937510 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (7): received DATA message at 0:0:22.462402345 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (7): sent DATA message at 0:0:22.630859385 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (8): received DATA message at 0:0:22.634872423 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (8): sent ACK message at 0:0:22.634872423 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:22.637176486 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (7): sent ACK message at 0:0:22.637176486 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (6): received ACK message at 0:0:22.637176486 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (6): sent ACK message at 0:0:22.637176486 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (1): timer fired at time 0:0:22.656250010 
-DEBUG (1): sent DATA message at 0:0:22.656250010 with:
-		sender: 1
-		id: 11
-		value: 42
-DEBUG (6): received DATA message at 0:0:22.658004760 with:
-		sender: 1
-		id: 11
-		value: 42
-DEBUG (6): sent DATA message at 0:0:22.716796885 with:
-		sender: 1
-		id: 11
-		value: 42
-DEBUG (8): received DATA message at 0:0:22.722991917 with:
-		sender: 1
-		id: 11
-		value: 42
-DEBUG (8): sent ACK message at 0:0:22.722991917 with:
-		sender: 1
-		id: 11
-		value: 42
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:22.729095397 with:
-		sender: 1
-		id: 11
-		value: 42
-DEBUG (7): sent ACK message at 0:0:22.729095397 with:
-		sender: 1
-		id: 11
-		value: 42
-DEBUG (6): received ACK message at 0:0:22.729095397 with:
-		sender: 1
-		id: 11
-		value: 42
-DEBUG (6): sent ACK message at 0:0:22.729095397 with:
-		sender: 1
-		id: 11
-		value: 42
-DEBUG (1): received ACK message at 0:0:22.731155321 with:
-		sender: 1
-		id: 11
-		value: 42
-DEBUG (2): timer fired at time 0:0:22.851562510 
-DEBUG (2): sent DATA message at 0:0:22.851562510 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (7): received DATA message at 0:0:22.857864353 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (6): received DATA message at 0:0:22.857864353 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (6): sent DATA message at 0:0:22.916992197 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (7): sent DATA message at 0:0:23.026367197 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (8): received DATA message at 0:0:23.028869624 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (8): sent ACK message at 0:0:23.028869624 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:23.032211279 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (7): sent ACK message at 0:0:23.032211279 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (6): received ACK message at 0:0:23.032211279 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (6): sent ACK message at 0:0:23.032211279 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (2): received ACK message at 0:0:23.033340423 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (2): received ACK message at 0:0:23.033920254 with:
-		sender: 2
-		id: 11
-		value: 7
-DEBUG (3): timer fired at time 0:0:23.046875010 
-DEBUG (3): sent DATA message at 0:0:23.046875010 with:
-		sender: 3
-		id: 11
-		value: 35
-DEBUG (7): received DATA message at 0:0:23.057266184 with:
-		sender: 3
-		id: 11
-		value: 35
-DEBUG (7): sent DATA message at 0:0:23.225585947 with:
-		sender: 3
-		id: 11
-		value: 35
-DEBUG (8): received DATA message at 0:0:23.232009860 with:
-		sender: 3
-		id: 11
-		value: 35
-DEBUG (8): sent ACK message at 0:0:23.232009860 with:
-		sender: 3
-		id: 11
-		value: 35
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:23.239837573 with:
-		sender: 3
-		id: 11
-		value: 35
-DEBUG (7): sent ACK message at 0:0:23.239837573 with:
-		sender: 3
-		id: 11
-		value: 35
-DEBUG (6): received ACK message at 0:0:23.239837573 with:
-		sender: 3
-		id: 11
-		value: 35
-DEBUG (6): sent ACK message at 0:0:23.239837573 with:
-		sender: 3
-		id: 11
-		value: 35
-DEBUG (4): timer fired at time 0:0:23.242187510 
-DEBUG (4): sent DATA message at 0:0:23.242187510 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (3): received ACK message at 0:0:23.246978644 with:
-		sender: 3
-		id: 11
-		value: 35
-DEBUG (7): received DATA message at 0:0:23.249801601 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (7): sent DATA message at 0:0:23.417968760 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (8): received DATA message at 0:0:23.427474930 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (8): sent ACK message at 0:0:23.427474930 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:23.429504337 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (7): sent ACK message at 0:0:23.429504337 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (6): received ACK message at 0:0:23.429504337 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (6): sent ACK message at 0:0:23.429504337 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (5): sent DATA message at 0:0:23.437500010 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (7): received DATA message at 0:0:23.439208984 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (7): sent DATA message at 0:0:23.607421885 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (8): received DATA message at 0:0:23.609680172 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (8): Ignoring duplicated message, sending ACK s:  5, id:  11, v: 28
-DEBUG (8): sent ACK message at 0:0:23.609680172 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (7): received ACK message at 0:0:23.614471404 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (7): sent ACK message at 0:0:23.614471404 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (6): received ACK message at 0:0:23.614471404 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (6): sent ACK message at 0:0:23.614471404 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (5): received ACK message at 0:0:23.618530218 with:
-		sender: 5
-		id: 11
-		value: 28
-DEBUG (4): sent DATA message at 0:0:24.218750010 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (7): received DATA message at 0:0:24.225906340 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (6): received DATA message at 0:0:24.225906340 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (6): sent DATA message at 0:0:24.285156260 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (8): received DATA message at 0:0:24.295211743 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (8): Ignoring duplicated message, sending ACK s:  4, id:  11, v: 49
-DEBUG (8): sent ACK message at 0:0:24.295211743 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (7): received ACK message at 0:0:24.296646061 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (7): sent ACK message at 0:0:24.296646061 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (6): received ACK message at 0:0:24.296646061 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (6): sent ACK message at 0:0:24.296646061 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (4): received ACK message at 0:0:24.301574621 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (4): received ACK message at 0:0:24.305618176 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (7): sent ACK message at 0:0:24.394531260 with:
-		sender: 4
-		id: 11
-		value: 49
-DEBUG (5): timer fired at time 0:0:24.414062510 
-DEBUG (5): sent DATA message at 0:0:24.414062510 with:
-		sender: 5
-		id: 12
-		value: 37
-DEBUG (7): received DATA message at 0:0:24.419128398 with:
-		sender: 5
-		id: 12
-		value: 37
-DEBUG (7): sent DATA message at 0:0:24.587890635 with:
-		sender: 5
-		id: 12
-		value: 37
-DEBUG (8): received DATA message at 0:0:24.592819195 with:
-		sender: 5
-		id: 12
-		value: 37
-DEBUG (8): sent ACK message at 0:0:24.592819195 with:
-		sender: 5
-		id: 12
-		value: 37
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:24.600311216 with:
-		sender: 5
-		id: 12
-		value: 37
-DEBUG (7): sent ACK message at 0:0:24.600311216 with:
-		sender: 5
-		id: 12
-		value: 37
-DEBUG (6): received ACK message at 0:0:24.600311216 with:
-		sender: 5
-		id: 12
-		value: 37
-DEBUG (6): sent ACK message at 0:0:24.600311216 with:
-		sender: 5
-		id: 12
-		value: 37
-DEBUG (5): received ACK message at 0:0:24.606643577 with:
-		sender: 5
-		id: 12
-		value: 37
-DEBUG (1): timer fired at time 0:0:24.609375010 
-DEBUG (1): sent DATA message at 0:0:24.609375010 with:
-		sender: 1
-		id: 12
-		value: 41
-DEBUG (6): received DATA message at 0:0:24.619796702 with:
-		sender: 1
-		id: 12
-		value: 41
-DEBUG (6): sent DATA message at 0:0:24.678710947 with:
-		sender: 1
-		id: 12
-		value: 41
-DEBUG (8): received DATA message at 0:0:24.682571398 with:
-		sender: 1
-		id: 12
-		value: 41
-DEBUG (8): sent ACK message at 0:0:24.682571398 with:
-		sender: 1
-		id: 12
-		value: 41
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:24.692962573 with:
-		sender: 1
-		id: 12
-		value: 41
-DEBUG (7): sent ACK message at 0:0:24.692962573 with:
-		sender: 1
-		id: 12
-		value: 41
-DEBUG (6): received ACK message at 0:0:24.692962573 with:
-		sender: 1
-		id: 12
-		value: 41
-DEBUG (6): sent ACK message at 0:0:24.692962573 with:
-		sender: 1
-		id: 12
-		value: 41
-DEBUG (1): received ACK message at 0:0:24.699920540 with:
-		sender: 1
-		id: 12
-		value: 41
-DEBUG (2): timer fired at time 0:0:24.804687510 
-DEBUG (2): sent DATA message at 0:0:24.804687510 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (7): received DATA message at 0:0:24.808364856 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (6): received DATA message at 0:0:24.808364856 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (6): sent DATA message at 0:0:24.867187510 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (8): received DATA message at 0:0:24.871520980 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (8): sent ACK message at 0:0:24.871520980 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:24.873001074 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (7): sent ACK message at 0:0:24.873001074 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (6): received ACK message at 0:0:24.873001074 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (6): sent ACK message at 0:0:24.873001074 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (2): received ACK message at 0:0:24.874923670 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (2): received ACK message at 0:0:24.878448430 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (7): sent ACK message at 0:0:24.976562510 with:
-		sender: 2
-		id: 12
-		value: 36
-DEBUG (3): timer fired at time 0:0:25.000000010 
-DEBUG (3): sent DATA message at 0:0:25.000000010 with:
-		sender: 3
-		id: 12
-		value: 32
-DEBUG (7): received DATA message at 0:0:25.008239708 with:
-		sender: 3
-		id: 12
-		value: 32
-DEBUG (7): sent DATA message at 0:0:25.176757822 with:
-		sender: 3
-		id: 12
-		value: 32
-DEBUG (8): received DATA message at 0:0:25.179916373 with:
-		sender: 3
-		id: 12
-		value: 32
-DEBUG (8): sent ACK message at 0:0:25.179916373 with:
-		sender: 3
-		id: 12
-		value: 32
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:25.183731048 with:
-		sender: 3
-		id: 12
-		value: 32
-DEBUG (7): sent ACK message at 0:0:25.183731048 with:
-		sender: 3
-		id: 12
-		value: 32
-DEBUG (6): received ACK message at 0:0:25.183731048 with:
-		sender: 3
-		id: 12
-		value: 32
-DEBUG (6): sent ACK message at 0:0:25.183731048 with:
-		sender: 3
-		id: 12
-		value: 32
-DEBUG (3): received ACK message at 0:0:25.186126664 with:
-		sender: 3
-		id: 12
-		value: 32
-DEBUG (4): timer fired at time 0:0:25.195312510 
-DEBUG (4): sent DATA message at 0:0:25.195312510 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (7): received DATA message at 0:0:25.200805642 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (6): received DATA message at 0:0:25.200805642 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (6): sent DATA message at 0:0:25.259765635 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (8): received DATA message at 0:0:25.269607496 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (8): sent ACK message at 0:0:25.269607496 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:25.272827082 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (7): sent ACK message at 0:0:25.272827082 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (6): received ACK message at 0:0:25.272827082 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (6): sent ACK message at 0:0:25.272827082 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (4): received ACK message at 0:0:25.276107702 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (4): received ACK message at 0:0:25.278320214 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (7): sent ACK message at 0:0:25.369140635 with:
-		sender: 4
-		id: 12
-		value: 41
-DEBUG (5): timer fired at time 0:0:26.367187510 
-DEBUG (5): sent DATA message at 0:0:26.367187510 with:
-		sender: 5
-		id: 13
-		value: 42
-DEBUG (7): received DATA message at 0:0:26.371871930 with:
-		sender: 5
-		id: 13
-		value: 42
-DEBUG (7): sent DATA message at 0:0:26.540039072 with:
-		sender: 5
-		id: 13
-		value: 42
-DEBUG (8): received DATA message at 0:0:26.550292918 with:
-		sender: 5
-		id: 13
-		value: 42
-DEBUG (8): sent ACK message at 0:0:26.550292918 with:
-		sender: 5
-		id: 13
-		value: 42
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:26.551437321 with:
-		sender: 5
-		id: 13
-		value: 42
-DEBUG (7): sent ACK message at 0:0:26.551437321 with:
-		sender: 5
-		id: 13
-		value: 42
-DEBUG (6): received ACK message at 0:0:26.551437321 with:
-		sender: 5
-		id: 13
-		value: 42
-DEBUG (6): sent ACK message at 0:0:26.551437321 with:
-		sender: 5
-		id: 13
-		value: 42
-DEBUG (5): received ACK message at 0:0:26.559738054 with:
-		sender: 5
-		id: 13
-		value: 42
-DEBUG (1): timer fired at time 0:0:26.562500010 
-DEBUG (1): sent DATA message at 0:0:26.562500010 with:
-		sender: 1
-		id: 13
-		value: 47
-DEBUG (6): received DATA message at 0:0:26.572189284 with:
-		sender: 1
-		id: 13
-		value: 47
-DEBUG (6): sent DATA message at 0:0:26.630859385 with:
-		sender: 1
-		id: 13
-		value: 47
-DEBUG (8): received DATA message at 0:0:26.635925273 with:
-		sender: 1
-		id: 13
-		value: 47
-DEBUG (8): sent ACK message at 0:0:26.635925273 with:
-		sender: 1
-		id: 13
-		value: 47
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:26.644531180 with:
-		sender: 1
-		id: 13
-		value: 47
-DEBUG (7): sent ACK message at 0:0:26.644531180 with:
-		sender: 1
-		id: 13
-		value: 47
-DEBUG (6): received ACK message at 0:0:26.644531180 with:
-		sender: 1
-		id: 13
-		value: 47
-DEBUG (6): sent ACK message at 0:0:26.644531180 with:
-		sender: 1
-		id: 13
-		value: 47
-DEBUG (1): received ACK message at 0:0:26.654174678 with:
-		sender: 1
-		id: 13
-		value: 47
-DEBUG (2): timer fired at time 0:0:26.757812510 
-DEBUG (2): sent DATA message at 0:0:26.757812510 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (7): received DATA message at 0:0:26.768157908 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (6): received DATA message at 0:0:26.768157908 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (6): sent DATA message at 0:0:26.827148447 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (8): received DATA message at 0:0:26.828231815 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (8): sent ACK message at 0:0:26.828231815 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:26.836013752 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (7): sent ACK message at 0:0:26.836013752 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (6): received ACK message at 0:0:26.836013752 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (6): sent ACK message at 0:0:26.836013752 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (7): sent ACK message at 0:0:26.936523447 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (3): timer fired at time 0:0:26.953125010 
-DEBUG (3): sent DATA message at 0:0:26.953125010 with:
-		sender: 3
-		id: 13
-		value: 45
-DEBUG (7): received DATA message at 0:0:26.957763654 with:
-		sender: 3
-		id: 13
-		value: 45
-DEBUG (7): sent DATA message at 0:0:27.125976572 with:
-		sender: 3
-		id: 13
-		value: 45
-DEBUG (8): received DATA message at 0:0:27.135772657 with:
-		sender: 3
-		id: 13
-		value: 45
-DEBUG (8): sent ACK message at 0:0:27.135772657 with:
-		sender: 3
-		id: 13
-		value: 45
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:27.144698997 with:
-		sender: 3
-		id: 13
-		value: 45
-DEBUG (7): sent ACK message at 0:0:27.144698997 with:
-		sender: 3
-		id: 13
-		value: 45
-DEBUG (6): received ACK message at 0:0:27.144698997 with:
-		sender: 3
-		id: 13
-		value: 45
-DEBUG (6): sent ACK message at 0:0:27.144698997 with:
-		sender: 3
-		id: 13
-		value: 45
-DEBUG (3): received ACK message at 0:0:27.146667369 with:
-		sender: 3
-		id: 13
-		value: 45
-DEBUG (4): timer fired at time 0:0:27.148437510 
-DEBUG (4): sent DATA message at 0:0:27.148437510 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (7): received DATA message at 0:0:27.156372034 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (6): received DATA message at 0:0:27.156372034 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (6): sent DATA message at 0:0:27.215820322 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (8): received DATA message at 0:0:27.223480189 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (8): sent ACK message at 0:0:27.223480189 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:27.229492117 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (7): sent ACK message at 0:0:27.229492117 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (6): received ACK message at 0:0:27.229492117 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (6): sent ACK message at 0:0:27.229492117 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (4): received ACK message at 0:0:27.233062653 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (4): received ACK message at 0:0:27.238662596 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (7): sent ACK message at 0:0:27.325195322 with:
-		sender: 4
-		id: 13
-		value: 44
-DEBUG (2): sent DATA message at 0:0:27.734375010 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (7): received DATA message at 0:0:27.738174426 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (6): received DATA message at 0:0:27.738174426 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (6): sent DATA message at 0:0:27.796875010 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (8): received DATA message at 0:0:27.804000822 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (8): Ignoring duplicated message, sending ACK s:  2, id:  13, v: 46
-DEBUG (8): sent ACK message at 0:0:27.804000822 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (7): received ACK message at 0:0:27.806198075 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (7): sent ACK message at 0:0:27.806198075 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (6): received ACK message at 0:0:27.806198075 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (6): sent ACK message at 0:0:27.806198075 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (2): received ACK message at 0:0:27.807891791 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (2): received ACK message at 0:0:27.813430699 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (7): sent ACK message at 0:0:27.906250010 with:
-		sender: 2
-		id: 13
-		value: 46
-DEBUG (5): timer fired at time 0:0:28.320312510 
-DEBUG (5): sent DATA message at 0:0:28.320312510 with:
-		sender: 5
-		id: 14
-		value: 10
-DEBUG (7): received DATA message at 0:0:28.324569687 with:
-		sender: 5
-		id: 14
-		value: 10
-DEBUG (7): sent DATA message at 0:0:28.493164072 with:
-		sender: 5
-		id: 14
-		value: 10
-DEBUG (8): received DATA message at 0:0:28.500244109 with:
-		sender: 5
-		id: 14
-		value: 10
-DEBUG (8): sent ACK message at 0:0:28.500244109 with:
-		sender: 5
-		id: 14
-		value: 10
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:28.504516545 with:
-		sender: 5
-		id: 14
-		value: 10
-DEBUG (7): sent ACK message at 0:0:28.504516545 with:
-		sender: 5
-		id: 14
-		value: 10
-DEBUG (6): received ACK message at 0:0:28.504516545 with:
-		sender: 5
-		id: 14
-		value: 10
-DEBUG (6): sent ACK message at 0:0:28.504516545 with:
-		sender: 5
-		id: 14
-		value: 10
-DEBUG (5): received ACK message at 0:0:28.510253816 with:
-		sender: 5
-		id: 14
-		value: 10
-DEBUG (1): timer fired at time 0:0:28.515625010 
-DEBUG (1): sent DATA message at 0:0:28.515625010 with:
-		sender: 1
-		id: 14
-		value: 44
-DEBUG (6): received DATA message at 0:0:28.517791745 with:
-		sender: 1
-		id: 14
-		value: 44
-DEBUG (6): sent DATA message at 0:0:28.577148447 with:
-		sender: 1
-		id: 14
-		value: 44
-DEBUG (8): received DATA message at 0:0:28.585449180 with:
-		sender: 1
-		id: 14
-		value: 44
-DEBUG (8): sent ACK message at 0:0:28.585449180 with:
-		sender: 1
-		id: 14
-		value: 44
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:28.592574993 with:
-		sender: 1
-		id: 14
-		value: 44
-DEBUG (7): sent ACK message at 0:0:28.592574993 with:
-		sender: 1
-		id: 14
-		value: 44
-DEBUG (6): received ACK message at 0:0:28.592574993 with:
-		sender: 1
-		id: 14
-		value: 44
-DEBUG (6): sent ACK message at 0:0:28.592574993 with:
-		sender: 1
-		id: 14
-		value: 44
-DEBUG (1): received ACK message at 0:0:28.596649066 with:
-		sender: 1
-		id: 14
-		value: 44
-DEBUG (2): timer fired at time 0:0:28.710937510 
-DEBUG (2): sent DATA message at 0:0:28.710937510 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (7): received DATA message at 0:0:28.713668817 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (6): received DATA message at 0:0:28.713668817 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (6): sent DATA message at 0:0:28.772460947 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (8): received DATA message at 0:0:28.775894155 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (8): sent ACK message at 0:0:28.775894155 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:28.782699535 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (7): sent ACK message at 0:0:28.782699535 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (6): received ACK message at 0:0:28.782699535 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (6): sent ACK message at 0:0:28.782699535 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (2): received ACK message at 0:0:28.785385066 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (2): received ACK message at 0:0:28.786025931 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (7): sent ACK message at 0:0:28.881835947 with:
-		sender: 2
-		id: 14
-		value: 48
-DEBUG (3): timer fired at time 0:0:28.906250010 
-DEBUG (3): sent DATA message at 0:0:28.906250010 with:
-		sender: 3
-		id: 14
-		value: 2
-DEBUG (7): received DATA message at 0:0:28.913574186 with:
-		sender: 3
-		id: 14
-		value: 2
-DEBUG (7): sent DATA message at 0:0:29.082031260 with:
-		sender: 3
-		id: 14
-		value: 2
-DEBUG (8): received DATA message at 0:0:29.086334213 with:
-		sender: 3
-		id: 14
-		value: 2
-DEBUG (8): sent ACK message at 0:0:29.086334213 with:
-		sender: 3
-		id: 14
-		value: 2
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:29.088455172 with:
-		sender: 3
-		id: 14
-		value: 2
-DEBUG (7): sent ACK message at 0:0:29.088455172 with:
-		sender: 3
-		id: 14
-		value: 2
-DEBUG (6): received ACK message at 0:0:29.088455172 with:
-		sender: 3
-		id: 14
-		value: 2
-DEBUG (6): sent ACK message at 0:0:29.088455172 with:
-		sender: 3
-		id: 14
-		value: 2
-DEBUG (3): received ACK message at 0:0:29.093368474 with:
-		sender: 3
-		id: 14
-		value: 2
-DEBUG (4): timer fired at time 0:0:29.101562510 
-DEBUG (4): sent DATA message at 0:0:29.101562510 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (7): received DATA message at 0:0:29.108581512 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (6): received DATA message at 0:0:29.108581512 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (6): sent DATA message at 0:0:29.167968760 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (8): received DATA message at 0:0:29.176437338 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (8): sent ACK message at 0:0:29.176437338 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:29.180297789 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (7): sent ACK message at 0:0:29.180297789 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (6): received ACK message at 0:0:29.180297789 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (6): sent ACK message at 0:0:29.180297789 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (4): received ACK message at 0:0:29.182586594 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (4): received ACK message at 0:0:29.183257977 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (7): sent ACK message at 0:0:29.277343760 with:
-		sender: 4
-		id: 14
-		value: 6
-DEBUG (5): timer fired at time 0:0:30.273437510 
-DEBUG (5): sent DATA message at 0:0:30.273437510 with:
-		sender: 5
-		id: 15
-		value: 12
-DEBUG (7): received DATA message at 0:0:30.281631431 with:
-		sender: 5
-		id: 15
-		value: 12
-DEBUG (7): sent DATA message at 0:0:30.450195322 with:
-		sender: 5
-		id: 15
-		value: 12
-DEBUG (8): received DATA message at 0:0:30.458740194 with:
-		sender: 5
-		id: 15
-		value: 12
-DEBUG (8): sent ACK message at 0:0:30.458740194 with:
-		sender: 5
-		id: 15
-		value: 12
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:30.462966854 with:
-		sender: 5
-		id: 15
-		value: 12
-DEBUG (7): sent ACK message at 0:0:30.462966854 with:
-		sender: 5
-		id: 15
-		value: 12
-DEBUG (6): received ACK message at 0:0:30.462966854 with:
-		sender: 5
-		id: 15
-		value: 12
-DEBUG (6): sent ACK message at 0:0:30.462966854 with:
-		sender: 5
-		id: 15
-		value: 12
-DEBUG (5): received ACK message at 0:0:30.468749901 with:
-		sender: 5
-		id: 15
-		value: 12
-DEBUG (1): timer fired at time 0:0:30.468750010 
-DEBUG (1): sent DATA message at 0:0:30.468750010 with:
-		sender: 1
-		id: 15
-		value: 16
-DEBUG (6): received DATA message at 0:0:30.476959190 with:
-		sender: 1
-		id: 15
-		value: 16
-DEBUG (6): sent DATA message at 0:0:30.536132822 with:
-		sender: 1
-		id: 15
-		value: 16
-DEBUG (8): received DATA message at 0:0:30.540771467 with:
-		sender: 1
-		id: 15
-		value: 16
-DEBUG (8): sent ACK message at 0:0:30.540771467 with:
-		sender: 1
-		id: 15
-		value: 16
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:30.544464072 with:
-		sender: 1
-		id: 15
-		value: 16
-DEBUG (7): sent ACK message at 0:0:30.544464072 with:
-		sender: 1
-		id: 15
-		value: 16
-DEBUG (6): received ACK message at 0:0:30.544464072 with:
-		sender: 1
-		id: 15
-		value: 16
-DEBUG (6): sent ACK message at 0:0:30.544464072 with:
-		sender: 1
-		id: 15
-		value: 16
-DEBUG (1): received ACK message at 0:0:30.554595849 with:
-		sender: 1
-		id: 15
-		value: 16
-DEBUG (2): timer fired at time 0:0:30.664062510 
-DEBUG (2): sent DATA message at 0:0:30.664062510 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (7): received DATA message at 0:0:30.665908812 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (6): received DATA message at 0:0:30.665908812 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (6): sent DATA message at 0:0:30.724609385 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (8): received DATA message at 0:0:30.731552093 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (8): sent ACK message at 0:0:30.731552093 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:30.736984190 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (7): sent ACK message at 0:0:30.736984190 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (6): received ACK message at 0:0:30.736984190 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (6): sent ACK message at 0:0:30.736984190 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (2): received ACK message at 0:0:30.738647389 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (2): received ACK message at 0:0:30.741012487 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (7): sent ACK message at 0:0:30.833984385 with:
-		sender: 2
-		id: 15
-		value: 31
-DEBUG (3): timer fired at time 0:0:30.859375010 
-DEBUG (3): sent DATA message at 0:0:30.859375010 with:
-		sender: 3
-		id: 15
-		value: 46
-DEBUG (7): received DATA message at 0:0:30.863403306 with:
-		sender: 3
-		id: 15
-		value: 46
-DEBUG (7): sent DATA message at 0:0:31.032226572 with:
-		sender: 3
-		id: 15
-		value: 46
-DEBUG (8): received DATA message at 0:0:31.042617747 with:
-		sender: 3
-		id: 15
-		value: 46
-DEBUG (8): sent ACK message at 0:0:31.042617747 with:
-		sender: 3
-		id: 15
-		value: 46
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:31.043991030 with:
-		sender: 3
-		id: 15
-		value: 46
-DEBUG (7): sent ACK message at 0:0:31.043991030 with:
-		sender: 3
-		id: 15
-		value: 46
-DEBUG (6): received ACK message at 0:0:31.043991030 with:
-		sender: 3
-		id: 15
-		value: 46
-DEBUG (6): sent ACK message at 0:0:31.043991030 with:
-		sender: 3
-		id: 15
-		value: 46
-DEBUG (3): received ACK message at 0:0:31.047195357 with:
-		sender: 3
-		id: 15
-		value: 46
-DEBUG (4): timer fired at time 0:0:31.054687510 
-DEBUG (4): sent DATA message at 0:0:31.054687510 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (6): received DATA message at 0:0:31.059173567 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (7): received DATA message at 0:0:31.059173567 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (6): sent DATA message at 0:0:31.118164072 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (8): received DATA message at 0:0:31.120681758 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (8): sent ACK message at 0:0:31.120681758 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:31.122451767 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (7): sent ACK message at 0:0:31.122451767 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (6): received ACK message at 0:0:31.122451767 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (6): sent ACK message at 0:0:31.122451767 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (4): received ACK message at 0:0:31.130157410 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (4): received ACK message at 0:0:31.131164484 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (7): sent ACK message at 0:0:31.227539072 with:
-		sender: 4
-		id: 15
-		value: 11
-DEBUG (5): timer fired at time 0:0:32.226562510 
-DEBUG (5): sent DATA message at 0:0:32.226562510 with:
-		sender: 5
-		id: 16
-		value: 23
-DEBUG (7): received DATA message at 0:0:32.231719950 with:
-		sender: 5
-		id: 16
-		value: 23
-DEBUG (7): sent DATA message at 0:0:32.400390635 with:
-		sender: 5
-		id: 16
-		value: 23
-DEBUG (8): received DATA message at 0:0:32.410430859 with:
-		sender: 5
-		id: 16
-		value: 23
-DEBUG (8): sent ACK message at 0:0:32.410430859 with:
-		sender: 5
-		id: 16
-		value: 23
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:32.419174094 with:
-		sender: 5
-		id: 16
-		value: 23
-DEBUG (7): sent ACK message at 0:0:32.419174094 with:
-		sender: 5
-		id: 16
-		value: 23
-DEBUG (6): received ACK message at 0:0:32.419174094 with:
-		sender: 5
-		id: 16
-		value: 23
-DEBUG (6): sent ACK message at 0:0:32.419174094 with:
-		sender: 5
-		id: 16
-		value: 23
-DEBUG (1): timer fired at time 0:0:32.421875010 
-DEBUG (1): sent DATA message at 0:0:32.421875010 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (5): received ACK message at 0:0:32.428680264 with:
-		sender: 5
-		id: 16
-		value: 23
-DEBUG (6): received DATA message at 0:0:32.430648762 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (6): sent DATA message at 0:0:32.489257822 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (8): received DATA message at 0:0:32.498504594 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (8): sent ACK message at 0:0:32.498504594 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:32.502792289 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (7): sent ACK message at 0:0:32.502792289 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (2): timer fired at time 0:0:32.617187510 
-DEBUG (2): sent DATA message at 0:0:32.617187510 with:
-		sender: 2
-		id: 16
-		value: 4
-DEBUG (7): received DATA message at 0:0:32.622070294 with:
-		sender: 2
-		id: 16
-		value: 4
-DEBUG (6): received DATA message at 0:0:32.622070294 with:
-		sender: 2
-		id: 16
-		value: 4
-DEBUG (6): sent DATA message at 0:0:32.680664072 with:
-		sender: 2
-		id: 16
-		value: 4
-DEBUG (8): received DATA message at 0:0:32.691146799 with:
-		sender: 2
-		id: 16
-		value: 4
-DEBUG (8): sent ACK message at 0:0:32.691146799 with:
-		sender: 2
-		id: 16
-		value: 4
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:32.700454606 with:
-		sender: 2
-		id: 16
-		value: 4
-DEBUG (7): sent ACK message at 0:0:32.700454606 with:
-		sender: 2
-		id: 16
-		value: 4
-DEBUG (6): received ACK message at 0:0:32.700454606 with:
-		sender: 2
-		id: 16
-		value: 4
-DEBUG (6): sent ACK message at 0:0:32.700454606 with:
-		sender: 2
-		id: 16
-		value: 4
-DEBUG (2): received ACK message at 0:0:32.701995735 with:
-		sender: 2
-		id: 16
-		value: 4
-DEBUG (7): sent ACK message at 0:0:32.790039072 with:
-		sender: 2
-		id: 16
-		value: 4
-DEBUG (3): timer fired at time 0:0:32.812500010 
-DEBUG (3): sent DATA message at 0:0:32.812500010 with:
-		sender: 3
-		id: 16
-		value: 6
-DEBUG (7): received DATA message at 0:0:32.815689078 with:
-		sender: 3
-		id: 16
-		value: 6
-DEBUG (7): sent DATA message at 0:0:32.984375010 with:
-		sender: 3
-		id: 16
-		value: 6
-DEBUG (8): received DATA message at 0:0:32.992996175 with:
-		sender: 3
-		id: 16
-		value: 6
-DEBUG (8): sent ACK message at 0:0:32.992996175 with:
-		sender: 3
-		id: 16
-		value: 6
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:32.997604302 with:
-		sender: 3
-		id: 16
-		value: 6
-DEBUG (7): sent ACK message at 0:0:32.997604302 with:
-		sender: 3
-		id: 16
-		value: 6
-DEBUG (6): received ACK message at 0:0:32.997604302 with:
-		sender: 3
-		id: 16
-		value: 6
-DEBUG (6): sent ACK message at 0:0:32.997604302 with:
-		sender: 3
-		id: 16
-		value: 6
-DEBUG (3): received ACK message at 0:0:33.004684339 with:
-		sender: 3
-		id: 16
-		value: 6
-DEBUG (4): timer fired at time 0:0:33.007812510 
-DEBUG (4): sent DATA message at 0:0:33.007812510 with:
-		sender: 4
-		id: 16
-		value: 21
-DEBUG (7): received DATA message at 0:0:33.010147091 with:
-		sender: 4
-		id: 16
-		value: 21
-DEBUG (7): sent DATA message at 0:0:33.178710947 with:
-		sender: 4
-		id: 16
-		value: 21
-DEBUG (8): received DATA message at 0:0:33.184722875 with:
-		sender: 4
-		id: 16
-		value: 21
-DEBUG (8): sent ACK message at 0:0:33.184722875 with:
-		sender: 4
-		id: 16
-		value: 21
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:33.193283006 with:
-		sender: 4
-		id: 16
-		value: 21
-DEBUG (7): sent ACK message at 0:0:33.193283006 with:
-		sender: 4
-		id: 16
-		value: 21
-DEBUG (6): received ACK message at 0:0:33.193283006 with:
-		sender: 4
-		id: 16
-		value: 21
-DEBUG (6): sent ACK message at 0:0:33.193283006 with:
-		sender: 4
-		id: 16
-		value: 21
-DEBUG (4): received ACK message at 0:0:33.194717323 with:
-		sender: 4
-		id: 16
-		value: 21
-DEBUG (4): received ACK message at 0:0:33.203582628 with:
-		sender: 4
-		id: 16
-		value: 21
-DEBUG (1): sent DATA message at 0:0:33.398437510 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (6): received DATA message at 0:0:33.406585655 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (6): sent DATA message at 0:0:33.465820322 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (8): received DATA message at 0:0:33.476211497 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (8): Ignoring duplicated message, sending ACK s:  1, id:  16, v: 3
-DEBUG (8): sent ACK message at 0:0:33.476211497 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (7): received ACK message at 0:0:33.478195128 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (7): sent ACK message at 0:0:33.478195128 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (6): received ACK message at 0:0:33.478195128 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (6): sent ACK message at 0:0:33.478195128 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (1): received ACK message at 0:0:33.483917140 with:
-		sender: 1
-		id: 16
-		value: 3
-DEBUG (5): timer fired at time 0:0:34.179687510 
-DEBUG (5): sent DATA message at 0:0:34.179687510 with:
-		sender: 5
-		id: 17
-		value: 8
-DEBUG (7): received DATA message at 0:0:34.184753398 with:
-		sender: 5
-		id: 17
-		value: 8
-DEBUG (7): sent DATA message at 0:0:34.353515635 with:
-		sender: 5
-		id: 17
-		value: 8
-DEBUG (8): received DATA message at 0:0:34.357284533 with:
-		sender: 5
-		id: 17
-		value: 8
-DEBUG (8): sent ACK message at 0:0:34.357284533 with:
-		sender: 5
-		id: 17
-		value: 8
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:34.360977139 with:
-		sender: 5
-		id: 17
-		value: 8
-DEBUG (7): sent ACK message at 0:0:34.360977139 with:
-		sender: 5
-		id: 17
-		value: 8
-DEBUG (6): received ACK message at 0:0:34.360977139 with:
-		sender: 5
-		id: 17
-		value: 8
-DEBUG (6): sent ACK message at 0:0:34.360977139 with:
-		sender: 5
-		id: 17
-		value: 8
-DEBUG (5): received ACK message at 0:0:34.365951475 with:
-		sender: 5
-		id: 17
-		value: 8
-DEBUG (1): timer fired at time 0:0:34.375000010 
-DEBUG (1): sent DATA message at 0:0:34.375000010 with:
-		sender: 1
-		id: 17
-		value: 31
-DEBUG (6): received DATA message at 0:0:34.384567214 with:
-		sender: 1
-		id: 17
-		value: 31
-DEBUG (6): sent DATA message at 0:0:34.443359385 with:
-		sender: 1
-		id: 17
-		value: 31
-DEBUG (8): received DATA message at 0:0:34.453811594 with:
-		sender: 1
-		id: 17
-		value: 31
-DEBUG (8): sent ACK message at 0:0:34.453811594 with:
-		sender: 1
-		id: 17
-		value: 31
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:34.458038254 with:
-		sender: 1
-		id: 17
-		value: 31
-DEBUG (7): sent ACK message at 0:0:34.458038254 with:
-		sender: 1
-		id: 17
-		value: 31
-DEBUG (6): received ACK message at 0:0:34.458038254 with:
-		sender: 1
-		id: 17
-		value: 31
-DEBUG (6): sent ACK message at 0:0:34.458038254 with:
-		sender: 1
-		id: 17
-		value: 31
-DEBUG (1): received ACK message at 0:0:34.466750972 with:
-		sender: 1
-		id: 17
-		value: 31
-DEBUG (2): timer fired at time 0:0:34.570312510 
-DEBUG (2): sent DATA message at 0:0:34.570312510 with:
-		sender: 2
-		id: 17
-		value: 47
-DEBUG (7): received DATA message at 0:0:34.580154371 with:
-		sender: 2
-		id: 17
-		value: 47
-DEBUG (6): received DATA message at 0:0:34.580154371 with:
-		sender: 2
-		id: 17
-		value: 47
-DEBUG (6): sent DATA message at 0:0:34.639648447 with:
-		sender: 2
-		id: 17
-		value: 47
-DEBUG (8): received DATA message at 0:0:34.646240205 with:
-		sender: 2
-		id: 17
-		value: 47
-DEBUG (8): sent ACK message at 0:0:34.646240205 with:
-		sender: 2
-		id: 17
-		value: 47
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:34.655990515 with:
-		sender: 2
-		id: 17
-		value: 47
-DEBUG (7): sent ACK message at 0:0:34.655990515 with:
-		sender: 2
-		id: 17
-		value: 47
-DEBUG (6): received ACK message at 0:0:34.655990515 with:
-		sender: 2
-		id: 17
-		value: 47
-DEBUG (6): sent ACK message at 0:0:34.655990515 with:
-		sender: 2
-		id: 17
-		value: 47
-DEBUG (2): received ACK message at 0:0:34.664077626 with:
-		sender: 2
-		id: 17
-		value: 47
-DEBUG (7): sent ACK message at 0:0:34.749023447 with:
-		sender: 2
-		id: 17
-		value: 47
-DEBUG (3): timer fired at time 0:0:34.765625010 
-DEBUG (3): sent DATA message at 0:0:34.765625010 with:
-		sender: 3
-		id: 17
-		value: 12
-DEBUG (7): received DATA message at 0:0:34.771026589 with:
-		sender: 3
-		id: 17
-		value: 12
-DEBUG (7): sent DATA message at 0:0:34.939453135 with:
-		sender: 3
-		id: 17
-		value: 12
-DEBUG (8): received DATA message at 0:0:34.944656351 with:
-		sender: 3
-		id: 17
-		value: 12
-DEBUG (8): sent ACK message at 0:0:34.944656351 with:
-		sender: 3
-		id: 17
-		value: 12
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:34.950271553 with:
-		sender: 3
-		id: 17
-		value: 12
-DEBUG (7): sent ACK message at 0:0:34.950271553 with:
-		sender: 3
-		id: 17
-		value: 12
-DEBUG (6): received ACK message at 0:0:34.950271553 with:
-		sender: 3
-		id: 17
-		value: 12
-DEBUG (6): sent ACK message at 0:0:34.950271553 with:
-		sender: 3
-		id: 17
-		value: 12
-DEBUG (3): received ACK message at 0:0:34.957992455 with:
-		sender: 3
-		id: 17
-		value: 12
-DEBUG (4): timer fired at time 0:0:34.960937510 
-DEBUG (4): sent DATA message at 0:0:34.960937510 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (7): received DATA message at 0:0:34.966415383 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (6): received DATA message at 0:0:34.966415383 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (6): sent DATA message at 0:0:35.025390635 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (7): sent DATA message at 0:0:35.134765635 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (8): received DATA message at 0:0:35.144424392 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (8): sent ACK message at 0:0:35.144424392 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:35.150726235 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (7): sent ACK message at 0:0:35.150726235 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (6): received ACK message at 0:0:35.150726235 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (6): sent ACK message at 0:0:35.150726235 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (4): received ACK message at 0:0:35.154128925 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (4): received ACK message at 0:0:35.158141963 with:
-		sender: 4
-		id: 17
-		value: 42
-DEBUG (5): timer fired at time 0:0:36.132812510 
-DEBUG (5): sent DATA message at 0:0:36.132812510 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (7): received DATA message at 0:0:36.142074540 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (7): sent DATA message at 0:0:36.310546885 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (8): received DATA message at 0:0:36.319839433 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (8): sent ACK message at 0:0:36.319839433 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (1): timer fired at time 0:0:36.328125010 
-DEBUG (1): sent DATA message at 0:0:36.328125010 with:
-		sender: 1
-		id: 18
-		value: 14
-DEBUG (7): received ACK message at 0:0:36.329223533 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (7): sent ACK message at 0:0:36.329223533 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (6): received ACK message at 0:0:36.329223533 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (6): sent ACK message at 0:0:36.329223533 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (6): received DATA message at 0:0:36.333557107 with:
-		sender: 1
-		id: 18
-		value: 14
-DEBUG (8): received DATA message at 0:0:36.334335198 with:
-		sender: 1
-		id: 18
-		value: 14
-DEBUG (8): sent ACK message at 0:0:36.334335198 with:
-		sender: 1
-		id: 18
-		value: 14
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:36.335784774 with:
-		sender: 1
-		id: 18
-		value: 14
-DEBUG (6): received ACK message at 0:0:36.335784774 with:
-		sender: 1
-		id: 18
-		value: 14
-DEBUG (6): sent ACK message at 0:0:36.335784774 with:
-		sender: 1
-		id: 18
-		value: 14
-DEBUG (1): received ACK message at 0:0:36.341064285 with:
-		sender: 1
-		id: 18
-		value: 14
-DEBUG (6): sent ACK message at 0:0:36.392578135 with:
-		sender: 1
-		id: 18
-		value: 14
-DEBUG (2): timer fired at time 0:0:36.523437510 
-DEBUG (2): sent DATA message at 0:0:36.523437510 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (7): received DATA message at 0:0:36.533615062 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (6): received DATA message at 0:0:36.533615062 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (6): sent DATA message at 0:0:36.592773447 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (8): received DATA message at 0:0:36.602706861 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (8): sent ACK message at 0:0:36.602706861 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:36.605743342 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (7): sent ACK message at 0:0:36.605743342 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (6): received ACK message at 0:0:36.605743342 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (6): sent ACK message at 0:0:36.605743342 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (2): received ACK message at 0:0:36.608398356 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (2): received ACK message at 0:0:36.609710604 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (7): sent ACK message at 0:0:36.702148447 with:
-		sender: 2
-		id: 18
-		value: 21
-DEBUG (3): timer fired at time 0:0:36.718750010 
-DEBUG (3): sent DATA message at 0:0:36.718750010 with:
-		sender: 3
-		id: 18
-		value: 42
-DEBUG (7): received DATA message at 0:0:36.726989708 with:
-		sender: 3
-		id: 18
-		value: 42
-DEBUG (7): sent DATA message at 0:0:36.895507822 with:
-		sender: 3
-		id: 18
-		value: 42
-DEBUG (8): received DATA message at 0:0:36.898834219 with:
-		sender: 3
-		id: 18
-		value: 42
-DEBUG (8): sent ACK message at 0:0:36.898834219 with:
-		sender: 3
-		id: 18
-		value: 42
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:36.905898997 with:
-		sender: 3
-		id: 18
-		value: 42
-DEBUG (7): sent ACK message at 0:0:36.905898997 with:
-		sender: 3
-		id: 18
-		value: 42
-DEBUG (6): received ACK message at 0:0:36.905898997 with:
-		sender: 3
-		id: 18
-		value: 42
-DEBUG (6): sent ACK message at 0:0:36.905898997 with:
-		sender: 3
-		id: 18
-		value: 42
-DEBUG (3): received ACK message at 0:0:36.910873333 with:
-		sender: 3
-		id: 18
-		value: 42
-DEBUG (4): timer fired at time 0:0:36.914062510 
-DEBUG (4): sent DATA message at 0:0:36.914062510 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (7): received DATA message at 0:0:36.924346873 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (6): received DATA message at 0:0:36.924346873 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (6): sent DATA message at 0:0:36.983398447 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (8): received DATA message at 0:0:36.992034871 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (8): sent ACK message at 0:0:36.992034871 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:36.997543262 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (7): sent ACK message at 0:0:36.997543262 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (6): received ACK message at 0:0:36.997543262 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (6): sent ACK message at 0:0:36.997543262 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (4): received ACK message at 0:0:36.999801550 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (4): received ACK message at 0:0:37.007949695 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (7): sent ACK message at 0:0:37.092773447 with:
-		sender: 4
-		id: 18
-		value: 49
-DEBUG (5): sent DATA message at 0:0:37.109375010 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (7): received DATA message at 0:0:37.119125319 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (7): sent DATA message at 0:0:37.287109385 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (8): received DATA message at 0:0:37.291427597 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (8): Ignoring duplicated message, sending ACK s:  5, id:  18, v: 6
-DEBUG (8): sent ACK message at 0:0:37.291427597 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (7): received ACK message at 0:0:37.300109797 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (7): sent ACK message at 0:0:37.300109797 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (6): received ACK message at 0:0:37.300109797 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (6): sent ACK message at 0:0:37.300109797 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (5): received ACK message at 0:0:37.303344641 with:
-		sender: 5
-		id: 18
-		value: 6
-DEBUG (5): timer fired at time 0:0:38.085937510 
-DEBUG (5): sent DATA message at 0:0:38.085937510 with:
-		sender: 5
-		id: 19
-		value: 40
-DEBUG (7): received DATA message at 0:0:38.092971770 with:
-		sender: 5
-		id: 19
-		value: 40
-DEBUG (7): sent DATA message at 0:0:38.261718760 with:
-		sender: 5
-		id: 19
-		value: 40
-DEBUG (8): received DATA message at 0:0:38.269409144 with:
-		sender: 5
-		id: 19
-		value: 40
-DEBUG (8): sent ACK message at 0:0:38.269409144 with:
-		sender: 5
-		id: 19
-		value: 40
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:38.274597102 with:
-		sender: 5
-		id: 19
-		value: 40
-DEBUG (7): sent ACK message at 0:0:38.274597102 with:
-		sender: 5
-		id: 19
-		value: 40
-DEBUG (6): received ACK message at 0:0:38.274597102 with:
-		sender: 5
-		id: 19
-		value: 40
-DEBUG (6): sent ACK message at 0:0:38.274597102 with:
-		sender: 5
-		id: 19
-		value: 40
-DEBUG (1): timer fired at time 0:0:38.281250010 
-DEBUG (1): sent DATA message at 0:0:38.281250010 with:
-		sender: 1
-		id: 19
-		value: 8
-DEBUG (5): received ACK message at 0:0:38.283355596 with:
-		sender: 5
-		id: 19
-		value: 40
-DEBUG (6): received DATA message at 0:0:38.288314788 with:
-		sender: 1
-		id: 19
-		value: 8
-DEBUG (6): sent DATA message at 0:0:38.347656260 with:
-		sender: 1
-		id: 19
-		value: 8
-DEBUG (8): received DATA message at 0:0:38.352905252 with:
-		sender: 1
-		id: 19
-		value: 8
-DEBUG (8): sent ACK message at 0:0:38.352905252 with:
-		sender: 1
-		id: 19
-		value: 8
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:38.359725891 with:
-		sender: 1
-		id: 19
-		value: 8
-DEBUG (7): sent ACK message at 0:0:38.359725891 with:
-		sender: 1
-		id: 19
-		value: 8
-DEBUG (6): received ACK message at 0:0:38.359725891 with:
-		sender: 1
-		id: 19
-		value: 8
-DEBUG (6): sent ACK message at 0:0:38.359725891 with:
-		sender: 1
-		id: 19
-		value: 8
-DEBUG (1): received ACK message at 0:0:38.368759042 with:
-		sender: 1
-		id: 19
-		value: 8
-DEBUG (2): timer fired at time 0:0:38.476562510 
-DEBUG (2): sent DATA message at 0:0:38.476562510 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (7): received DATA message at 0:0:38.482009865 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (6): received DATA message at 0:0:38.482009865 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (6): sent DATA message at 0:0:38.541015635 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (8): received DATA message at 0:0:38.546310403 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (8): sent ACK message at 0:0:38.546310403 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:38.554611136 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (7): sent ACK message at 0:0:38.554611136 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (6): received ACK message at 0:0:38.554611136 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (6): sent ACK message at 0:0:38.554611136 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (2): received ACK message at 0:0:38.559936423 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (2): received ACK message at 0:0:38.562423591 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (7): sent ACK message at 0:0:38.650390635 with:
-		sender: 2
-		id: 19
-		value: 45
-DEBUG (3): timer fired at time 0:0:38.671875010 
-DEBUG (3): sent DATA message at 0:0:38.671875010 with:
-		sender: 3
-		id: 19
-		value: 31
-DEBUG (7): received DATA message at 0:0:38.674362178 with:
-		sender: 3
-		id: 19
-		value: 31
-DEBUG (7): sent DATA message at 0:0:38.842773447 with:
-		sender: 3
-		id: 19
-		value: 31
-DEBUG (8): received DATA message at 0:0:38.850509608 with:
-		sender: 3
-		id: 19
-		value: 31
-DEBUG (8): sent ACK message at 0:0:38.850509608 with:
-		sender: 3
-		id: 19
-		value: 31
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:38.856643605 with:
-		sender: 3
-		id: 19
-		value: 31
-DEBUG (7): sent ACK message at 0:0:38.856643605 with:
-		sender: 3
-		id: 19
-		value: 31
-DEBUG (6): received ACK message at 0:0:38.856643605 with:
-		sender: 3
-		id: 19
-		value: 31
-DEBUG (6): sent ACK message at 0:0:38.856643605 with:
-		sender: 3
-		id: 19
-		value: 31
-DEBUG (3): received ACK message at 0:0:38.863189588 with:
-		sender: 3
-		id: 19
-		value: 31
-DEBUG (4): timer fired at time 0:0:38.867187510 
-DEBUG (4): sent DATA message at 0:0:38.867187510 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (7): received DATA message at 0:0:38.871734602 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (6): received DATA message at 0:0:38.871734602 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (6): sent DATA message at 0:0:38.930664072 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (8): received DATA message at 0:0:38.933380121 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (8): sent ACK message at 0:0:38.933380121 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:38.939605670 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (7): sent ACK message at 0:0:38.939605670 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (6): received ACK message at 0:0:38.939605670 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (6): sent ACK message at 0:0:38.939605670 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (4): received ACK message at 0:0:38.947357090 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (4): received ACK message at 0:0:38.948226836 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (7): sent ACK message at 0:0:39.040039072 with:
-		sender: 4
-		id: 19
-		value: 3
-DEBUG (5): timer fired at time 0:0:40.039062510 
-DEBUG (5): sent DATA message at 0:0:40.039062510 with:
-		sender: 5
-		id: 20
-		value: 46
-DEBUG (7): received DATA message at 0:0:40.048477127 with:
-		sender: 5
-		id: 20
-		value: 46
-DEBUG (7): sent DATA message at 0:0:40.216796885 with:
-		sender: 5
-		id: 20
-		value: 46
-DEBUG (8): received DATA message at 0:0:40.222976658 with:
-		sender: 5
-		id: 20
-		value: 46
-DEBUG (8): sent ACK message at 0:0:40.222976658 with:
-		sender: 5
-		id: 20
-		value: 46
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:40.231140063 with:
-		sender: 5
-		id: 20
-		value: 46
-DEBUG (7): sent ACK message at 0:0:40.231140063 with:
-		sender: 5
-		id: 20
-		value: 46
-DEBUG (6): received ACK message at 0:0:40.231140063 with:
-		sender: 5
-		id: 20
-		value: 46
-DEBUG (6): sent ACK message at 0:0:40.231140063 with:
-		sender: 5
-		id: 20
-		value: 46
-DEBUG (1): timer fired at time 0:0:40.234375010 
-DEBUG (1): sent DATA message at 0:0:40.234375010 with:
-		sender: 1
-		id: 20
-		value: 44
-DEBUG (6): received DATA message at 0:0:40.238281237 with:
-		sender: 1
-		id: 20
-		value: 44
-DEBUG (5): received ACK message at 0:0:40.240493646 with:
-		sender: 5
-		id: 20
-		value: 46
-DEBUG (6): sent DATA message at 0:0:40.296875010 with:
-		sender: 1
-		id: 20
-		value: 44
-DEBUG (8): received DATA message at 0:0:40.304061857 with:
-		sender: 1
-		id: 20
-		value: 44
-DEBUG (8): sent ACK message at 0:0:40.304061857 with:
-		sender: 1
-		id: 20
-		value: 44
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:40.311111377 with:
-		sender: 1
-		id: 20
-		value: 44
-DEBUG (7): sent ACK message at 0:0:40.311111377 with:
-		sender: 1
-		id: 20
-		value: 44
-DEBUG (6): received ACK message at 0:0:40.311111377 with:
-		sender: 1
-		id: 20
-		value: 44
-DEBUG (6): sent ACK message at 0:0:40.311111377 with:
-		sender: 1
-		id: 20
-		value: 44
-DEBUG (1): received ACK message at 0:0:40.312560953 with:
-		sender: 1
-		id: 20
-		value: 44
-DEBUG (2): timer fired at time 0:0:40.429687510 
-DEBUG (2): sent DATA message at 0:0:40.429687510 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (7): received DATA message at 0:0:40.431396484 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (6): received DATA message at 0:0:40.431396484 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (6): sent DATA message at 0:0:40.490234385 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (8): received DATA message at 0:0:40.499832107 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (8): sent ACK message at 0:0:40.499832107 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:40.508911033 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (7): sent ACK message at 0:0:40.508911033 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (6): received ACK message at 0:0:40.508911033 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (6): sent ACK message at 0:0:40.508911033 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (2): received ACK message at 0:0:40.514343131 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (2): received ACK message at 0:0:40.515472274 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (7): sent ACK message at 0:0:40.599609385 with:
-		sender: 2
-		id: 20
-		value: 16
-DEBUG (3): timer fired at time 0:0:40.625000010 
-DEBUG (3): sent DATA message at 0:0:40.625000010 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (7): received DATA message at 0:0:40.626785277 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (7): sent DATA message at 0:0:40.794921885 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (8): received DATA message at 0:0:40.799468977 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (8): sent ACK message at 0:0:40.799468977 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (6): received ACK message at 0:0:40.804824781 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (6): sent ACK message at 0:0:40.804824781 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (4): timer fired at time 0:0:40.820312510 
-DEBUG (4): sent DATA message at 0:0:40.820312510 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (7): received DATA message at 0:0:40.829788162 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (6): received DATA message at 0:0:40.829788162 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (6): sent DATA message at 0:0:40.888671885 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (8): received DATA message at 0:0:40.896057095 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (8): sent ACK message at 0:0:40.896057095 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:40.904266276 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (7): sent ACK message at 0:0:40.904266276 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (6): received ACK message at 0:0:40.904266276 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (6): sent ACK message at 0:0:40.904266276 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (4): received ACK message at 0:0:40.907882588 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (4): received ACK message at 0:0:40.911849850 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (7): sent ACK message at 0:0:40.998046885 with:
-		sender: 4
-		id: 20
-		value: 24
-DEBUG (3): sent DATA message at 0:0:41.601562510 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (7): received DATA message at 0:0:41.605224598 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (7): sent DATA message at 0:0:41.773437510 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (8): received DATA message at 0:0:41.775741573 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (8): Ignoring duplicated message, sending ACK s:  3, id:  20, v: 2
-DEBUG (8): sent ACK message at 0:0:41.775741573 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (7): received ACK message at 0:0:41.779952974 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (7): sent ACK message at 0:0:41.779952974 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (6): received ACK message at 0:0:41.779952974 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (6): sent ACK message at 0:0:41.779952974 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (3): received ACK message at 0:0:41.787307668 with:
-		sender: 3
-		id: 20
-		value: 2
-DEBUG (5): timer fired at time 0:0:41.992187510 
-DEBUG (5): sent DATA message at 0:0:41.992187510 with:
-		sender: 5
-		id: 21
-		value: 4
-DEBUG (7): received DATA message at 0:0:41.996322617 with:
-		sender: 5
-		id: 21
-		value: 4
-DEBUG (7): sent DATA message at 0:0:42.165039072 with:
-		sender: 5
-		id: 21
-		value: 4
-DEBUG (8): received DATA message at 0:0:42.166778564 with:
-		sender: 5
-		id: 21
-		value: 4
-DEBUG (8): sent ACK message at 0:0:42.166778564 with:
-		sender: 5
-		id: 21
-		value: 4
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:42.175460764 with:
-		sender: 5
-		id: 21
-		value: 4
-DEBUG (7): sent ACK message at 0:0:42.175460764 with:
-		sender: 5
-		id: 21
-		value: 4
-DEBUG (6): received ACK message at 0:0:42.175460764 with:
-		sender: 5
-		id: 21
-		value: 4
-DEBUG (6): sent ACK message at 0:0:42.175460764 with:
-		sender: 5
-		id: 21
-		value: 4
-DEBUG (5): received ACK message at 0:0:42.181121742 with:
-		sender: 5
-		id: 21
-		value: 4
-DEBUG (1): timer fired at time 0:0:42.187500010 
-DEBUG (1): sent DATA message at 0:0:42.187500010 with:
-		sender: 1
-		id: 21
-		value: 46
-DEBUG (6): received DATA message at 0:0:42.192321759 with:
-		sender: 1
-		id: 21
-		value: 46
-DEBUG (6): sent DATA message at 0:0:42.250976572 with:
-		sender: 1
-		id: 21
-		value: 46
-DEBUG (8): received DATA message at 0:0:42.260345414 with:
-		sender: 1
-		id: 21
-		value: 46
-DEBUG (8): sent ACK message at 0:0:42.260345414 with:
-		sender: 1
-		id: 21
-		value: 46
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:42.268051057 with:
-		sender: 1
-		id: 21
-		value: 46
-DEBUG (7): sent ACK message at 0:0:42.268051057 with:
-		sender: 1
-		id: 21
-		value: 46
-DEBUG (6): received ACK message at 0:0:42.268051057 with:
-		sender: 1
-		id: 21
-		value: 46
-DEBUG (6): sent ACK message at 0:0:42.268051057 with:
-		sender: 1
-		id: 21
-		value: 46
-DEBUG (1): received ACK message at 0:0:42.275298940 with:
-		sender: 1
-		id: 21
-		value: 46
-DEBUG (2): timer fired at time 0:0:42.382812510 
-DEBUG (2): sent DATA message at 0:0:42.382812510 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (7): received DATA message at 0:0:42.389938322 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (6): received DATA message at 0:0:42.389938322 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (6): sent DATA message at 0:0:42.449218760 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (8): received DATA message at 0:0:42.459457347 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (8): sent ACK message at 0:0:42.459457347 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (6): received ACK message at 0:0:42.466689971 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (6): sent ACK message at 0:0:42.466689971 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (2): received ACK message at 0:0:42.473846301 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (7): sent DATA message at 0:0:42.558593760 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (8): received DATA message at 0:0:42.562499987 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (8): Ignoring duplicated message, sending ACK s:  2, id:  21, v: 20
-DEBUG (8): sent ACK message at 0:0:42.562499987 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (7): received ACK message at 0:0:42.571639948 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (7): sent ACK message at 0:0:42.571639948 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (6): received ACK message at 0:0:42.571639948 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (6): sent ACK message at 0:0:42.571639948 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (2): received ACK message at 0:0:42.573135301 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (3): timer fired at time 0:0:42.578125010 
-DEBUG (3): sent DATA message at 0:0:42.578125010 with:
-		sender: 3
-		id: 21
-		value: 43
-DEBUG (2): received ACK message at 0:0:42.580795168 with:
-		sender: 2
-		id: 21
-		value: 20
-DEBUG (7): received DATA message at 0:0:42.586730916 with:
-		sender: 3
-		id: 21
-		value: 43
-DEBUG (7): sent DATA message at 0:0:42.754882822 with:
-		sender: 3
-		id: 21
-		value: 43
-DEBUG (8): received DATA message at 0:0:42.756851194 with:
-		sender: 3
-		id: 21
-		value: 43
-DEBUG (8): sent ACK message at 0:0:42.756851194 with:
-		sender: 3
-		id: 21
-		value: 43
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:42.762695276 with:
-		sender: 3
-		id: 21
-		value: 43
-DEBUG (7): sent ACK message at 0:0:42.762695276 with:
-		sender: 3
-		id: 21
-		value: 43
-DEBUG (6): received ACK message at 0:0:42.762695276 with:
-		sender: 3
-		id: 21
-		value: 43
-DEBUG (6): sent ACK message at 0:0:42.762695276 with:
-		sender: 3
-		id: 21
-		value: 43
-DEBUG (3): received ACK message at 0:0:42.764373733 with:
-		sender: 3
-		id: 21
-		value: 43
-DEBUG (4): timer fired at time 0:0:42.773437510 
-DEBUG (4): sent DATA message at 0:0:42.773437510 with:
-		sender: 4
-		id: 21
-		value: 17
-DEBUG (6): received DATA message at 0:0:42.783645580 with:
-		sender: 4
-		id: 21
-		value: 17
-DEBUG (7): received DATA message at 0:0:42.783645580 with:
-		sender: 4
-		id: 21
-		value: 17
-DEBUG (6): sent DATA message at 0:0:42.842773447 with:
-		sender: 4
-		id: 21
-		value: 17
-DEBUG (8): received DATA message at 0:0:42.852462722 with:
-		sender: 4
-		id: 21
-		value: 17
-DEBUG (8): sent ACK message at 0:0:42.852462722 with:
-		sender: 4
-		id: 21
-		value: 17
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:42.860061554 with:
-		sender: 4
-		id: 21
-		value: 17
-DEBUG (7): sent ACK message at 0:0:42.860061554 with:
-		sender: 4
-		id: 21
-		value: 17
-DEBUG (4): received ACK message at 0:0:42.865722532 with:
-		sender: 4
-		id: 21
-		value: 17
-DEBUG (7): sent ACK message at 0:0:42.952148447 with:
-		sender: 4
-		id: 21
-		value: 17
-DEBUG (5): timer fired at time 0:0:43.945312510 
-DEBUG (5): sent DATA message at 0:0:43.945312510 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (7): received DATA message at 0:0:43.951705905 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (7): sent DATA message at 0:0:44.120117197 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (8): received DATA message at 0:0:44.125427225 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (8): sent ACK message at 0:0:44.125427225 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:44.127716030 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (7): sent ACK message at 0:0:44.127716030 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (6): received ACK message at 0:0:44.127716030 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (6): sent ACK message at 0:0:44.127716030 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (1): timer fired at time 0:0:44.140625010 
-DEBUG (1): sent DATA message at 0:0:44.140625010 with:
-		sender: 1
-		id: 22
-		value: 1
-DEBUG (6): received DATA message at 0:0:44.147598235 with:
-		sender: 1
-		id: 22
-		value: 1
-DEBUG (6): sent DATA message at 0:0:44.207031260 with:
-		sender: 1
-		id: 22
-		value: 1
-DEBUG (8): received DATA message at 0:0:44.216583206 with:
-		sender: 1
-		id: 22
-		value: 1
-DEBUG (8): sent ACK message at 0:0:44.216583206 with:
-		sender: 1
-		id: 22
-		value: 1
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:44.222930825 with:
-		sender: 1
-		id: 22
-		value: 1
-DEBUG (7): sent ACK message at 0:0:44.222930825 with:
-		sender: 1
-		id: 22
-		value: 1
-DEBUG (6): received ACK message at 0:0:44.222930825 with:
-		sender: 1
-		id: 22
-		value: 1
-DEBUG (6): sent ACK message at 0:0:44.222930825 with:
-		sender: 1
-		id: 22
-		value: 1
-DEBUG (1): received ACK message at 0:0:44.230132931 with:
-		sender: 1
-		id: 22
-		value: 1
-DEBUG (2): timer fired at time 0:0:44.335937510 
-DEBUG (2): sent DATA message at 0:0:44.335937510 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (7): received DATA message at 0:0:44.346054028 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (6): received DATA message at 0:0:44.346054028 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (6): sent DATA message at 0:0:44.405273447 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (8): received DATA message at 0:0:44.407318113 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (8): sent ACK message at 0:0:44.407318113 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:44.411041236 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (7): sent ACK message at 0:0:44.411041236 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (6): received ACK message at 0:0:44.411041236 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (6): sent ACK message at 0:0:44.411041236 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (2): received ACK message at 0:0:44.415435741 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (2): received ACK message at 0:0:44.420211714 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (7): sent ACK message at 0:0:44.514648447 with:
-		sender: 2
-		id: 22
-		value: 27
-DEBUG (3): timer fired at time 0:0:44.531250010 
-DEBUG (3): sent DATA message at 0:0:44.531250010 with:
-		sender: 3
-		id: 22
-		value: 2
-DEBUG (7): received DATA message at 0:0:44.534301750 with:
-		sender: 3
-		id: 22
-		value: 2
-DEBUG (7): sent DATA message at 0:0:44.703125010 with:
-		sender: 3
-		id: 22
-		value: 2
-DEBUG (8): received DATA message at 0:0:44.710540738 with:
-		sender: 3
-		id: 22
-		value: 2
-DEBUG (8): sent ACK message at 0:0:44.710540738 with:
-		sender: 3
-		id: 22
-		value: 2
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:44.718795694 with:
-		sender: 3
-		id: 22
-		value: 2
-DEBUG (7): sent ACK message at 0:0:44.718795694 with:
-		sender: 3
-		id: 22
-		value: 2
-DEBUG (6): received ACK message at 0:0:44.718795694 with:
-		sender: 3
-		id: 22
-		value: 2
-DEBUG (6): sent ACK message at 0:0:44.718795694 with:
-		sender: 3
-		id: 22
-		value: 2
-DEBUG (3): received ACK message at 0:0:44.723541150 with:
-		sender: 3
-		id: 22
-		value: 2
-DEBUG (4): timer fired at time 0:0:44.726562510 
-DEBUG (4): sent DATA message at 0:0:44.726562510 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (7): received DATA message at 0:0:44.734329188 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (6): received DATA message at 0:0:44.734329188 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (6): sent DATA message at 0:0:44.792968760 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (8): received DATA message at 0:0:44.795547480 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (8): sent ACK message at 0:0:44.795547480 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (8): connecting socket...
-DEBUG (8): sending message...
-DEBUG (8): Sent bytes: 4
-DEBUG (7): received ACK message at 0:0:44.805877620 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (7): sent ACK message at 0:0:44.805877620 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (6): received ACK message at 0:0:44.805877620 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (6): sent ACK message at 0:0:44.805877620 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (4): received ACK message at 0:0:44.810729886 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (4): received ACK message at 0:0:44.814819218 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (7): sent ACK message at 0:0:44.902343760 with:
-		sender: 4
-		id: 22
-		value: 28
-DEBUG (5): sent DATA message at 0:0:44.921875010 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (7): received DATA message at 0:0:44.929214444 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (7): sent DATA message at 0:0:45.097656260 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (8): received DATA message at 0:0:45.101638780 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (8): Ignoring duplicated message, sending ACK s:  5, id:  22, v: 18
-DEBUG (8): sent ACK message at 0:0:45.101638780 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (7): received ACK message at 0:0:45.112029955 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (7): sent ACK message at 0:0:45.112029955 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (6): received ACK message at 0:0:45.112029955 with:
-		sender: 5
-		id: 22
-		value: 18
-DEBUG (6): sent ACK message at 0:0:45.112029955 with:
-		sender: 5
-		id: 22
-		value: 18
 
 
 

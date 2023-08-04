@@ -90,6 +90,7 @@ implementation {
 				dbgerror("radio_send", "unable to allocate message memory\n");
 				return;
 			}
+			dbg("radio_send", "RE-sent DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
 			msg -> value = last_msg_sent.value;
 			msg -> type = last_msg_sent.type;
 			msg -> sender = last_msg_sent.sender;

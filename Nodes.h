@@ -9,12 +9,6 @@ typedef nx_struct node_msg {
 	nx_uint8_t value;
 } node_msg_t;
 
-uint16_t buffer[MESSAGE_BUFFER][5] = {{0, 0, 0, 0, 0}, 
-									  {0, 0, 0, 0, 0}, 
-									  {0, 0, 0, 0, 0}, 
-									  {0, 0, 0, 0, 0},
-									  {0, 0, 0, 0, 0}};
-
 enum {
   AM_RADIO_COUNT_MSG = 10,
 };

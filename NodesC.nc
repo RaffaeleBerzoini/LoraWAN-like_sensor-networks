@@ -180,21 +180,27 @@ implementation {
 
 
   event message_t* Receive.receive(message_t* bufPtr, 
-				   void* payload, uint8_t len) {			   
+				   void* payload, uint8_t len) {
+	  /*
+		* Function to receive messages and manage to logic for each node
+		*/
 		if (len != sizeof(node_msg_t)){return bufPtr;}
 		else{
 			node_msg_t* msg = (node_msg_t*)payload; //received payload
 			node_msg_t* msg_packet = (node_msg_t*)call Packet.getPayload(&packet, sizeof(node_msg_t)); // new message payload to be possibly sent
 			
+			// logic for sensor nodes:
+			// when a node reveices the right ACK message, it sets ack_received=FALSE
 			if (TOS_NODE_ID <= 5){
 				if(msg->type == ACK && msg->sender == TOS_NODE_ID && msg->id == last_msg_sent.id){
 					dbg("radio_rec", "received ACK message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
 					ack_received = TRUE;
 				}
 			}
+			// logic for gateway nodes:
+			// when a node reveices a DATA message, it sends it to the server. When it receives an ACK it sends it in broadcast at the sensor nodes
 			else if (TOS_NODE_ID == 6 || TOS_NODE_ID == 7)
 			{
-					// Logic based on the type of message and status of the routing_table variable
 					switch(msg->type){
 						case DATA:
 							dbg("radio_rec", "received DATA message at %s with:\n\t\tsender: %d\n\t\tid: %d\n\t\tvalue: %d\n", sim_time_string(), msg->sender, msg->id, msg->value);
@@ -219,6 +225,8 @@ implementation {
 							actual_send(AM_BROADCAST_ADDR, &packet);
 					}
 			}
+			// logic for server node:
+			// when it reveices a DATA message, it replies with an ACK and forwards the message through socket. If it receives an ACK, it does nothing
 			else if (TOS_NODE_ID == SERVER)
 			{
 				if(msg -> type == ACK){return bufPtr;}
@@ -250,18 +258,17 @@ implementation {
 				actual_send(AM_BROADCAST_ADDR, &packet);
 				
 				// send message to nodered
-				// Create socket
+				// create socket and set server address
 				sockfd = socket(AF_INET, SOCK_STREAM, 0);
 				if(sockfd == -1)
 				{
 					dbg("error", "Socket creation failed!\n");
 					return;
 				}
-				// Set server address
 				servaddr.sin_family = AF_INET;
 				servaddr.sin_addr.s_addr = inet_addr(SERVER_IP);
 				servaddr.sin_port = htons(SERVER_PORT);
-				// Connect to the server
+				// connection
 				dbg("radio_send", "connecting socket...\n");
 				connection = connect(sockfd, (struct sockaddr*) &servaddr, sizeof(servaddr));
 				if(connection != 0)
@@ -270,7 +277,7 @@ implementation {
 					close(sockfd);
 					return;
 				}
-				// Send the message
+				// send
 				dbg("radio_send", "sending message...\n");
 				sent = send(sockfd, msg, sizeof(node_msg_t), 0);
 				dbg("error", "Sent bytes: %d\n", sent);

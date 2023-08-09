@@ -4,13 +4,13 @@
 #include <arpa/inet.h>
 #include <sys/socket.h>
 
-
 #define N_NODES 8
 #define SERVER 8
 #define SERVER_IP "127.0.0.1"
 #define SERVER_PORT 2409
 #define MAX_PUB 1
 #define DELIMITER_ASCII 10
+
 
 
 module NodesC @safe() {
@@ -32,13 +32,13 @@ module NodesC @safe() {
 }
 implementation {
 
-  message_t packet;
-  node_msg_t last_msg_sent;
+  message_t packet; // message sent to other nodes
+  node_msg_t last_msg_sent; // DATA message sent by sensor nodes is stored here to be resend after 1 second
   
-  uint16_t time_delays[2]={61,173};
-  uint16_t last_MID_received[5] = {0, 0, 0, 0, 0};
+  uint16_t time_delays[2]={61,173}; // time delays in milliseconds
+  uint16_t last_MID_received[5] = {0, 0, 0, 0, 0}; // keeps track of last Message ID received by the server from each sensor node
   uint16_t start_timer[5] = {1000, 1200, 1400, 1600, 1800};
-  int current_msg_id = 1;
+  int current_msg_id = 1; // index to keep track of current message ID
 
   int sockfd;
   int connection;
@@ -52,7 +52,9 @@ implementation {
 
   
   event void Timer0.fired() {
-
+  	/*
+		* triggers the node to send a new message if the previous one as been acknowledged
+		*/
 		dbg("timer", "timer fired at time %s \n", sim_time_string());
 
 		if (locked){
@@ -65,6 +67,7 @@ implementation {
 					dbgerror("radio_send", "unable to allocate message memory\n");
 					return;
 				}
+				// building DATA message
 				msg -> value = call Random.rand16() % 50;
 				msg -> type = DATA;
 				msg -> sender = TOS_NODE_ID;
@@ -75,6 +78,8 @@ implementation {
 			
 				actual_send(AM_BROADCAST_ADDR, &packet);
 				ack_received = FALSE;
+				
+				// Timer2 is used to resend the message each second until the ACK is received
 				call Timer2.startOneShot(1000);
 				
 				last_msg_sent.value = msg -> value;
@@ -89,6 +94,9 @@ implementation {
   }
   
   event void Timer2.fired() {
+  	/*
+		* triggers the node to resend the message if the ACK has not been received
+		*/
   	if(!ack_received){
 			node_msg_t* msg = (node_msg_t*)call Packet.getPayload(&packet, sizeof(node_msg_t));
 			if (msg == NULL){
@@ -105,19 +113,25 @@ implementation {
 			
 			actual_send(AM_BROADCAST_ADDR, &packet);
 			
+			// Through the call of Timer2, this logic is repeated until ack_received = TRUE
 			call Timer2.startOneShot(1000);
 			}
 		return;
   }
   
   event void Timer1.fired() {
+	  /*
+  	* Timer triggered to perform the send.
+  	*/
   	actual_send(SERVER, &packet);
   }
 
 
   
   bool actual_send (uint16_t address, message_t* packet){
-
+		/*
+		* Function to call the AMSend function with desired address and message
+		*/
 		node_msg_t* msg = (node_msg_t*)call Packet.getPayload(packet, sizeof(node_msg_t)); // payload retrieval
 	
 		if (call AMSend.send(address, packet, sizeof(node_msg_t)) == SUCCESS){
@@ -138,7 +152,6 @@ implementation {
 
   
   event void Boot.booted() {
-
     dbg("boot","Node %d Application booted.\n", TOS_NODE_ID);            
     call AMControl.start();
   }
@@ -146,7 +159,6 @@ implementation {
 
 
   event void AMControl.startDone(error_t err) {
-
 		if (err == SUCCESS) {
 			dbg("radio", "Radio on node %d!\n", TOS_NODE_ID);
 			if (TOS_NODE_ID <= 5)
@@ -168,8 +180,7 @@ implementation {
 
 
   event message_t* Receive.receive(message_t* bufPtr, 
-				   void* payload, uint8_t len) {
-				   
+				   void* payload, uint8_t len) {			   
 		if (len != sizeof(node_msg_t)){return bufPtr;}
 		else{
 			node_msg_t* msg = (node_msg_t*)payload; //received payload
@@ -276,8 +287,10 @@ implementation {
 
 
 
-  event void AMSend.sendDone(message_t* bufPtr, error_t error) {
-		
+  event void AMSend.sendDone(message_t* bufPtr, error_t error) {		
+		/* This event is triggered when a message is sent 
+		*  Check if the packet is sent 
+		*/ 
 		if (&packet == bufPtr){
 			locked = FALSE;
 			//dbg("radio_send", "message sent\n");	
